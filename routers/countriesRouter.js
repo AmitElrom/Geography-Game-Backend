@@ -9,7 +9,7 @@ router.route('/')
         try {
             const { query: { minknown, maxknown } } = req;
 
-            const allCountries = countries;
+            const allCountries = [...countries];
             if (minknown && maxknown) {
                 if (maxknown >= minknown) {
                     const potentialTrueCountries = allCountries.filter(country => {
@@ -56,11 +56,13 @@ router.route('/')
                 })
                 return
             }
-            res.status(200).json({
-                potentialTrueCountries: allCountries,
-                potentialFalseCountries: []
-            })
-            return
+            else {
+                res.status(200).json({
+                    potentialTrueCountries: allCountries,
+                    potentialFalseCountries: []
+                })
+                return
+            }
         } catch (error) {
             res.status(400).json({
                 error: error.message
