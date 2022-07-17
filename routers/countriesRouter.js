@@ -12,10 +12,16 @@ router.route('/')
             const allCountries = countries;
             if (minknown && maxknown) {
                 if (maxknown >= minknown) {
-                    const countries1 = allCountries.filter(country => {
+                    const potentialTrueCountries = allCountries.filter(country => {
                         return country.flagKnown >= +minknown && country.flagKnown <= +maxknown
                     })
-                    res.status(200).json(countries1)
+                    const potentialFalseCountries = allCountries.filter(country => {
+                        return !(country.flagKnown >= +minknown && country.flagKnown <= +maxknown)
+                    })
+                    res.status(200).json({
+                        potentialTrueCountries,
+                        potentialFalseCountries
+                    })
                     return
                 } else {
                     res.status(400).json({
@@ -25,20 +31,35 @@ router.route('/')
                 }
             }
             else if (minknown && !maxknown) {
-                const countries1 = allCountries.filter(country => {
+                const potentialTrueCountries = allCountries.filter(country => {
                     return country.flagKnown >= +minknown
                 })
-                res.status(200).json(countries1)
+                const potentialFalseCountries = allCountries.filter(country => {
+                    return !(country.flagKnown >= +minknown)
+                })
+                res.status(200).json({
+                    potentialTrueCountries,
+                    potentialFalseCountries
+                })
                 return
             }
             else if (maxknown && !minknown) {
-                const countries1 = allCountries.filter(country => {
+                const potentialTrueCountries = allCountries.filter(country => {
                     return country.flagKnown <= +maxknown
                 })
-                res.status(200).json(countries1)
+                const potentialFalseCountries = allCountries.filter(country => {
+                    return !(country.flagKnown <= +maxknown)
+                })
+                res.status(200).json({
+                    potentialTrueCountries,
+                    potentialFalseCountries
+                })
                 return
             }
-            res.status(200).json(allCountries)
+            res.status(200).json({
+                potentialTrueCountries: allCountries,
+                potentialFalseCountries: []
+            })
             return
         } catch (error) {
             res.status(400).json({
