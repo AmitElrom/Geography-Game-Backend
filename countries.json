@@ -1316,7 +1316,7 @@
       "flagKnown": 44,
       "id": "807",
       "similarity": {
-        "similarity1": ["352"],
+        "similarity1": [],
         "similarity2": []
       }
     },
@@ -1666,7 +1666,7 @@
       "flagKnown": 20,
       "id": "578",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["352"],
         "similarity2": []
       }
     },
@@ -1836,7 +1836,7 @@
       "flagKnown": 32,
       "id": "643",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["528"],
         "similarity2": []
       }
     },
@@ -2116,8 +2116,8 @@
       "flagKnown": 156,
       "id": "729",
       "similarity": {
-        "similarity1": ["400", "414", "784"],
-        "similarity2": []
+        "similarity1": ["400"],
+        "similarity2": ["414", "784"]
       }
     },
     {
