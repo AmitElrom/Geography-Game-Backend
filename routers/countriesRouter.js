@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
+const { getMeRandomElements } = require('../utils/utils-general')
+
 const { countries } = require('../countries.json');
 
 router.route('/')
@@ -8,8 +10,10 @@ router.route('/')
         try {
             const minknown = +req.query.minknown;
             const maxknown = +req.query.maxknown;
+            const questionsQuantity = +req.query['questions-quantity'];
 
             const allCountries = [...countries];
+            let finalCountries;
 
             if (maxknown >= minknown) {
                 const potentialTrueCountries = allCountries.filter(country => {
@@ -18,11 +22,10 @@ router.route('/')
                 const potentialFalseCountries = allCountries.filter(country => {
                     return !(country.flagKnown >= +minknown && country.flagKnown <= +maxknown)
                 })
-                res.status(200).json({
+                finalCountries = {
                     potentialTrueCountries,
                     potentialFalseCountries
-                })
-                return
+                }
             }
             else if (minknown > maxknown) {
                 res.status(400).json({
@@ -37,11 +40,10 @@ router.route('/')
                 const potentialFalseCountries = allCountries.filter(country => {
                     return !(country.flagKnown >= +minknown)
                 })
-                res.status(200).json({
+                finalCountries = {
                     potentialTrueCountries,
                     potentialFalseCountries
-                })
-                return
+                }
             }
             else if (maxknown && !minknown) {
                 const potentialTrueCountries = allCountries.filter(country => {
@@ -50,19 +52,54 @@ router.route('/')
                 const potentialFalseCountries = allCountries.filter(country => {
                     return !(country.flagKnown <= +maxknown)
                 })
-                res.status(200).json({
+                finalCountries = {
                     potentialTrueCountries,
                     potentialFalseCountries
-                })
-                return
+                }
             }
             else {
-                res.status(200).json({
+                finalCountries = {
                     potentialTrueCountries: allCountries,
                     potentialFalseCountries: []
-                })
-                return
+                }
             }
+            // build questions
+
+            // select randomly the true countries (array of countries objects)
+            const { trueArray: chosenTrueCountries, falseArray: chosenFalseCountries } = getMeRandomElements(finalCountries.potentialTrueCountries, questionsQuantity);
+            const trueCountries = chosenTrueCountries.map(country => {
+                return {
+                    ...country,
+                    isCountry: true
+                }
+            })
+
+            // build the false countries (array of countries objects)
+            const preFalseCountries = finalCountries.potentialFalseCountries.concat(...chosenFalseCountries)
+            const falseCountries = preFalseCountries.map(country => {
+                return {
+                    ...country,
+                    isCountry: false
+                }
+            })
+
+            // build every question
+            const questions = [];
+            for (let i = 0; i < trueCountries.length; i++) {
+                const {
+                    trueArray: questionFalseCountries,
+                    trueIndexes: falseCountriesIndexes
+                } = getMeRandomElements(falseCountries, 3)
+                // optional - splicing - causes false options are always different
+                for (let i = 0; i < 3; i++) {
+                    falseCountries.splice(falseCountriesIndexes[i], 1)
+                }
+                questions.push([trueCountries[i], ...questionFalseCountries])
+            }
+
+            // return the questions array
+            res.status(200).json(questions)
+
         } catch (error) {
             res.status(400).json({
                 error: error.message
