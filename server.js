@@ -1,11 +1,13 @@
 // const axios = require('axios');
 
 // const cors = require('cors');
-// const express = require('express');
-// const app = express();
+const express = require('express');
+const app = express();
 
 // app.use(cors())
-// app.use(express.json())
+app.use(express.json())
+
+const { countries } = require('./countries.json');
 
 // // app.get('/', async (req, res) => {
 // //     const { data: countriesElrom } = await axios.default.get('http://localhost:8000/countries-elrom');
@@ -36,6 +38,29 @@
 //     res.json(newCountries)
 // })
 
-// app.listen(7000, () => {
-//     console.log('server is listening to port 7000');
+// app.get('/', async (req, res) => {
+//     const newCountries = countries.map(country => {
+//         return {
+//             ...country,
+//             funFact: ''
+//         }
+//     })
+//     res.status(200).json(newCountries)
 // })
+
+app.get('/', async (req, res) => {
+    const funFacts = countries.map(country => {
+        return country.funFact
+    })
+    let counter = 0;
+    funFacts.forEach(funFact => {
+        if (funFact !== "") {
+            counter++;
+        }
+    })
+    res.json({ counter })
+})
+
+app.listen(7000, () => {
+    console.log('server is listening to port 7000');
+})
