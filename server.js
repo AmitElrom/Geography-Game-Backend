@@ -61,6 +61,17 @@ app.get('/', async (req, res) => {
     res.json({ counter })
 })
 
+// app.get('/', async (req, res) => {
+//     let longestName = '';
+//     for (let i = 0; i < countries.length; i++) {
+//         if (countries[i].name.length > longestName.length) {
+//             longestName = countries[i].name;
+//             console.log(longestName);
+//         }
+//     }
+//     res.json({ longestName })
+// })
+
 app.listen(7000, () => {
     console.log('server is listening to port 7000');
 })
