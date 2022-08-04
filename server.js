@@ -48,18 +48,18 @@ const { countries } = require('./countries.json');
 //     res.status(200).json(newCountries)
 // })
 
-app.get('/', async (req, res) => {
-    const funFacts = countries.map(country => {
-        return country.funFact
-    })
-    let counter = 0;
-    funFacts.forEach(funFact => {
-        if (funFact !== "") {
-            counter++;
-        }
-    })
-    res.json({ counter })
-})
+// app.get('/', async (req, res) => {
+//     const funFacts = countries.map(country => {
+//         return country.funFact
+//     })
+//     let counter = 0;
+//     funFacts.forEach(funFact => {
+//         if (funFact !== "") {
+//             counter++;
+//         }
+//     })
+//     res.json({ counter })
+// })
 
 // app.get('/', async (req, res) => {
 //     let longestName = '';
@@ -84,13 +84,26 @@ app.get('/', async (req, res) => {
 // app.get('/', async (req, res) => {
 //     const countriesWithFunFacts = [];
 //     countries.filter(country => {
-//         if(Array.isArray(country.funFact)) {
+//         if (Array.isArray(country.funFact)) {
 //             let countryFunFacts = {};
-//             countryFunFacts.name = country.name;
-//             countriesWithFunFacts.push()
+//             countryFunFacts[country.name] = country.funFact;
+//             countriesWithFunFacts.push(countryFunFacts)
 //         }
 //     })
+//     res.json(countriesWithFunFacts)
 // })
+
+// app.get('/', async (req, res) => {
+//     let longestFunFact = '';
+//     for (let i = 0; i < countries.length; i++) {
+//         i
+//         if (countries[i].funFact.length > longestFunFact.length) {
+//             longestFunFact = countries[i + 1].funFact;
+//         }
+//     }
+//     res.json({ longestFunFact })
+// })
+
 
 app.listen(7000, () => {
     console.log('server is listening to port 7000');
