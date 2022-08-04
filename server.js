@@ -73,9 +73,13 @@ const { countries } = require('./countries.json');
 // })
 
 app.get('/', async (req, res) => {
+    let counter = 1;
     countries.forEach(country => {
         if (country.funFact === '') {
-            res.json(country.name)
+            if (counter === 8) {
+                res.json(country.name)
+            }
+            counter++;
         }
     })
 })
