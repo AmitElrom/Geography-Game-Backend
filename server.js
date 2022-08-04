@@ -72,6 +72,26 @@ app.get('/', async (req, res) => {
 //     res.json({ longestName })
 // })
 
+// app.get('/', async (req, res) => {
+//     let counter = 0;
+//     countries.forEach(country => {
+//         if (country.funFact === '') {
+//             res.json(country.name)
+//         }
+//     })
+// })
+
+// app.get('/', async (req, res) => {
+//     const countriesWithFunFacts = [];
+//     countries.filter(country => {
+//         if(Array.isArray(country.funFact)) {
+//             let countryFunFacts = {};
+//             countryFunFacts.name = country.name;
+//             countriesWithFunFacts.push()
+//         }
+//     })
+// })
+
 app.listen(7000, () => {
     console.log('server is listening to port 7000');
 })
