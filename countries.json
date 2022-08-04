@@ -53,7 +53,10 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": [
+        "In the 1960s, the US spent a lot of moeny to build schools, streets, a hospital and 2 tuna canneries in the archipelgo. As of 2017, over 80% of the country's working population work in tuna canneries, while the other 20% work in agriculture or for the US government. Moreover, 93% of American Samoa's exports is canned tuna, and 100% of the exports go to the US.",
+        "During the moon landings in the 1960s and 70s, American Samoa's waters were a popular landing site for astronauts. A small American Samoa flag was sent to the moon on one of the missions, and later awarded, along with 3 moon rocks, to American Samoa, by US president Richard Nixon."
+      ]
     },
     {
       "name": "Andorra",
@@ -86,7 +89,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Despite Anguilla being only 16 miles (25 km) long and 3 miles (5 km) wide and having a population of only 15,000 people, many famous celebrities have lived there, including Chuck Norris, Paris Hilton, Jay-Z, Michael Jordan, Leonardo DiCaprio, Liam Neeson and Sandra Bullock."
     },
     {
       "name": "Antigua and Barbuda",
@@ -97,7 +100,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Antigua and Barbuda was one of the last countries to gain independce from the UK, gaining indepndence in 1981. The only countries to gain independence from UK afterwards are Saint Kitts and Nevis and Brunei, in 1983 and 1984, respectively."
     },
     {
       "name": "Argentina",
@@ -108,7 +111,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Argentina Was Named for a Fabled Mountain Made of Silver"
+      "funFact": "Argentina was named after a mountain made of silver, since 'Argentina' in Italian means 'made of silver'."
     },
     {
       "name": "Armenia",
@@ -119,7 +122,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Armenia is the first country to adopt Christianity."
+      "funFact": "Armenia is the first country to adopt Christianity, all the way back in 300 AD. Armenia is also the 2nd most religious country in Europe, with over 97% of the population saying they believe in God."
     },
     {
       "name": "Aruba",
@@ -130,7 +133,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Every native Aruban speaks 4 languages: Dutch, Papiamento (The official languages of Aruba), English and Spanish."
     },
     {
       "name": "Australia",
@@ -141,7 +144,10 @@
         "similarity1": ["554"],
         "similarity2": []
       },
-      "funFact": "The capital of Australia is Canberra, and not Sydney as others assume."
+      "funFact": [
+        "The capital of Australia is Canberra, and not Sydney as others assume.",
+        "The Great Barrier Reef, located off the shore of Australia, is the world's largest living organism, and is often listed as one of the Seven Wonders of the Natural World."
+      ]
     },
     {
       "name": "Austria",
@@ -152,7 +158,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The Austrian flag dates from 1191, which makes it one of the oldest national flags in the world."
+      "funFact": "The Austrian flag dates back to 1191, which makes it one of the oldest national flags in the world."
     },
     {
       "name": "Azerbaijan",
@@ -163,7 +169,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The first Muslim nation to enfranchise women."
+      "funFact": "In 1918 Azerbaijan became the first Muslim nation and one of the first nations in general to grant women the right to vote."
     },
     {
       "name": "Bahamas",
@@ -185,7 +191,7 @@
         "similarity1": ["634"],
         "similarity2": []
       },
-      "funFact": "Bahrain is an island that floats in the Persian Gulf. However, it's connected to the Saudi city of Al Khobar."
+      "funFact": "Bahrain is an island located in the Persian Gulf. However, it's connected to the Saudi city of Al Khobar."
     },
     {
       "name": "Bangladesh",
@@ -196,7 +202,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Dhaka, Bangladesh capital, is the most densely populated city on Earth."
+      "funFact": "Dhaka, Bangladesh capital, is the most densely populated city on Earth, with a density of over 2,000 people per square km."
     },
     {
       "name": "Barbados",
@@ -240,7 +246,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "A British colony for more than 200 years, Belize today is the only nation in Central America where English is the official language. More than 80% of the population speak English as their mother tongue. Other languages spoken in Belize include Mayan, Kriol (Creole), Garifuna, and Spanish."
     },
     {
       "name": "Benin",
@@ -251,7 +257,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Benin’s south coast was once the 'slave coast’."
     },
     {
       "name": "Bermuda",
@@ -339,7 +345,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Brazil has 4 time zones."
+      "funFact": "Brazil was the last country in America to abolish slavery, in 1888.."
     },
     {
       "name": "British Indian Ocean Territory",
@@ -405,7 +411,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Bulgaria is where the Early Cyrillic Alphabet, the predecessor to the modern Cyrillic Alphabet, was developed. It was originally created to translate the Bible into Slavic languages."
     },
     {
       "name": "Burkina Faso",
@@ -746,7 +752,10 @@
         "similarity1": ["340", "558"],
         "similarity2": []
       },
-      "funFact": "El Salvador is known as the “Land of the Volcanoes” because of the more than 20 volcanoes in the territory. It even has volcanoes in its flag."
+      "funFact": [
+        "El Salvador is known as the “Land of the Volcanoes” because of the more than 20 volcanoes in the territory. It even has volcanoes in its flag.",
+        "El Salvador became the first country in the world to use Bitcoin as legal tender, after having been adopted as such by the Legislative Assembly of El Salvador in 2021."
+      ]
     },
     {
       "name": "Equatorial Guinea",
@@ -1409,7 +1418,7 @@
         "similarity1": ["332"],
         "similarity2": []
       },
-      "funFact": "Liechtenstein is a doubly landlocked country. It is surrounded by Switzerland and Austria, which in turn is also landlocked by other European countries, making it the second doubly landlocked country after Uzbekistan."
+      "funFact": "Liechtenstein is a doubly landlocked country. It is surrounded by Switzerland and Austria, which in turn are also landlocked by other European countries, making it the second doubly landlocked country after Uzbekistan."
     },
     {
       "name": "Lithuania",
@@ -2559,7 +2568,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The islands have gone through plenty of different owners. Currently, the British own the islands. However, the currency most commonly used on the islands, is the US dollar."
     },
     {
       "name": "Tuvalu",
@@ -2570,7 +2579,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Tuvalu's domain is .tv. Leasing the domain to people is now the largest source of income for this tiny island."
     },
     {
       "name": "Uganda",
@@ -2581,7 +2590,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Uganda is home to the 2nd largest fresh water lake in the world, Lake Victoria. The lake is also the source of the Nile River, the 2nd longest river in the world."
     },
     {
       "name": "Ukraine",
@@ -2614,7 +2623,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The United Kingdom has owned the largest empire in history, the British Empire. At its peak, in 1920, the British controlled over 13 million square miles (35.5 million square km), which is 25% of the entire land area of Earth."
     },
     {
       "name": "United States of America",
@@ -2647,7 +2656,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Uzbekistan is one of only 2 double-landlocked countries. It is surrounded by Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan and Turkmenistan, which are also landlocked, making it the second double-landlocked country after Liechtenstein."
     },
     {
       "name": "Vanuatu",
@@ -2724,7 +2733,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Zambia is the home of the largest waterfall in the world, Victoria Falls. Its height is 108 meters, and its twice the size of Niagara Falls."
     },
     {
       "name": "Zimbabwe",
