@@ -312,7 +312,10 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Bosnia and Herzegovina has about 152 unexploded landmines per square mile (58 per square km)."
+      "funFact": [
+        "Bosnia and Herzegovina has about 152 unexploded landmines per square mile (58 per square km).",
+        "Bosnia and Herzegovina's capital city, Sarajevo, is where Archduke Franz Ferdinand of Austro-Hungary was assassinated on June 28th 1914, an event which ultimately led to the beginning of WW1."
+      ]
     },
     {
       "name": "Botswana",
@@ -692,7 +695,10 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Denmark is the world second happiest country for 2022."
+      "funFact": [
+        "As of 2022, Denmark is the world second happiest country.",
+        "Denmark's flag, containing a red background and a white nordic cross, is the oldest flag currently in use. Its first documented use was in 1219, in the battle of Lyndanisse"
+      ]
     },
     {
       "name": "Djibouti",
@@ -1039,7 +1045,10 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": [
+        "Guernsey is located in the English Channel, just off the coast of Normandy, France. The official languages of Guernsey are both English and Guernésiais, and despite being a territory of the UK, Guernsey Pound is the official currency of Guernsey.",
+        "Guernsey is located in the English Channel, just off the coast of Normandy, France. 'Les Misérables' was written by Victor Hugo whilst living in Guernsey."
+      ]
     },
     {
       "name": "Guinea",
@@ -1061,7 +1070,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Portuguese is the official language of guinea-bissau."
+      "funFact": "Portuguese is the official language of Guinea-Bissau, because it used to be a portugese colony."
     },
     {
       "name": "Guyana",
@@ -1094,7 +1103,10 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": [
+        "Despite being located between South Africa and Antarctica, Heard And Mcdonald Islands are actually a part of Australia",
+        "The first recorded sighting of the Heard Island was in 1853 by Captain John Heard. The island was named after him. Soon later, in 1854, William McDonald located the second largest island, documented it, and named it after himself."
+      ]
     },
     {
       "name": "Vatican City",
@@ -1116,7 +1128,7 @@
         "similarity1": ["222", "558"],
         "similarity2": []
       },
-      "funFact": "The name translates to “great depths” in Spanish – named by Christopher Columbus after the deep waters along the coast."
+      "funFact": "Honduras's name translates to “great depths” in Spanish. It was named by Christopher Columbus after the deep waters along the coast."
     },
     {
       "name": "Hungary",
@@ -1138,7 +1150,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": " Hong Kong is so rich it has more Rolls Royces per person than any other city in the world"
+      "funFact": "Hong Kong is so rich it has more Rolls Royces per capita than any other city in the world"
     },
     {
       "name": "Iceland",
@@ -1149,7 +1161,7 @@
         "similarity1": ["578"],
         "similarity2": []
       },
-      "funFact": "Between 30 and 40% of Icelanders will not deny the existence of elves. Icelandic folklore is still rich with stories about the Huldufólk, meaning 'hidden people', who are said to live in the lava fields on the island."
+      "funFact": "Between 30% and 40% of Icelanders will not deny the existence of elves. Icelandic folklore is still rich with stories about the Huldufólk, meaning 'hidden people', who are said to live in the lava fields on the island."
     },
     {
       "name": "India",
@@ -1171,7 +1183,7 @@
         "similarity1": ["492", "616"],
         "similarity2": []
       },
-      "funFact": "Indonesia is the largest Muslim-majority nation in the world."
+      "funFact": "Indonesia is the largest Muslim nation in the world, and it spreads across the 2nd, 3rd and, 6th and 13th biggest islands in the world."
     },
     {
       "name": "Ivory Coast",
@@ -1556,11 +1568,10 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Martinique has been continuously inhabited for 4000 years. The Arawak tribe first settled there, before being replaced by the Caribbean Indians."
     },
     {
       "name": "Mauritania",
-      "flag": "https://flagcdn.com/mr.svg",
       "flagKnown": 165,
       "id": "478",
       "similarity": {
@@ -1578,7 +1589,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The Dodo bird, an extinct flightless bird, was endemic to Mauritius. It got extinct because it was hunted by sailors and by the invasive species they brought to the island, while its habitat was being destroyed. The last widely accepted sighting of a dodo was in 1662."
     },
     {
       "name": "Mayotte",
@@ -1589,7 +1600,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Mayotte is a group of islands under French sovereignty, near Comoros and Madagascar off the coast of Africa. Comoros, which used to be a French colony, sees Mayotte as a part of its territory, and doesn't recognize the French sovereignty on the islands"
     },
     {
       "name": "Mexico",
@@ -1600,7 +1611,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Not Egypt, but Mexico is home to the world’s largest pyramid."
+      "funFact": "Not Egypt, but Mexico is home to the world's largest pyramid. It is located in Cholula and its size is 984 by 1,033 ft (300 by 315 metres)."
     },
     {
       "name": "Micronesia (Federated States of)",
@@ -1611,7 +1622,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Micronesia is one of just 22 countries not to have an army. Instead, as a former US-administered territory, the USA provides aid and is responsible for Micronesia’s defence. In return, the USA can maintain military bases in Micronesia."
+      "funFact": "Micronesia is one of just 22 countries not to have an army. Instead, as a former US-administered territory, the USA provides aid and is responsible for Micronesia's defence. In return, the USA can maintain military bases in Micronesia."
     },
     {
       "name": "Moldova (Republic of)",
@@ -1633,7 +1644,7 @@
         "similarity1": ["616", "360"],
         "similarity2": []
       },
-      "funFact": "With an average life expectancy of 89.4, it has the 2nd highest life expectancy"
+      "funFact": "With an average life expectancy of 89.4, Monaco has the 2nd highest life expectancy"
     },
     {
       "name": "Mongolia",
@@ -1655,7 +1666,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Montenegro declared its independence from Serbia on June 3, 2006."
+      "funFact": "Montenegro declared its independence from Serbia on June 3, 2006, after being a part of Serbia and Montenegro since 1992, after Yoguslavia's dissolution."
     },
     {
       "name": "Montserrat",
@@ -1666,7 +1677,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Despite being a British island in the Carribbean, the island is named after Santa Maria de Montserrat Monastery, a Benedictine monastery locate on Montserrat, a Spanish mountain. It was discovered and named by Christopher Colombus in 1493."
     },
     {
       "name": "Morocco",
@@ -1677,7 +1688,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Morocco hosts the oldest continuously operating university in the world, Al-Qarawiyyin university, that was founded in 859 AD."
+      "funFact": "Morocco hosts the oldest continuously operating university in the world, Al-Qarawiyyin university, founded in 859 AD."
     },
     {
       "name": "Mozambique",
@@ -1688,7 +1699,7 @@
         "similarity1": ["716"],
         "similarity2": []
       },
-      "funFact": "Mozambique is the only nation to feature a modern firearm on their flag."
+      "funFact": "Mozambique is the only nation to feature a modern firearm on their flag. Its flag features an AK-47, also known as Kalashnikov."
     },
     {
       "name": "Myanmar",
@@ -1710,7 +1721,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Namibia is home to the world's oldest desert, the Namib Desert."
+      "funFact": "Namibia is home to the world's oldest desert, the Namib Desert, existing for between 55 million and 80 million years."
     },
     {
       "name": "Nauru",
@@ -1721,7 +1732,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Nauru is the fattest state in the world, over 71% of the country’s population is obese."
+      "funFact": "Nauru is the fattest state in the world. over 71% of the country's population is obese."
     },
     {
       "name": "Nepal",
@@ -1757,7 +1768,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Surprisingly, there is no official language in New Caledonia, although French is the most widely-spoken language in the area. Aside from French, there are over 30 Melanesian dialects and languages spoken in the achipelago."
     },
     {
       "name": "New Zealand",
@@ -1768,7 +1779,7 @@
         "similarity1": ["036"],
         "similarity2": []
       },
-      "funFact": "In addition to English and sign language, Maori is also an official language in New Zealand. 17% of the country’s population is native Maori, the Indigenous people of New Zealand."
+      "funFact": "In addition to English and sign language, Maori is also an official language in New Zealand. 17% of the country's population is native Maori, the Indigenous people of New Zealand."
     },
     {
       "name": "Nicaragua",
@@ -1779,7 +1790,10 @@
         "similarity1": ["222", "340"],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": [
+        "The Americas' First Elected Female Head Of State Is From Nicaragua. Violeta Chamorro served as the president of the country from April 25, 1990, to January 10, 1997.",
+        "Nicaragua is the only country in Latin America to be colonised by both the Spanish and the British. The Spanish conquest of the Nicaraguan territory took place in 1522. The British began colonising Nicaragua in 1633 and they controlled the area until 1860."
+      ]
     },
     {
       "name": "Niger",
@@ -1801,7 +1815,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Nigeria is the most populous country in Africa, with a population of over 200 million."
+      "funFact": "Nigeria is the most populous country in Africa, with a population of over 200 million people."
     },
     {
       "name": "Niue",
@@ -1812,7 +1826,10 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": [
+        "There are more Niueans living outside of Niue than in Niue. Niue's population is around 1,600 residents, while a whopping 22,200 Niueans live in New Zealand.",
+        "Since more niueans live outside of the Niue than in it, Niuean is considered an endangered language, with only 7,00 native speakers."
+      ]
     },
     {
       "name": "Norfolk Island",
@@ -1834,7 +1851,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Drugs are common and unregulated in North Korea."
+      "funFact": "Despite the popular opinion, drugs are actually common and unregulated in North Korea."
     },
     {
       "name": "Northern Mariana Islands",
@@ -2340,7 +2357,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The oldest living tree known to be planted by man is in Sri Lanka. It is a sacred fig (also called a bo-tree), and it was planted in 288 BC, thus the tree is 2,300 years old."
     },
     {
       "name": "Sudan",
