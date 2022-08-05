@@ -31,7 +31,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Only 3 million people live in the country. There are more Albanians now living outside the country than within its territories. The estimated diaspora population of Albanians is between seven to ten million."
+      "funFact": "Albania's population is only 3 million people. There are more Albanians now living outside the country than within its territories. The estimated diaspora population of Albanians is between seven to ten million."
     },
     {
       "name": "Algeria",
@@ -1784,7 +1784,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The country's name comes from the Niger river flowing through the country. The river's name possibly comes from the Berber word 'Gher', meaning river."
+      "funFact": "Niger's name comes from the Niger river flowing through the country. The river's name possibly comes from the Berber word 'Gher', meaning river."
     },
     {
       "name": "Nigeria",
@@ -1883,7 +1883,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Palau has a lake packed with millions of jellyfish, that are not poisonous."
+      "funFact": "Palau has a lake packed with millions of jellyfish, that, since they evolved with no predators in their environment, are not poisonous."
     },
     {
       "name": "Panama",
@@ -2125,7 +2125,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Saint Vincent and the Grenadines is a multi-island, southern Caribbean country. The native people of the islands may have been cannibals."
     },
     {
       "name": "Samoa",
@@ -2136,7 +2136,7 @@
         "similarity1": ["158"],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Although only 78 miles (125 km) seperate between Samoa and its closest neighbor, American Samoa, since they are located on different sides of the International Date Line, almost 24 hours seperate between the islands."
     },
     {
       "name": "San Marino",
@@ -2147,7 +2147,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "San Marino, a small country surrounded by Italy is the oldest surviving sovereign state and constitutional republic in the world. The official date of its founding is September 3, 301."
     },
     {
       "name": "Sao Tome and Principe",
@@ -2158,7 +2158,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Sao Tome and Principe is the second-smallest African country. The island of Sao Tome was named after Saint Thomas by the Portuguese explorers as they arrived here on Saint Thomas' day."
     },
     {
       "name": "Saudi Arabia",
@@ -2169,7 +2169,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Saudi Arabia is building the world's tallest skyscraper. The Kingdom Jeddah Tower, in the city of Jeddah which is currently on hold, will stand at least 3,280-feet tall once completed. That's almost 200 metres taller than the Burj Khalifa, which currently holds the title of the world's tallest free-standing structure."
     },
     {
       "name": "Senegal",
@@ -2191,7 +2191,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Serbia is one of the world's biggest exporters of raspberries, and in the year 2012, Serbia was responsible for almost 95% of the world's raspberries!"
     },
     {
       "name": "Seychelles",
@@ -2213,7 +2213,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The name Sierra Leone was adapted from the Portuguese name for the country: Serra Leoa. The literal meaning is 'Lioness Mountains.'"
     },
     {
       "name": "Singapore",
@@ -2224,7 +2224,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Chewing gum is banned in Singapore. Only those with medical prescription can chew gum."
     },
     {
       "name": "Sint Maarten (Dutch part)",
@@ -2235,7 +2235,10 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": [
+        "Sint Maarten encompasses the southern 44% of the divided island of Saint Martin, while the northern 56% of the island constitutes the French overseas collectivity of Saint Martin.",
+        "Sint Maarten most restaurants and beaches per square mile."
+      ]
     },
     {
       "name": "Slovakia",
@@ -2246,7 +2249,7 @@
         "similarity1": ["705"],
         "similarity2": ["688"]
       },
-      "funFact": ""
+      "funFact": "Slovakia is the world's highest number of castles per capita, 180 castles in the whole country."
     },
     {
       "name": "Slovenia",
@@ -2257,7 +2260,7 @@
         "similarity1": ["703"],
         "similarity2": ["688"]
       },
-      "funFact": ""
+      "funFact": "Unlike the other countries that made up Yugoslavia in the past, in Slovenia there is ethnic uniformity to a large extent."
     },
     {
       "name": "Solomon Islands",
@@ -2268,7 +2271,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The world's largest raised coral atoll is East Rennell in the Solomon Islands. An atoll is a ring-shaped island, including a coral rim that encircles a lagoon partially or completely."
     },
     {
       "name": "Somalia",
@@ -2279,7 +2282,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Somalia sits in the Horn of Africa and has the Longest Coastline In Mainland Africa"
     },
     {
       "name": "South Africa",
@@ -2301,7 +2304,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "It was the site of the southernmost battle ever fought. During the 1982 Falkland Islands War, Argentina sent troops to South Georgia, a British Overseas Territory."
     },
     {
       "name": "Korea (Republic of)",
@@ -2312,7 +2315,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "South Korea Is Known As The Plastic Surgery Capital Of The World. Because of the rigid Korean beauty standards, undergoing cosmetic surgery is very common among Koreans."
     },
     {
       "name": "Spain",
@@ -2323,7 +2326,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "In 1479, the Crown of Castile and the various territories of the Crown of Aragon were united in a personal union, creating for the first time since the 8th century a single political unit, referred to as España (Spain)."
     },
     {
       "name": "Sri Lanka",
@@ -2359,7 +2362,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "South Sudan is the newest internationally recognized country in the world, which declared independence on July 9, 2011."
     },
     {
       "name": "Suriname",
@@ -2370,7 +2373,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Suriname is the smallest country in South America and its official language is Dutch."
     },
     {
       "name": "Svalbard and Jan Mayen",
@@ -2381,7 +2384,10 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": [
+        "In Svalbard and Jan Mayen was the northernmost church in the world until 2017 when the St. Nicholas Russian Orthodox Church was built in Nagurskoye air force base in Russia.",
+        "Svalbard does not currently use a distinct flag and it actually uses Norway's flag."
+      ]
     },
     {
       "name": "Kingdom of Eswatini",
@@ -2392,7 +2398,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "In April 2018, the official name was changed from Kingdom of Swaziland to Kingdom of Eswatini, mirroring the name commonly used in Swazi. The government is an absolute monarchy, the last of its kind in Africa, and has been ruled by King Mswati III since 1986."
     },
     {
       "name": "Sweden",
@@ -2403,7 +2409,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The Nobel Prize is awarded every year in Sweden."
     },
     {
       "name": "Switzerland",
@@ -2436,7 +2442,7 @@
         "similarity1": ["882"],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Only 2.3% of the Taiwanese population is native The other 97.7% are ethnically Chinese. This is because Taiwan was ruled by the Qing Dynasty for 200 years. During this time, the locals were pushed out."
     },
     {
       "name": "Tajikistan",
@@ -2458,7 +2464,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Mount Kilimanjaro, Africa's highest mountain, is in northeastern Tanzania."
     },
     {
       "name": "Thailand",
@@ -2469,7 +2475,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Thailand was previously known as Siam. The name was changed in 1939 to Thailand, which 'Land of the Free'."
     },
     {
       "name": "Timor-Leste",
@@ -2491,7 +2497,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The voodoo religion is practised widely in Togo."
     },
     {
       "name": "Tokelau",
@@ -2502,7 +2508,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The islands were first settled by Polynesian peoples about 1000 years ago, and it was not until 1889 that Tokelau became a British protectorate. Today it is a dependent territory of New Zealand."
     },
     {
       "name": "Tonga",
@@ -2513,7 +2519,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Tonga is a constitutional monarchy. It is the only remaining indigenous monarchy in the Pacific islands."
     },
     {
       "name": "Trinidad and Tobago",
@@ -2524,7 +2530,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The singer Nicki Minaj is originally from Trinidad and Tobago."
     },
     {
       "name": "Tunisia",
@@ -2535,7 +2541,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Tunisia is home to the northernmost point of Africa, Cape Angela (Ras Angela)."
     },
     {
       "name": "Turkey",
@@ -2546,7 +2552,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The Turkish people were originally equestrian nomads from Northeast Asia."
     },
     {
       "name": "Turkmenistan",
@@ -2557,7 +2563,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Turkmenistan is a secretive Asian dictatorship that is stricter than North Korea, where the streets are paved with marble and gold."
     },
     {
       "name": "Turks and Caicos Islands",
@@ -2601,7 +2607,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The UAE was the first country in the world to appoint a minister for artificial intelligence."
     },
     {
       "name": "United Arab Emirates",
@@ -2612,7 +2618,7 @@
         "similarity1": ["400", "414", "729"],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The UAE was the first country in the world to appoint a minister for artificial intelligence."
     },
     {
       "name": "United Kingdom of Great Britain and Northern Ireland",
@@ -2634,7 +2640,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Many recognize Washington, DC as the capital of the United States but that wasn't always the case. Washington didn’t become the capital until 1790. Believe it or not, from 1785 until 1790, New York City served as the countries capital."
     },
     {
       "name": "Uruguay",
@@ -2645,7 +2651,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The name Uruguay comes from the Guaraní (an Uruguay's indigenous language) word for the Uruguay River, which means either 'river where the bird lives', 'river of the painted birds', 'river of the snails', or 'winding river.'"
     },
     {
       "name": "Uzbekistan",
@@ -2667,7 +2673,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The national anthem of Vanuatu is in Bislama, one of Vanuatu 3 official languages, along with English and French and called 'Yumi, yumi, yumi.'. Yumi means 'we' in English."
     },
     {
       "name": "Venezuela (Bolivarian Republic of)",
@@ -2700,7 +2706,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "As a French territory Wallis and Futuna celebrates Bastille Day on 14 July."
     },
     {
       "name": "Western Sahara",
@@ -2711,7 +2717,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Western Sahara, formerly the Spanish colony of Spanish Sahara, is a disputed territory claimed by both the Kingdom of Morocco and the Popular Front for the Liberation of the Saguia el Hamra and Rio de Oro (Polisario Front), which is an independence movement based in Algeria."
     },
     {
       "name": "Yemen",

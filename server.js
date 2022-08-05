@@ -72,17 +72,17 @@ const { countries } = require('./countries.json');
 //     res.json({ longestName })
 // })
 
-app.get('/', async (req, res) => {
-    let counter = 1;
-    countries.forEach(country => {
-        if (country.funFact === '') {
-            if (counter === 8) {
-                res.json(country.name)
-            }
-            counter++;
-        }
-    })
-})
+// app.get('/', async (req, res) => {
+//     let counter = 1;
+//     countries.forEach(country => {
+//         if (country.funFact === '') {
+//             if (counter === 8) {
+//                 res.json(country.name)
+//             }
+//             counter++;
+//         }
+//     })
+// })
 
 // app.get('/', async (req, res) => {
 //     const countriesWithFunFacts = [];
@@ -109,6 +109,15 @@ app.get('/', async (req, res) => {
 // app.get('/', async (req, res) => {
 //     res.json(countries.length)
 // })
+
+app.get('/', async (req, res) => {
+    const countriesNoFunFacts = countries.filter(country => country.funFact === "")
+    let lastNoFunFactCountry = {
+        name: countriesNoFunFacts[countriesNoFunFacts.length - 2].name,
+        funFact: countriesNoFunFacts[countriesNoFunFacts.length - 2].funFact,
+    }
+    res.json(lastNoFunFactCountry)
+})
 
 
 app.listen(7000, () => {
