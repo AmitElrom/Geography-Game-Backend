@@ -1,2750 +1,2756 @@
 {
-    "countries": [
-      {
-        "name": "Afghanistan",
-        "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
-        "flagKnown": 100,
-        "id": "004",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Afghanistan is the world's largest producer of opium. As of 2021, Afghanistan is the source of more than 90% of the world's opium supply. It is the source of more than 95% of the European opium supply. Opium farming is a major source of employment in Afghanistan."
-      },
-      {
-        "name": "Åland Islands",
-        "flag": "https://flagcdn.com/ax.svg",
-        "flagKnown": 197,
-        "id": "248",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Despite being an autonomous region of Finland, Åland Islands' official language is actually Swedish. The students aren't even obliged to learn Finnish in school."
-      },
-      {
-        "name": "Albania",
-        "flag": "https://flagcdn.com/al.svg",
-        "flagKnown": 45,
-        "id": "008",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Only 3 million people live in the country. There are more Albanians now living outside the country than within its territories. The estimated diaspora population of Albanians is between seven to ten million."
-      },
-      {
-        "name": "Algeria",
-        "flag": "https://flagcdn.com/dz.svg",
-        "flagKnown": 76,
-        "id": "012",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Algeria is the largest country in Africa."
-      },
-      {
-        "name": "American Samoa",
-        "flag": "https://flagcdn.com/as.svg",
-        "flagKnown": 168,
-        "id": "016",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": [
-          "In the 1960s, the US spent a lot of moeny to build schools, streets, a hospital and 2 tuna canneries in the archipelgo. As of 2017, over 80% of the country's working population work in tuna canneries, while the other 20% work in agriculture or for the US government. Moreover, 93% of American Samoa's exports is canned tuna, and 100% of the exports go to the US.",
-          "During the moon landings in the 1960s and 70s, American Samoa's waters were a popular landing site for astronauts. A small American Samoa flag was sent to the moon on one of the missions, and later awarded, along with 3 moon rocks, to American Samoa, by US president Richard Nixon."
-        ]
-      },
-      {
-        "name": "Andorra",
-        "flag": "https://flagcdn.com/ad.svg",
-        "flagKnown": 101,
-        "id": "020",
-        "similarity": {
-          "similarity1": ["498"],
-          "similarity2": []
-        },
-        "funFact": "Andorra is the only country in the world with Catalan as its official language."
-      },
-      {
-        "name": "Angola",
-        "flag": "https://flagcdn.com/ao.svg",
-        "flagKnown": 82,
-        "id": "024",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Thanks to a small exclave a near their border with the DRC, Angola is the 2nd largest producer of oil in Africa."
-      },
-      {
-        "name": "Anguilla",
-        "flag": "https://flagcdn.com/ai.svg",
-        "flagKnown": 197,
-        "id": "660",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Despite Anguilla being only 16 miles (25 km) long and 3 miles (5 km) wide and having a population of only 15,000 people, many famous celebrities have lived there, including Chuck Norris, Paris Hilton, Jay-Z, Michael Jordan, Leonardo DiCaprio, Liam Neeson and Sandra Bullock."
-      },
-      {
-        "name": "Antigua and Barbuda",
-        "flag": "https://flagcdn.com/ag.svg",
-        "flagKnown": 149,
-        "id": "028",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Antigua and Barbuda was one of the last countries to gain independce from the UK, gaining indepndence in 1981. The only countries to gain independence from UK afterwards are Saint Kitts and Nevis and Brunei, in 1983 and 1984, respectively."
-      },
-      {
-        "name": "Argentina",
-        "flag": "https://flagcdn.com/ar.svg",
-        "flagKnown": 27,
-        "id": "032",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Argentina was named after a mountain made of silver, since 'Argentina' in Italian means 'made of silver'."
-      },
-      {
-        "name": "Armenia",
-        "flag": "https://flagcdn.com/am.svg",
-        "flagKnown": 121,
-        "id": "051",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Armenia is the first country to adopt Christianity, all the way back in 300 AD. Armenia is also the 2nd most religious country in Europe, with over 97% of the population saying they believe in God."
-      },
-      {
-        "name": "Aruba",
-        "flag": "https://flagcdn.com/aw.svg",
-        "flagKnown": 197,
-        "id": "533",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Every native Aruban speaks 4 languages: Dutch, Papiamento (The official languages of Aruba), English and Spanish."
-      },
-      {
-        "name": "Australia",
-        "flag": "https://flagcdn.com/au.svg",
-        "flagKnown": 16,
-        "id": "036",
-        "similarity": {
-          "similarity1": ["554"],
-          "similarity2": []
-        },
-        "funFact": [
-          "The capital of Australia is Canberra, and not Sydney as others assume.",
-          "The Great Barrier Reef, located off the shore of Australia, is the world's largest living organism, and is often listed as one of the Seven Wonders of the Natural World."
-        ]
-      },
-      {
-        "name": "Austria",
-        "flag": "https://flagcdn.com/at.svg",
-        "flagKnown": 48,
-        "id": "040",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The Austrian flag dates back to 1191, which makes it one of the oldest national flags in the world."
-      },
-      {
-        "name": "Azerbaijan",
-        "flag": "https://flagcdn.com/az.svg",
-        "flagKnown": 147,
-        "id": "031",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "In 1918 Azerbaijan became the first Muslim nation and one of the first nations in general to grant women the right to vote."
-      },
-      {
-        "name": "Bahamas",
-        "flag": "https://flagcdn.com/bs.svg",
-        "flagKnown": 98,
-        "id": "044",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The name Bahamas comes from the Spanish term 'baja mar', which means shallow sea."
-      },
-      {
-        "name": "Bahrain",
-        "flag": "https://flagcdn.com/bh.svg",
-        "flagKnown": 83,
-        "id": "048",
-        "similarity": {
-          "similarity1": ["634"],
-          "similarity2": []
-        },
-        "funFact": "Bahrain is an island located in the Persian Gulf. However, it's connected to the Saudi city of Al Khobar."
-      },
-      {
-        "name": "Bangladesh",
-        "flag": "https://flagcdn.com/bd.svg",
-        "flagKnown": 67,
-        "id": "050",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Dhaka, Bangladesh capital, is the most densely populated city on Earth, with a density of over 2,000 people per square km."
-      },
-      {
-        "name": "Barbados",
-        "flag": "https://flagcdn.com/bb.svg",
-        "flagKnown": 66,
-        "id": "052",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Rihanna is originally from Barbados."
-      },
-      {
-        "name": "Belarus",
-        "flag": "https://flagcdn.com/by.svg",
-        "flagKnown": 78,
-        "id": "112",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Two Israeli presidents were born in Belarus, Chaim Weizmann and Shimon Peres."
-      },
-      {
-        "name": "Belgium",
-        "flag": "https://flagcdn.com/be.svg",
-        "flagKnown": 29,
-        "id": "056",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Belgium holds the world record for the longest period without a government."
-      },
-      {
-        "name": "Belize",
-        "flag": "https://flagcdn.com/bz.svg",
-        "flagKnown": 151,
-        "id": "084",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "A British colony for more than 200 years, Belize today is the only nation in Central America where English is the official language. More than 80% of the population speak English as their mother tongue. Other languages spoken in Belize include Mayan, Kriol (Creole), Garifuna, and Spanish."
-      },
-      {
-        "name": "Benin",
-        "flag": "https://flagcdn.com/bj.svg",
-        "flagKnown": 175,
-        "id": "204",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Benin's south coast was once the 'slave coast'. Benin’s southern coast was a major departure point for slaves for over 100 years. Over 10,000 slaves a year were shipped from here to the Americas."
-      },
-      {
-        "name": "Bermuda",
-        "flag": "https://flagcdn.com/bm.svg",
-        "flagKnown": 197,
-        "id": "060",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "It's the Shipwreck Capital of the World. Bermuda's extensive coastal reef and the occasional big storm are the perfect conditions for shipwrecks. To date, over 300 wrecks have been found dating back to the 1600s."
-      },
-      {
-        "name": "Bhutan",
-        "flag": "https://flagcdn.com/bt.svg",
-        "flagKnown": 75,
-        "id": "064",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Bhutan is the only country in the world where tobacco is banned."
-      },
-      {
-        "name": "Bolivia (Plurinational State of)",
-        "flag": "https://flagcdn.com/bo.svg",
-        "flagKnown": 180,
-        "id": "068",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Despite having no coastline, Bolivia does have a navy. It mainly patrolls the Amazon tributaries."
-      },
-      {
-        "name": "Caribbean Netherlands",
-        "flag": "https://flagcdn.com/bq.svg",
-        "flagKnown": 197,
-        "id": "535",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The Carribbean Netherlands are three islands in the Carribbean that are classified as overseas territories of The Netherlands. The three islands are: Bonaire, Sint Eustatius, and Saba"
-      },
-      {
-        "name": "Bosnia and Herzegovina",
-        "flag": "https://flagcdn.com/ba.svg",
-        "flagKnown": 92,
-        "id": "070",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Bosnia and Herzegovina has about 152 unexploded landmines per square mile (58 per square km)."
-      },
-      {
-        "name": "Botswana",
-        "flag": "https://flagcdn.com/bw.svg",
-        "flagKnown": 125,
-        "id": "072",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Botswana Has Africa's Highest Concentration Of Elephants. Botswana is home to approximately 130,451 elephants. Additionally, the country has a density of 1.28 elephants per square km, which is the highest elephant concentration in Africa."
-      },
-      {
-        "name": "Bouvet Island",
-        "flag": "https://flagcdn.com/bv.svg",
-        "flagKnown": 197,
-        "id": "074",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Brazil",
-        "flag": "https://flagcdn.com/br.svg",
-        "flagKnown": 11,
-        "id": "076",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Brazil was the last country in America to abolish slavery, in 1888.."
-      },
-      {
-        "name": "British Indian Ocean Territory",
-        "flag": "https://flagcdn.com/io.svg",
-        "flagKnown": 197,
-        "id": "086",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "United States Minor Outlying Islands",
-        "flag": "https://flagcdn.com/um.svg",
-        "flagKnown": 197,
-        "id": "581",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Virgin Islands (British)",
-        "flag": "https://flagcdn.com/vg.svg",
-        "flagKnown": 197,
-        "id": "092",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Virgin Islands (U.S.)",
-        "flag": "https://flagcdn.com/vi.svg",
-        "flagKnown": 197,
-        "id": "850",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Brunei Darussalam",
-        "flag": "https://flagcdn.com/bn.svg",
-        "flagKnown": 119,
-        "id": "096",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Much of Shell's oil comes from offshore drilling platforms in Brunei."
-      },
-      {
-        "name": "Bulgaria",
-        "flag": "https://flagcdn.com/bg.svg",
-        "flagKnown": 86,
-        "id": "100",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Bulgaria is where the Early Cyrillic Alphabet, the predecessor to the modern Cyrillic Alphabet, was developed. It was originally created to translate the Bible into Slavic languages."
-      },
-      {
-        "name": "Burkina Faso",
-        "flag": "https://flagcdn.com/bf.svg",
-        "flagKnown": 169,
-        "id": "854",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Bulgaria Is The Birthplace Of Cyrillic Script, the alphabet that is used in Russian, Ukrainian and most of the Slavic languages."
-      },
-      {
-        "name": "Burundi",
-        "flag": "https://flagcdn.com/bi.svg",
-        "flagKnown": 160,
-        "id": "108",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The three stars in triangular configuration stand for the three ethnic groups of Burundi: the Hutu, the Twa and the Tutsi. The three stars also stand for the three elements of the national motto: Unité, Travail, Progrès ('Unity, Work and Progress'), which can be seen on the coat of arms of Burundi."
-      },
-      {
-        "name": "Cambodia",
-        "flag": "https://flagcdn.com/kh.svg",
-        "flagKnown": 77,
-        "id": "116",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Cambodia's flag is the only one in the world to feature a building."
-      },
-      {
-        "name": "Cameroon",
-        "flag": "https://flagcdn.com/cm.svg",
-        "flagKnown": 106,
-        "id": "120",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Before World War I, the vast majority of the country was a German colony. At that time it was known as Kamerun."
-      },
-      {
-        "name": "Canada",
-        "flag": "https://flagcdn.com/ca.svg",
-        "flagKnown": 2,
-        "id": "124",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Canada is a monarchy, which is Elizabeth II."
-      },
-      {
-        "name": "Cabo Verde",
-        "flag": "https://flagcdn.com/cv.svg",
-        "flagKnown": 164,
-        "id": "132",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Cabo Verde is an archipelago, that was uninhabited until the 15th century. Portuguese explorers colonised the islands in 1456, establishing the first European settlement in the tropics. Cape Verde only gained independence in 1975, which is why Portuguese is still the official spoken language across the archipelago."
-      },
-      {
-        "name": "Cayman Islands",
-        "flag": "https://flagcdn.com/ky.svg",
-        "flagKnown": 197,
-        "id": "136",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "As the Cayman Islands is a British Overseas Territory, driving is on the left-hand side of the road."
-      },
-      {
-        "name": "Central African Republic",
-        "flag": "https://flagcdn.com/cf.svg",
-        "flagKnown": 130,
-        "id": "140",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The Central African Republic is home to the ethnic group of Pygmy people, known for their short stature - typically under five feet tall."
-      },
-      {
-        "name": "Chad",
-        "flag": "https://flagcdn.com/td.svg",
-        "flagKnown": 146,
-        "id": "148",
-        "similarity": {
-          "similarity1": ["642"],
-          "similarity2": []
-        },
-        "funFact": "Chad is the largest of the 16 landlocked countries in Africa."
-      },
-      {
-        "name": "Chile",
-        "flag": "https://flagcdn.com/cl.svg",
-        "flagKnown": 56,
-        "id": "152",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "At 4,270 km (2,653 mi), Chile is the second longest country in the world, only narrowly being beat out by Brazil, which is 95 kilometers longer."
-      },
-      {
-        "name": "China",
-        "flag": "https://flagcdn.com/cn.svg",
-        "flagKnown": 15,
-        "id": "156",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Put all of China’s railway lines, it can loop around the earth two times!"
-      },
-      {
-        "name": "Christmas Island",
-        "flag": "https://flagcdn.com/cx.svg",
-        "flagKnown": 197,
-        "id": "162",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Captain William Mynors of the Royal Mary, an English East India Company vessel, named the island when he sailed past it on Christmas Day, in 1643."
-      },
-      {
-        "name": "Cocos (Keeling) Islands",
-        "flag": "https://flagcdn.com/cc.svg",
-        "flagKnown": 197,
-        "id": "166",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "'Cocos' references the vast crops of coconuts growing there. 'Keeling' is the surname of the founder of the islands, William Keeling."
-      },
-      {
-        "name": "Colombia",
-        "flag": "https://flagcdn.com/co.svg",
-        "flagKnown": 70,
-        "id": "170",
-        "similarity": {
-          "similarity1": ["218", "862"],
-          "similarity2": []
-        },
-        "funFact": "It is mandatory for radio and public television in Colombia to play the national anthem every day at 6 am and 6 pm."
-      },
-      {
-        "name": "Comoros",
-        "flag": "https://flagcdn.com/km.svg",
-        "flagKnown": 170,
-        "id": "174",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Someone attempts a coup in Comoros every 2 years."
-      },
-      {
-        "name": "Congo",
-        "flag": "https://flagcdn.com/cg.svg",
-        "flagKnown": 189,
-        "id": "178",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Oil accounts for 89% of all Congo's exports."
-      },
-      {
-        "name": "Congo (Democratic Republic of the)",
-        "flag": "https://flagcdn.com/cd.svg",
-        "flagKnown": 182,
-        "id": "180",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The Democratic Republic of the Congo's capital, Kinshasa, is the largest French-speaking city in the world (even above Paris)."
-      },
-      {
-        "name": "Cook Islands",
-        "flag": "https://flagcdn.com/ck.svg",
-        "flagKnown": 197,
-        "id": "184",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The official currency in the Cook Islands is New Zealand Dollar."
-      },
-      {
-        "name": "Costa Rica",
-        "flag": "https://flagcdn.com/cr.svg",
-        "flagKnown": 129,
-        "id": "188",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Costa Rica doesn’t have a military."
-      },
-      {
-        "name": "Croatia",
-        "flag": "https://flagcdn.com/hr.svg",
-        "flagKnown": 33,
-        "id": "191",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Croatia’s town of Hum, often referred to as the smallest town in the world."
-      },
-      {
-        "name": "Cuba",
-        "flag": "https://flagcdn.com/cu.svg",
-        "flagKnown": 50,
-        "id": "192",
-        "similarity": {
-          "similarity1": ["630"],
-          "similarity2": []
-        },
-        "funFact": "Cuba is the largest island in the Caribbean."
-      },
-      {
-        "name": "Curaçao",
-        "flag": "https://flagcdn.com/cw.svg",
-        "flagKnown": 197,
-        "id": "531",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "As a Netherlands overseas territory, Curaçao citizens hold the same rights to live and work in the EU as the Dutch."
-      },
-      {
-        "name": "Cyprus",
-        "flag": "https://flagcdn.com/cy.svg",
-        "flagKnown": 31,
-        "id": "196",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "According to the Greek Mythology, Cyprus is the birthplace of the Greek goddess of love, Aphrodite."
-      },
-      {
-        "name": "Czechia",
-        "flag": "https://flagcdn.com/cz.svg",
-        "flagKnown": 37,
-        "id": "203",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Czech people are the world’s heaviest consumers of beer. On average, they drink 188.6 litres of beer per capita."
-      },
-      {
-        "name": "Denmark",
-        "flag": "https://flagcdn.com/dk.svg",
-        "flagKnown": 24,
-        "id": "208",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Denmark is the world second happiest country for 2022."
-      },
-      {
-        "name": "Djibouti",
-        "flag": "https://flagcdn.com/dj.svg",
-        "flagKnown": 171,
-        "id": "262",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "At 155m below sea level, Lac Assal, in Djibouti is the lowest point in Africa."
-      },
-      {
-        "name": "Dominica",
-        "flag": "https://flagcdn.com/dm.svg",
-        "flagKnown": 145,
-        "id": "212",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Dominica is one of only 2 countries to have purple on its flag."
-      },
-      {
-        "name": "Dominican Republic",
-        "flag": "https://flagcdn.com/do.svg",
-        "flagKnown": 112,
-        "id": "214",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The first cathedral, hospital, and university in the Americas were founded in what is now Dominican Republic capital city, Santo Domingo."
-      },
-      {
-        "name": "Ecuador",
-        "flag": "https://flagcdn.com/ec.svg",
-        "flagKnown": 95,
-        "id": "218",
-        "similarity": {
-          "similarity1": ["170", "862"],
-          "similarity2": []
-        },
-        "funFact": "Ecuador's name comes from the Spanish word for the equator, which the country straddles it."
-      },
-      {
-        "name": "Egypt",
-        "flag": "https://flagcdn.com/eg.svg",
-        "flagKnown": 64,
-        "id": "818",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Egyptians were the inventors of the 365-day calender. They subdivided the year into 3 seasons."
-      },
-      {
-        "name": "El Salvador",
-        "flag": "https://flagcdn.com/sv.svg",
-        "flagKnown": 135,
-        "id": "222",
-        "similarity": {
-          "similarity1": ["340", "558"],
-          "similarity2": []
-        },
-        "funFact": [
-          "El Salvador is known as the “Land of the Volcanoes” because of the more than 20 volcanoes in the territory. It even has volcanoes in its flag.",
-          "El Salvador became the first country in the world to use Bitcoin as legal tender, after having been adopted as such by the Legislative Assembly of El Salvador in 2021."
-        ]
-      },
-      {
-        "name": "Equatorial Guinea",
-        "flag": "https://flagcdn.com/gq.svg",
-        "flagKnown": 194,
-        "id": "226",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The current capital of Equatorial Guinea is Malabo, which is located on the island of Bioko, and not the mainland. So, the government of this country is planning a new capital known as Oyala and is located in the Wele-Nzas province of the mainland region"
-      },
-      {
-        "name": "Eritrea",
-        "flag": "https://flagcdn.com/er.svg",
-        "flagKnown": 186,
-        "id": "232",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Eritrea has no official language."
-      },
-      {
-        "name": "Estonia",
-        "flag": "https://flagcdn.com/ee.svg",
-        "flagKnown": 46,
-        "id": "233",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Estonia has most start-ups per capita in Europe."
-      },
-      {
-        "name": "Ethiopia",
-        "flag": "https://flagcdn.com/et.svg",
-        "flagKnown": 144,
-        "id": "231",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Ethiopia was never colonised by the Europeans."
-      },
-      {
-        "name": "Falkland Islands (Malvinas)",
-        "flag": "https://flagcdn.com/fk.svg",
-        "flagKnown": 197,
-        "id": "238",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Sovereignty over the Falkland Islands (Spanish: Islas Malvinas) is disputed by Argentina and the United Kingdom."
-      },
-      {
-        "name": "Faroe Islands",
-        "flag": "https://flagcdn.com/fo.svg",
-        "flagKnown": 197,
-        "id": "234",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The Faroe Islands are devoid of trees. The ones that originally existed were probably cut by the first settlers and were never replanted."
-      },
-      {
-        "name": "Fiji",
-        "flag": "https://flagcdn.com/fj.svg",
-        "flagKnown": 80,
-        "id": "242",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Fiji is one of the few nations to have three official languages, English, Fijian, and Fiji Hindi."
-      },
-      {
-        "name": "Finland",
-        "flag": "https://flagcdn.com/fi.svg",
-        "flagKnown": 17,
-        "id": "246",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Finland is the world's happiest country."
-      },
-      {
-        "name": "France",
-        "flag": "https://flagcdn.com/fr.svg",
-        "flagKnown": 6,
-        "id": "250",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Thanks to French Guiana, France's largest border is with Brazil"
-      },
-      {
-        "name": "French Guiana",
-        "flag": "https://flagcdn.com/gf.svg",
-        "flagKnown": 197,
-        "id": "254",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Although French Guiana is in South America, its currency is the Euro."
-      },
-      {
-        "name": "French Polynesia",
-        "flag": "https://flagcdn.com/pf.svg",
-        "flagKnown": 197,
-        "id": "258",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "It is believed that the word “tattoo” comes from the Tahitian (French Polynesian) word tatau and dates as far back as 1500 B.C."
-      },
-      {
-        "name": "French Southern Territories",
-        "flag": "https://flagcdn.com/tf.svg",
-        "flagKnown": 197,
-        "id": "260",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The French Southern Territories has no permanently settled inhabitants."
-      },
-      {
-        "name": "Gabon",
-        "flag": "https://flagcdn.com/ga.svg",
-        "flagKnown": 193,
-        "id": "266",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The name Gabon comes from the Portuguese word “gabao” meaning “cloak”. Early explorers thought the estuary of the Komo River by the capital of Libreville was the shape of a cloak."
-      },
-      {
-        "name": "Gambia",
-        "flag": "https://flagcdn.com/gm.svg",
-        "flagKnown": 191,
-        "id": "270",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": [
-          "With an area of only 4,300 square miles (11,500 square kilometers), The Gambia is the smallest nation in mainland Africa",
-          "The Gambia is one of only a few countries to have a 'The' behind their name. This is due to the fact that its name originates from the Gambia river."
-        ]
-      },
-      {
-        "name": "Georgia",
-        "flag": "https://flagcdn.com/ge.svg",
-        "flagKnown": 49,
-        "id": "268",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The Georgian language is one of the most unique languages in the world and boasts its own alphabet."
-      },
-      {
-        "name": "Germany",
-        "flag": "https://flagcdn.com/de.svg",
-        "flagKnown": 7,
-        "id": "276",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "There are more football fan clubs in Germany than anywhere else in the world."
-      },
-      {
-        "name": "Ghana",
-        "flag": "https://flagcdn.com/gh.svg",
-        "flagKnown": 94,
-        "id": "288",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Ghana is the second-largest producer of gold in Africa. In fact, before 1957, Ghana was commonly known as the Gold Coast because of its availability of gold along the rivers Ankobra and Volta. "
-      },
-      {
-        "name": "Gibraltar",
-        "flag": "https://flagcdn.com/gi.svg",
-        "flagKnown": 197,
-        "id": "292",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "There is basically no tax on goods in Gibraltar. This includes cigarettes, booze, etc."
-      },
-      {
-        "name": "Greece",
-        "flag": "https://flagcdn.com/gr.svg",
-        "flagKnown": 12,
-        "id": "300",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Greece has more archaeological museums and theatres than any country in the world."
-      },
-      {
-        "name": "Greenland",
-        "flag": "https://flagcdn.com/gl.svg",
-        "flagKnown": 197,
-        "id": "304",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Greenland has the most northerly capital city in the world - Nuuk."
-      },
-      {
-        "name": "Grenada",
-        "flag": "https://flagcdn.com/gd.svg",
-        "flagKnown": 152,
-        "id": "308",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Christopher Columbus discovered the island in 1498 and named it Concepcion. A year after that, another bunch of explorers passed by the island and changed the name to Mayo. When the French came, they changed it to “Le Grenade” and finally when the British took over, they called it Grenada."
-      },
-      {
-        "name": "Guadeloupe",
-        "flag": "https://flagcdn.com/gp.svg",
-        "flagKnown": 197,
-        "id": "312",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "In fact, Columbus was also the first European to see Guadeloupe! He landed there in 1493, and gave the island its name: “Santa María de Guadalupe”. The region was designated as a shrine to the Virgin Mary, venerated in Guadalupe, a Spanish town in Extremadura."
-      },
-      {
-        "name": "Guam",
-        "flag": "https://flagcdn.com/gu.svg",
-        "flagKnown": 197,
-        "id": "316",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "'Where the American day begins' is the most popular slogan of Guam as this island is the first place where the sun rises on American soil."
-      },
-      {
-        "name": "Guatemala",
-        "flag": "https://flagcdn.com/gt.svg",
-        "flagKnown": 137,
-        "id": "320",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Guatemala is best known as the birthplace of the Mayan civilisation and many of its ancient traditions are present across the country."
-      },
-      {
-        "name": "Guernsey",
-        "flag": "https://flagcdn.com/gg.svg",
-        "flagKnown": 197,
-        "id": "831",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Guinea",
-        "flag": "https://flagcdn.com/gn.svg",
-        "flagKnown": 184,
-        "id": "324",
-        "similarity": {
-          "similarity1": ["466"],
-          "similarity2": []
-        },
-        "funFact": "Guinea is also known as Guinea-Conakry in order to distinction it from the neighboring nations of Equatorial Guinea and Guinea-Bissau, which all contain the word 'Guinea' in their name."
-      },
-      {
-        "name": "Guinea-Bissau",
-        "flag": "https://flagcdn.com/gw.svg",
-        "flagKnown": 195,
-        "id": "624",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Portuguese is the official language of guinea-bissau."
-      },
-      {
-        "name": "Guyana",
-        "flag": "https://flagcdn.com/gy.svg",
-        "flagKnown": 161,
-        "id": "328",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Guyana is the 'Land of Many Water(falls)'. The world's widest and longest single-drop waterfall is located on Guyana's Potaro River in the Kaieteur National Park."
-      },
-      {
-        "name": "Haiti",
-        "flag": "https://flagcdn.com/ht.svg",
-        "flagKnown": 131,
-        "id": "332",
-        "similarity": {
-          "similarity1": ["438"],
-          "similarity2": []
-        },
-        "funFact": "Haiti and Canada are the only countries in the Americas with French as an official language."
-      },
-      {
-        "name": "Heard Island and McDonald Islands",
-        "flag": "https://flagcdn.com/hm.svg",
-        "flagKnown": 197,
-        "id": "334",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Vatican City",
-        "flag": "https://flagcdn.com/va.svg",
-        "flagKnown": 53,
-        "id": "336",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Not only the Vatican City is smallest country in the world, it's the only county that uses Latin as its official language."
-      },
-      {
-        "name": "Honduras",
-        "flag": "https://flagcdn.com/hn.svg",
-        "flagKnown": 91,
-        "id": "340",
-        "similarity": {
-          "similarity1": ["222", "558"],
-          "similarity2": []
-        },
-        "funFact": "The name translates to “great depths” in Spanish – named by Christopher Columbus after the deep waters along the coast."
-      },
-      {
-        "name": "Hungary",
-        "flag": "https://flagcdn.com/hu.svg",
-        "flagKnown": 65,
-        "id": "348",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The ancient Hungarians originated from the Ural region in today's central Russia and migrated across the Eastern European steppe, until they settled in today's Hungary."
-      },
-      {
-        "name": "Hong Kong",
-        "flag": "https://flagcdn.com/hk.svg",
-        "flagKnown": 55,
-        "id": "344",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": " Hong Kong is so rich it has more Rolls Royces per person than any other city in the world"
-      },
-      {
-        "name": "Iceland",
-        "flag": "https://flagcdn.com/is.svg",
-        "flagKnown": 34,
-        "id": "352",
-        "similarity": {
-          "similarity1": ["578"],
-          "similarity2": []
-        },
-        "funFact": "Between 30 and 40% of Icelanders will not deny the existence of elves. Icelandic folklore is still rich with stories about the Huldufólk, meaning 'hidden people', who are said to live in the lava fields on the island."
-      },
-      {
-        "name": "India",
-        "flag": "https://flagcdn.com/in.svg",
-        "flagKnown": 25,
-        "id": "356",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "India is set to surpass China as the world's most populous country in 2023, with an expected population of about 1.4 billion people."
-      },
-      {
-        "name": "Indonesia",
-        "flag": "https://flagcdn.com/id.svg",
-        "flagKnown": 99,
-        "id": "360",
-        "similarity": {
-          "similarity1": ["492", "616"],
-          "similarity2": []
-        },
-        "funFact": "Indonesia is the largest Muslim-majority nation in the world."
-      },
-      {
-        "name": "Ivory Coast",
-        "flag": "https://flagcdn.com/ci.svg",
-        "flagKnown": 79,
-        "id": "384",
-        "similarity": {
-          "similarity1": ["372"],
-          "similarity2": []
-        },
-        "funFact": "Ivory Coast is the largest producer of cocoa beans in the world."
-      },
-      {
-        "name": "Iran (Islamic Republic of)",
-        "flag": "https://flagcdn.com/ir.svg",
-        "flagKnown": 63,
-        "id": "364",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Iran has its own calendar, which is a solar calendar, meaning that its time reckoning is based on the Earth's movements around the Sun."
-      },
-      {
-        "name": "Iraq",
-        "flag": "https://flagcdn.com/iq.svg",
-        "flagKnown": 36,
-        "id": "368",
-        "similarity": {
-          "similarity1": ["760"],
-          "similarity2": []
-        },
-        "funFact": "Iraq is home to the world's oldest civilisation."
-      },
-      {
-        "name": "Ireland",
-        "flag": "https://flagcdn.com/ie.svg",
-        "flagKnown": 14,
-        "id": "372",
-        "similarity": {
-          "similarity1": ["384"],
-          "similarity2": []
-        },
-        "funFact": "Iraq is considered the birthplace of Abraham."
-      },
-      {
-        "name": "Isle of Man",
-        "flag": "https://flagcdn.com/im.svg",
-        "flagKnown": 197,
-        "id": "833",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The island's language is Manx, otherwise known as Manx Gaelic, is an ancient language that originates from the islands Celtic past. It closely resembles that of Irish and Scottish Gaelic, but with a hint of Old Norse from when the Vikings came here."
-      },
-      {
-        "name": "Israel",
-        "flag": "https://flagcdn.com/il.svg",
-        "flagKnown": 9,
-        "id": "376",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Israel has more museums per capita than any other country in the world."
-      },
-      {
-        "name": "Italy",
-        "flag": "https://flagcdn.com/it.svg",
-        "flagKnown": 10,
-        "id": "380",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Italy is the only country to completely surround 2 countries, San Marino and Vatican."
-      },
-      {
-        "name": "Jamaica",
-        "flag": "https://flagcdn.com/jm.svg",
-        "flagKnown": 19,
-        "id": "388",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The top three fastest men in the world are Jamaicans!"
-      },
-      {
-        "name": "Japan",
-        "flag": "https://flagcdn.com/jp.svg",
-        "flagKnown": 1,
-        "id": "392",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Japan is a highly ethnically homogenous country - 98.5% of the population is Japanese."
-      },
-      {
-        "name": "Jersey",
-        "flag": "https://flagcdn.com/je.svg",
-        "flagKnown": 197,
-        "id": "832",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Although Jersey's small size, it has one of the largest tides in the world. At low tide, twice a day, the island almost doubles in size."
-      },
-      {
-        "name": "Jordan",
-        "flag": "https://flagcdn.com/jo.svg",
-        "flagKnown": 124,
-        "id": "400",
-        "similarity": {
-          "similarity1": ["414", "729", "784"],
-          "similarity2": []
-        },
-        "funFact": "Unlike other Arab countries, Jordan does not have its own oil."
-      },
-      {
-        "name": "Kazakhstan",
-        "flag": "https://flagcdn.com/kz.svg",
-        "flagKnown": 105,
-        "id": "398",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Kazakhstan provides over 50% of the world's supply of Uranium."
-      },
-      {
-        "name": "Kenya",
-        "flag": "https://flagcdn.com/ke.svg",
-        "flagKnown": 41,
-        "id": "404",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Besides being home to the world’s best long-distance runners, the first woman to win a Nobel Peace Prize was from Kenya."
-      },
-      {
-        "name": "Kiribati",
-        "flag": "https://flagcdn.com/ki.svg",
-        "flagKnown": 143,
-        "id": "296",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": " Kiribati has purchased 6,000 acres (24 sq km) of land in Fiji in case rising sea levels force the permanent evacuation of its residents."
-      },
-      {
-        "name": "Kuwait",
-        "flag": "https://flagcdn.com/kw.svg",
-        "flagKnown": 117,
-        "id": "414",
-        "similarity": {
-          "similarity1": ["400", "729", "784"],
-          "similarity2": []
-        },
-        "funFact": "The currency of Kuwait is the Kuwaiti dinar. It is the highest-valued currency unit per face value in the world."
-      },
-      {
-        "name": "Kyrgyzstan",
-        "flag": "https://flagcdn.com/kg.svg",
-        "flagKnown": 162,
-        "id": "417",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Kyrgyzstan's flag contains 40 rays stand for the number of tribes united by Manas to fight against the Mongols. Manas is a 10th-century legendary hero of the Kyrgyz people, who value him as their sacred ancient forefather."
-      },
-      {
-        "name": "Lao People's Democratic Republic",
-        "flag": "https://flagcdn.com/la.svg",
-        "flagKnown": 115,
-        "id": "418",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The Laotians consume more sticky rice than anyone else in the world."
-      },
-      {
-        "name": "Latvia",
-        "flag": "https://flagcdn.com/lv.svg",
-        "flagKnown": 59,
-        "id": "428",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "A Latvian-Jewish tailor named Jākobs Jufess invented the jeans we all know, wear and cannot live without now. Levi Strauss backed him financially."
-      },
-      {
-        "name": "Lebanon",
-        "flag": "https://flagcdn.com/lb.svg",
-        "flagKnown": 42,
-        "id": "422",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "There are more Lebanese living outside Lebanon, than within the country. Most of Lebanese live in Brazil."
-      },
-      {
-        "name": "Lesotho",
-        "flag": "https://flagcdn.com/ls.svg",
-        "flagKnown": 158,
-        "id": "426",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Lesotho is one of only 3 countries to be completely surrounded by another country. The other ones are Vatican and San Marino, both surrounded by Italy."
-      },
-      {
-        "name": "Liberia",
-        "flag": "https://flagcdn.com/lr.svg",
-        "flagKnown": 96,
-        "id": "430",
-        "similarity": {
-          "similarity1": ["458"],
-          "similarity2": []
-        },
-        "funFact": "Liberia is the first country in Africa which had a female president. Known as Africa’s Iron Lady, Ellen Johnson Sirleaf took office as Liberia’s 24th president in 2006. She also won the Nobel Peace Prize in 2011."
-      },
-      {
-        "name": "Libya",
-        "flag": "https://flagcdn.com/ly.svg",
-        "flagKnown": 88,
-        "id": "434",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The last flag of Libya was a green field and was considered the only solid colour national flag in the world during its time."
-      },
-      {
-        "name": "Liechtenstein",
-        "flag": "https://flagcdn.com/li.svg",
-        "flagKnown": 108,
-        "id": "438",
-        "similarity": {
-          "similarity1": ["332"],
-          "similarity2": []
-        },
-        "funFact": "Liechtenstein is a doubly landlocked country. It is surrounded by Switzerland and Austria, which in turn are also landlocked by other European countries, making it the second doubly landlocked country after Uzbekistan."
-      },
-      {
-        "name": "Lithuania",
-        "flag": "https://flagcdn.com/lt.svg",
-        "flagKnown": 127,
-        "id": "440",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Lithuania is the only country to have a national scent."
-      },
-      {
-        "name": "Luxembourg",
-        "flag": "https://flagcdn.com/lu.svg",
-        "flagKnown": 93,
-        "id": "442",
-        "similarity": {
-          "similarity1": ["528"],
-          "similarity2": []
-        },
-        "funFact": "Luxembourg has the highest minimum wage in the EU. However, the cost of living in Luxembourg is one of the highest in the world."
-      },
-      {
-        "name": "Macao",
-        "flag": "https://flagcdn.com/mo.svg",
-        "flagKnown": 197,
-        "id": "446",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Macao has the most densely populated region on earth."
-      },
-      {
-        "name": "North Macedonia",
-        "flag": "https://flagcdn.com/mk.svg",
-        "flagKnown": 44,
-        "id": "807",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Macedonia chose its name as North Macedonia because of a dispute with Greece who claimed the country can't use the name 'Macedonia' that is considered part of Greek culture."
-      },
-      {
-        "name": "Madagascar",
-        "flag": "https://flagcdn.com/mg.svg",
-        "flagKnown": 172,
-        "id": "450",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Although Madagascar is located in Africa, most of its ethnic groups are from a Malayo-Indonesian origin."
-      },
-      {
-        "name": "Malawi",
-        "flag": "https://flagcdn.com/mw.svg",
-        "flagKnown": 177,
-        "id": "454",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Malawi's name originates from the bordering Lake Malawi."
-      },
-      {
-        "name": "Malaysia",
-        "flag": "https://flagcdn.com/my.svg",
-        "flagKnown": 61,
-        "id": "458",
-        "similarity": {
-          "similarity1": ["430"],
-          "similarity2": []
-        },
-        "funFact": "Malaysia has a unique rotating monarchy system, in which nine ethnic Malay state rulers take turns as king for five-year terms."
-      },
-      {
-        "name": "Maldives",
-        "flag": "https://flagcdn.com/mv.svg",
-        "flagKnown": 154,
-        "id": "462",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "According to the constitution of Maldives, only Muslims are allowed to be called citizens of the country. Any other faith apart from Islam is not allowed."
-      },
-      {
-        "name": "Mali",
-        "flag": "https://flagcdn.com/ml.svg",
-        "flagKnown": 196,
-        "id": "466",
-        "similarity": {
-          "similarity1": ["324"],
-          "similarity2": []
-        },
-        "funFact": "Mansa Musa, Mali's king in the 14th century, is the richest man to ever live. He had so much gold that, on a trip to Cairo, he spent 71,000 pounds (32,000 kg) of gold."
-      },
-      {
-        "name": "Malta",
-        "flag": "https://flagcdn.com/mt.svg",
-        "flagKnown": 74,
-        "id": "470",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The official language of Malta is Maltese, a Semitic language derived from late medieval Sicilian Arabic with Romance superstrata. It's the only official Semitic language of the European Union."
-      },
-      {
-        "name": "Marshall Islands",
-        "flag": "https://flagcdn.com/mh.svg",
-        "flagKnown": 150,
-        "id": "584",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The islands are so narrow that you will have just one road running their length. No diversion, no shortcuts, you will have only one way to follow."
-      },
-      {
-        "name": "Martinique",
-        "flag": "https://flagcdn.com/mq.svg",
-        "flagKnown": 197,
-        "id": "474",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Mauritania",
-        "flag": "https://flagcdn.com/mr.svg",
-        "flagKnown": 165,
-        "id": "478",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Mauritania was the last country to abolish slavery, in 1981."
-      },
-      {
-        "name": "Mauritius",
-        "flag": "https://flagcdn.com/mu.svg",
-        "flagKnown": 176,
-        "id": "480",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Mayotte",
-        "flag": "https://flagcdn.com/yt.svg",
-        "flagKnown": 197,
-        "id": "175",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Mexico",
-        "flag": "https://flagcdn.com/mx.svg",
-        "flagKnown": 30,
-        "id": "484",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Not Egypt, but Mexico is home to the world’s largest pyramid."
-      },
-      {
-        "name": "Micronesia (Federated States of)",
-        "flag": "https://flagcdn.com/fm.svg",
-        "flagKnown": 134,
-        "id": "583",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Micronesia is one of just 22 countries not to have an army. Instead, as a former US-administered territory, the USA provides aid and is responsible for Micronesia’s defence. In return, the USA can maintain military bases in Micronesia."
-      },
-      {
-        "name": "Moldova (Republic of)",
-        "flag": "https://flagcdn.com/md.svg",
-        "flagKnown": 111,
-        "id": "498",
-        "similarity": {
-          "similarity1": ["020"],
-          "similarity2": []
-        },
-        "funFact": "With an army of only 5,150 soldiers, Moldova has one of the smallest armies in Europe."
-      },
-      {
-        "name": "Monaco",
-        "flag": "https://flagcdn.com/mc.svg",
-        "flagKnown": 89,
-        "id": "492",
-        "similarity": {
-          "similarity1": ["616", "360"],
-          "similarity2": []
-        },
-        "funFact": "With an average life expectancy of 89.4, it has the 2nd highest life expectancy"
-      },
-      {
-        "name": "Mongolia",
-        "flag": "https://flagcdn.com/mn.svg",
-        "flagKnown": 113,
-        "id": "496",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Mongolia's capital, Ulaanbaatar, is the world's coldest capital city. It has an average annual temperature of 30°F (about -1°C)."
-      },
-      {
-        "name": "Montenegro",
-        "flag": "https://flagcdn.com/me.svg",
-        "flagKnown": 104,
-        "id": "499",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Montenegro declared its independence from Serbia on June 3, 2006."
-      },
-      {
-        "name": "Montserrat",
-        "flag": "https://flagcdn.com/ms.svg",
-        "flagKnown": 197,
-        "id": "500",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Morocco",
-        "flag": "https://flagcdn.com/ma.svg",
-        "flagKnown": 69,
-        "id": "504",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Morocco hosts the oldest continuously operating university in the world, Al-Qarawiyyin university, that was founded in 859 AD."
-      },
-      {
-        "name": "Mozambique",
-        "flag": "https://flagcdn.com/mz.svg",
-        "flagKnown": 163,
-        "id": "508",
-        "similarity": {
-          "similarity1": ["716"],
-          "similarity2": []
-        },
-        "funFact": "Mozambique is the only nation to feature a modern firearm on their flag."
-      },
-      {
-        "name": "Myanmar",
-        "flag": "https://flagcdn.com/mm.svg",
-        "flagKnown": 181,
-        "id": "104",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "In 2005, Yangon was the capital of Myanmar. The government built a new city named Naypyidaw in secret and then announced that it was the new cpaital city."
-      },
-      {
-        "name": "Namibia",
-        "flag": "https://flagcdn.com/na.svg",
-        "flagKnown": 190,
-        "id": "516",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Namibia is home to the world's oldest desert, the Namib Desert."
-      },
-      {
-        "name": "Nauru",
-        "flag": "https://flagcdn.com/nr.svg",
-        "flagKnown": 179,
-        "id": "520",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Nauru is the fattest state in the world, over 71% of the country’s population is obese."
-      },
-      {
-        "name": "Nepal",
-        "flag": "https://flagcdn.com/np.svg",
-        "flagKnown": 38,
-        "id": "524",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": [
-          "Nepal is home to mount Everest, the world's tallest mountain.",
-          "Nepal is the birthplace of Buddha."
-        ]
-      },
-      {
-        "name": "Netherlands",
-        "flag": "https://flagcdn.com/nl.svg",
-        "flagKnown": 39,
-        "id": "528",
-        "similarity": {
-          "similarity1": ["442"],
-          "similarity2": []
-        },
-        "funFact": "The Netherlands was the first country to legalize same-sex marriage. The law came into effect on April 1, 2001."
-      },
-      {
-        "name": "New Caledonia",
-        "flag": "https://flagcdn.com/nc.svg",
-        "flagKnown": 197,
-        "id": "540",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "New Zealand",
-        "flag": "https://flagcdn.com/nz.svg",
-        "flagKnown": 23,
-        "id": "554",
-        "similarity": {
-          "similarity1": ["036"],
-          "similarity2": []
-        },
-        "funFact": "In addition to English and sign language, Maori is also an official language in New Zealand. 17% of the country’s population is native Maori, the Indigenous people of New Zealand."
-      },
-      {
-        "name": "Nicaragua",
-        "flag": "https://flagcdn.com/ni.svg",
-        "flagKnown": 133,
-        "id": "558",
-        "similarity": {
-          "similarity1": ["222", "340"],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Niger",
-        "flag": "https://flagcdn.com/ne.svg",
-        "flagKnown": 132,
-        "id": "562",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The country's name comes from the Niger river flowing through the country. The river's name possibly comes from the Berber word 'Gher', meaning river."
-      },
-      {
-        "name": "Nigeria",
-        "flag": "https://flagcdn.com/ng.svg",
-        "flagKnown": 47,
-        "id": "566",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Nigeria is the most populous country in Africa, with a population of over 200 million."
-      },
-      {
-        "name": "Niue",
-        "flag": "https://flagcdn.com/nu.svg",
-        "flagKnown": 197,
-        "id": "570",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Norfolk Island",
-        "flag": "https://flagcdn.com/nf.svg",
-        "flagKnown": 197,
-        "id": "574",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Korea (Democratic People's Republic of)",
-        "flag": "https://flagcdn.com/kp.svg",
-        "flagKnown": 51,
-        "id": "408",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Drugs are common and unregulated in North Korea."
-      },
-      {
-        "name": "Northern Mariana Islands",
-        "flag": "https://flagcdn.com/mp.svg",
-        "flagKnown": 197,
-        "id": "580",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Norway",
-        "flag": "https://flagcdn.com/no.svg",
-        "flagKnown": 20,
-        "id": "578",
-        "similarity": {
-          "similarity1": ["352"],
-          "similarity2": []
-        },
-        "funFact": "Norway has the most electric cars per capita in the world."
-      },
-      {
-        "name": "Oman",
-        "flag": "https://flagcdn.com/om.svg",
-        "flagKnown": 139,
-        "id": "512",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Oman is the oldest independent state in the Arab world. The ruling dynasty of Oman dates back to 1794, making it one of the oldest independent states in the Arab world. It was formerly a maritime empire. They gained independence from Portugal in 1650, a holiday that is still celebrated today. "
-      },
-      {
-        "name": "Pakistan",
-        "flag": "https://flagcdn.com/pk.svg",
-        "flagKnown": 54,
-        "id": "586",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Pakistan is the world's first Islamic country to attain nuclear power."
-      },
-      {
-        "name": "Palau",
-        "flag": "https://flagcdn.com/pw.svg",
-        "flagKnown": 155,
-        "id": "585",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Palau has a lake packed with millions of jellyfish, that are not poisonous."
-      },
-      {
-        "name": "Panama",
-        "flag": "https://flagcdn.com/pa.svg",
-        "flagKnown": 71,
-        "id": "591",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Papua New Guinea",
-        "flag": "https://flagcdn.com/pg.svg",
-        "flagKnown": 123,
-        "id": "598",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Paraguay",
-        "flag": "https://flagcdn.com/py.svg",
-        "flagKnown": 120,
-        "id": "600",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Peru",
-        "flag": "https://flagcdn.com/pe.svg",
-        "flagKnown": 97,
-        "id": "604",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Philippines",
-        "flag": "https://flagcdn.com/ph.svg",
-        "flagKnown": 122,
-        "id": "608",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Pitcairn",
-        "flag": "https://flagcdn.com/pn.svg",
-        "flagKnown": 197,
-        "id": "612",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Poland",
-        "flag": "https://flagcdn.com/pl.svg",
-        "flagKnown": 26,
-        "id": "616",
-        "similarity": {
-          "similarity1": ["492", "360"],
-          "similarity2": []
-        },
-        "funFact": "The Castle of the Teutonic Order, located in Poland, is the largest castle in the world."
-      },
-      {
-        "name": "Portugal",
-        "flag": "https://flagcdn.com/pt.svg",
-        "flagKnown": 28,
-        "id": "620",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Puerto Rico",
-        "flag": "https://flagcdn.com/pr.svg",
-        "flagKnown": 197,
-        "id": "630",
-        "similarity": {
-          "similarity1": ["192"],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Qatar",
-        "flag": "https://flagcdn.com/qa.svg",
-        "flagKnown": 62,
-        "id": "634",
-        "similarity": {
-          "similarity1": ["048"],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Republic of Kosovo",
-        "flag": "https://flagcdn.com/xk.svg",
-        "flagKnown": 85,
-        "id": "926",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Despite not being a part of the EU, Kosovo still uses the euro as its official currency."
-      },
-      {
-        "name": "Réunion",
-        "flag": "https://flagcdn.com/re.svg",
-        "flagKnown": 197,
-        "id": "638",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Romania",
-        "flag": "https://flagcdn.com/ro.svg",
-        "flagKnown": 52,
-        "id": "642",
-        "similarity": {
-          "similarity1": ["148"],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Russian Federation",
-        "flag": "https://flagcdn.com/ru.svg",
-        "flagKnown": 32,
-        "id": "643",
-        "similarity": {
-          "similarity1": ["528"],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Rwanda",
-        "flag": "https://flagcdn.com/rw.svg",
-        "flagKnown": 187,
-        "id": "646",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Saint Barthélemy",
-        "flag": "https://flagcdn.com/bl.svg",
-        "flagKnown": 197,
-        "id": "652",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Saint Helena, Ascension and Tristan da Cunha",
-        "flag": "https://flagcdn.com/sh.svg",
-        "flagKnown": 197,
-        "id": "654",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Saint Kitts and Nevis",
-        "flag": "https://flagcdn.com/kn.svg",
-        "flagKnown": 173,
-        "id": "659",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Saint Lucia",
-        "flag": "https://flagcdn.com/lc.svg",
-        "flagKnown": 116,
-        "id": "662",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Saint Martin (French part)",
-        "flag": "https://flagcdn.com/mf.svg",
-        "flagKnown": 197,
-        "id": "663",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Saint Pierre and Miquelon",
-        "flag": "https://flagcdn.com/pm.svg",
-        "flagKnown": 197,
-        "id": "666",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Saint Vincent and the Grenadines",
-        "flag": "https://flagcdn.com/vc.svg",
-        "flagKnown": 159,
-        "id": "670",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Samoa",
-        "flag": "https://flagcdn.com/ws.svg",
-        "flagKnown": 197,
-        "id": "882",
-        "similarity": {
-          "similarity1": ["158"],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "San Marino",
-        "flag": "https://flagcdn.com/sm.svg",
-        "flagKnown": 107,
-        "id": "674",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Sao Tome and Principe",
-        "flag": "https://flagcdn.com/st.svg",
-        "flagKnown": 188,
-        "id": "678",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Saudi Arabia",
-        "flag": "https://flagcdn.com/sa.svg",
-        "flagKnown": 35,
-        "id": "682",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Senegal",
-        "flag": "https://flagcdn.com/sn.svg",
-        "flagKnown": 138,
-        "id": "686",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Senegal is home to the mainland's Africa westernmost point."
-      },
-      {
-        "name": "Serbia",
-        "flag": "https://flagcdn.com/rs.svg",
-        "flagKnown": 68,
-        "id": "688",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Seychelles",
-        "flag": "https://flagcdn.com/sc.svg",
-        "flagKnown": 87,
-        "id": "690",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Although being very close to the coast of Africa, these islands remained uninhabited until the French arrived to the island, in 1770."
-      },
-      {
-        "name": "Sierra Leone",
-        "flag": "https://flagcdn.com/sl.svg",
-        "flagKnown": 178,
-        "id": "694",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Singapore",
-        "flag": "https://flagcdn.com/sg.svg",
-        "flagKnown": 109,
-        "id": "702",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Sint Maarten (Dutch part)",
-        "flag": "https://flagcdn.com/sx.svg",
-        "flagKnown": 197,
-        "id": "534",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Slovakia",
-        "flag": "https://flagcdn.com/sk.svg",
-        "flagKnown": 43,
-        "id": "703",
-        "similarity": {
-          "similarity1": ["705"],
-          "similarity2": ["688"]
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Slovenia",
-        "flag": "https://flagcdn.com/si.svg",
-        "flagKnown": 57,
-        "id": "705",
-        "similarity": {
-          "similarity1": ["703"],
-          "similarity2": ["688"]
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Solomon Islands",
-        "flag": "https://flagcdn.com/sb.svg",
-        "flagKnown": 192,
-        "id": "090",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Somalia",
-        "flag": "https://flagcdn.com/so.svg",
-        "flagKnown": 114,
-        "id": "706",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "South Africa",
-        "flag": "https://flagcdn.com/za.svg",
-        "flagKnown": 21,
-        "id": "710",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "In the 1960s and 70s, South Africa possessed nuclear weapons. They were eventually dismantled in 1989."
-      },
-      {
-        "name": "South Georgia and the South Sandwich Islands",
-        "flag": "https://flagcdn.com/gs.svg",
-        "flagKnown": 197,
-        "id": "239",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Korea (Republic of)",
-        "flag": "https://flagcdn.com/kr.svg",
-        "flagKnown": 5,
-        "id": "410",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Spain",
-        "flag": "https://flagcdn.com/es.svg",
-        "flagKnown": 18,
-        "id": "724",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Sri Lanka",
-        "flag": "https://flagcdn.com/lk.svg",
-        "flagKnown": 197,
-        "id": "144",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Sudan",
-        "flag": "https://flagcdn.com/sd.svg",
-        "flagKnown": 156,
-        "id": "729",
-        "similarity": {
-          "similarity1": ["400"],
-          "similarity2": ["414", "784"]
-        },
-        "funFact": [
-          "Despites pyramids being synonymous with Egypt, Sudan has the world's most pyramids, even more than Egypt. Sudan has around 255 pyramids, while Egypt has only 188.",
-          "Prior to South Sudan's seperation from Sudan in 2011, Sudan used to be the largest country in Africa, with a total landmass of over 950,000 square miles (2.5 million square km)."
-        ]
-      },
-      {
-        "name": "South Sudan",
-        "flag": "https://flagcdn.com/ss.svg",
-        "flagKnown": 153,
-        "id": "728",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Suriname",
-        "flag": "https://flagcdn.com/sr.svg",
-        "flagKnown": 174,
-        "id": "740",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Svalbard and Jan Mayen",
-        "flag": "https://flagcdn.com/sj.svg",
-        "flagKnown": 197,
-        "id": "744",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Kingdom of Eswatini",
-        "flag": "https://flagcdn.com/sz.svg",
-        "flagKnown": 102,
-        "id": "748",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Sweden",
-        "flag": "https://flagcdn.com/se.svg",
-        "flagKnown": 13,
-        "id": "752",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Switzerland",
-        "flag": "https://flagcdn.com/ch.svg",
-        "flagKnown": 8,
-        "id": "756",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Despite their neutrality, until 2021, all bridges connecting Switzerland to the outside world have been planted with bombs, to be blown up in case of invasion."
-      },
-      {
-        "name": "syrian Arab Republic",
-        "flag": "https://flagcdn.com/sy.svg",
-        "flagKnown": 81,
-        "id": "760",
-        "similarity": {
-          "similarity1": ["368"],
-          "similarity2": []
-        },
-        "funFact": "Syria's capital, Damascus, is one of the world's oldest continuously inhabited cities."
-      },
-      {
-        "name": "Taiwan",
-        "flag": "https://flagcdn.com/tw.svg",
-        "flagKnown": 140,
-        "id": "158",
-        "similarity": {
-          "similarity1": ["882"],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Tajikistan",
-        "flag": "https://flagcdn.com/tj.svg",
-        "flagKnown": 183,
-        "id": "762",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Tajikistan has the world's largest glacier, outside of the poles. The glacier spans over 50 miles (80 km)."
-      },
-      {
-        "name": "Tanzania, United Republic of",
-        "flag": "https://flagcdn.com/tz.svg",
-        "flagKnown": 167,
-        "id": "834",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Thailand",
-        "flag": "https://flagcdn.com/th.svg",
-        "flagKnown": 84,
-        "id": "764",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Timor-Leste",
-        "flag": "https://flagcdn.com/tl.svg",
-        "flagKnown": 166,
-        "id": "626",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Timor-Leste was the first nation to gain independence in the 21st century. They actually first became independent in 1975 but were invaded and occupied soon after."
-      },
-      {
-        "name": "Togo",
-        "flag": "https://flagcdn.com/tg.svg",
-        "flagKnown": 128,
-        "id": "768",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Tokelau",
-        "flag": "https://flagcdn.com/tk.svg",
-        "flagKnown": 197,
-        "id": "772",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Tonga",
-        "flag": "https://flagcdn.com/to.svg",
-        "flagKnown": 136,
-        "id": "776",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Trinidad and Tobago",
-        "flag": "https://flagcdn.com/tt.svg",
-        "flagKnown": 72,
-        "id": "780",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Tunisia",
-        "flag": "https://flagcdn.com/tn.svg",
-        "flagKnown": 90,
-        "id": "788",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Turkey",
-        "flag": "https://flagcdn.com/tr.svg",
-        "flagKnown": 22,
-        "id": "792",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Turkmenistan",
-        "flag": "https://flagcdn.com/tm.svg",
-        "flagKnown": 126,
-        "id": "795",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Turks and Caicos Islands",
-        "flag": "https://flagcdn.com/tc.svg",
-        "flagKnown": 197,
-        "id": "796",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The islands have gone through plenty of different owners. Currently, the British own the islands. However, the currency most commonly used on the islands, is the US dollar."
-      },
-      {
-        "name": "Tuvalu",
-        "flag": "https://flagcdn.com/tv.svg",
-        "flagKnown": 157,
-        "id": "798",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Tuvalu's domain is .tv. Leasing the domain to people is now the largest source of income for this tiny island."
-      },
-      {
-        "name": "Uganda",
-        "flag": "https://flagcdn.com/ug.svg",
-        "flagKnown": 103,
-        "id": "800",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Uganda is home to the 2nd largest fresh water lake in the world, Lake Victoria. The lake is also the source of the Nile River, the 2nd longest river in the world."
-      },
-      {
-        "name": "Ukraine",
-        "flag": "https://flagcdn.com/ua.svg",
-        "flagKnown": 40,
-        "id": "804",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "United Arab Emirates",
-        "flag": "https://flagcdn.com/ae.svg",
-        "flagKnown": 118,
-        "id": "784",
-        "similarity": {
-          "similarity1": ["400", "414", "729"],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "United Kingdom of Great Britain and Northern Ireland",
-        "flag": "https://flagcdn.com/gb.svg",
-        "flagKnown": 3,
-        "id": "826",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "The United Kingdom has owned the largest empire in history, the British Empire. At its peak, in 1920, the British controlled over 13 million square miles (35.5 million square km), which is 25% of the entire land area of Earth."
-      },
-      {
-        "name": "United States of America",
-        "flag": "https://flagcdn.com/us.svg",
-        "flagKnown": 4,
-        "id": "840",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Uruguay",
-        "flag": "https://flagcdn.com/uy.svg",
-        "flagKnown": 58,
-        "id": "858",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Uzbekistan",
-        "flag": "https://flagcdn.com/uz.svg",
-        "flagKnown": 142,
-        "id": "860",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Uzbekistan is one of only 2 double-landlocked countries. It is surrounded by Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan and Turkmenistan, which are also landlocked, making it the second double-landlocked country after Liechtenstein."
-      },
-      {
-        "name": "Vanuatu",
-        "flag": "https://flagcdn.com/vu.svg",
-        "flagKnown": 185,
-        "id": "548",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Venezuela (Bolivarian Republic of)",
-        "flag": "https://flagcdn.com/ve.svg",
-        "flagKnown": 73,
-        "id": "862",
-        "similarity": {
-          "similarity1": ["170", "218"],
-          "similarity2": []
-        },
-        "funFact": "With a proven 308 billion barrels, Venezuela has the world's largest oil reserves, even above Saudi Arabia."
-      },
-      {
-        "name": "Vietnam",
-        "flag": "https://flagcdn.com/vn.svg",
-        "flagKnown": 60,
-        "id": "704",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Following the death of Vietnam's first president, Ho Chi Min, they put his body on public display."
-      },
-      {
-        "name": "Wallis and Futuna",
-        "flag": "https://flagcdn.com/wf.svg",
-        "flagKnown": 197,
-        "id": "876",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Western Sahara",
-        "flag": "https://flagcdn.com/eh.svg",
-        "flagKnown": 197,
-        "id": "732",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": ""
-      },
-      {
-        "name": "Yemen",
-        "flag": "https://flagcdn.com/ye.svg",
-        "flagKnown": 141,
-        "id": "887",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Yemen has been in an on-going civil war since 2014, causing the death of over 350,000 people."
-      },
-      {
-        "name": "Zambia",
-        "flag": "https://flagcdn.com/zm.svg",
-        "flagKnown": 148,
-        "id": "894",
-        "similarity": {
-          "similarity1": [],
-          "similarity2": []
-        },
-        "funFact": "Zambia is the home of the largest waterfall in the world, Victoria Falls. Its height is 108 meters, and its twice the size of Niagara Falls."
-      },
-      {
-        "name": "Zimbabwe",
-        "flag": "https://flagcdn.com/zw.svg",
-        "flagKnown": 110,
-        "id": "716",
-        "similarity": {
-          "similarity1": ["508"],
-          "similarity2": []
-        },
-        "funFact": "With 16 official languages, Zimbabwe is the country with the most official languages."
-      }
-    ]
-  }
+  "countries": [
+    {
+      "name": "Afghanistan",
+      "flag": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_the_Taliban.svg",
+      "flagKnown": 100,
+      "id": "004",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Afghanistan is the world's largest producer of opium. As of 2021, Afghanistan is the source of more than 90% of the world's opium supply. It is the source of more than 95% of the European opium supply. Opium farming is a major source of employment in Afghanistan."
+    },
+    {
+      "name": "Åland Islands",
+      "flag": "https://flagcdn.com/ax.svg",
+      "flagKnown": 197,
+      "id": "248",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Despite being an autonomous region of Finland, Åland Islands' official language is actually Swedish. The students aren't even obliged to learn Finnish in school."
+    },
+    {
+      "name": "Albania",
+      "flag": "https://flagcdn.com/al.svg",
+      "flagKnown": 45,
+      "id": "008",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Only 3 million people live in the country. There are more Albanians now living outside the country than within its territories. The estimated diaspora population of Albanians is between seven to ten million."
+    },
+    {
+      "name": "Algeria",
+      "flag": "https://flagcdn.com/dz.svg",
+      "flagKnown": 76,
+      "id": "012",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Algeria is the largest country in Africa."
+    },
+    {
+      "name": "American Samoa",
+      "flag": "https://flagcdn.com/as.svg",
+      "flagKnown": 168,
+      "id": "016",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": [
+        "In the 1960s, the US spent a lot of moeny to build schools, streets, a hospital and 2 tuna canneries in the archipelgo. As of 2017, over 80% of the country's working population work in tuna canneries, while the other 20% work in agriculture or for the US government. Moreover, 93% of American Samoa's exports is canned tuna, and 100% of the exports go to the US.",
+        "During the moon landings in the 1960s and 70s, American Samoa's waters were a popular landing site for astronauts. A small American Samoa flag was sent to the moon on one of the missions, and later awarded, along with 3 moon rocks, to American Samoa, by US president Richard Nixon."
+      ]
+    },
+    {
+      "name": "Andorra",
+      "flag": "https://flagcdn.com/ad.svg",
+      "flagKnown": 101,
+      "id": "020",
+      "similarity": {
+        "similarity1": ["498"],
+        "similarity2": []
+      },
+      "funFact": "Andorra is the only country in the world with Catalan as its official language."
+    },
+    {
+      "name": "Angola",
+      "flag": "https://flagcdn.com/ao.svg",
+      "flagKnown": 82,
+      "id": "024",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Thanks to a small exclave a near their border with the DRC, Angola is the 2nd largest producer of oil in Africa."
+    },
+    {
+      "name": "Anguilla",
+      "flag": "https://flagcdn.com/ai.svg",
+      "flagKnown": 197,
+      "id": "660",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Despite Anguilla being only 16 miles (25 km) long and 3 miles (5 km) wide and having a population of only 15,000 people, many famous celebrities have lived there, including Chuck Norris, Paris Hilton, Jay-Z, Michael Jordan, Leonardo DiCaprio, Liam Neeson and Sandra Bullock."
+    },
+    {
+      "name": "Antigua and Barbuda",
+      "flag": "https://flagcdn.com/ag.svg",
+      "flagKnown": 149,
+      "id": "028",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Antigua and Barbuda was one of the last countries to gain independce from the UK, gaining indepndence in 1981. The only countries to gain independence from UK afterwards are Saint Kitts and Nevis and Brunei, in 1983 and 1984, respectively."
+    },
+    {
+      "name": "Argentina",
+      "flag": "https://flagcdn.com/ar.svg",
+      "flagKnown": 27,
+      "id": "032",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Argentina was named after a mountain made of silver, since 'Argentina' in Italian means 'made of silver'."
+    },
+    {
+      "name": "Armenia",
+      "flag": "https://flagcdn.com/am.svg",
+      "flagKnown": 121,
+      "id": "051",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Armenia is the first country to adopt Christianity, all the way back in 300 AD. Armenia is also the 2nd most religious country in Europe, with over 97% of the population saying they believe in God."
+    },
+    {
+      "name": "Aruba",
+      "flag": "https://flagcdn.com/aw.svg",
+      "flagKnown": 197,
+      "id": "533",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Every native Aruban speaks 4 languages: Dutch, Papiamento (The official languages of Aruba), English and Spanish."
+    },
+    {
+      "name": "Australia",
+      "flag": "https://flagcdn.com/au.svg",
+      "flagKnown": 16,
+      "id": "036",
+      "similarity": {
+        "similarity1": ["554"],
+        "similarity2": []
+      },
+      "funFact": [
+        "The capital of Australia is Canberra, and not Sydney as others assume.",
+        "The Great Barrier Reef, located off the shore of Australia, is the world's largest living organism, and is often listed as one of the Seven Wonders of the Natural World."
+      ]
+    },
+    {
+      "name": "Austria",
+      "flag": "https://flagcdn.com/at.svg",
+      "flagKnown": 48,
+      "id": "040",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The Austrian flag dates back to 1191, which makes it one of the oldest national flags in the world."
+    },
+    {
+      "name": "Azerbaijan",
+      "flag": "https://flagcdn.com/az.svg",
+      "flagKnown": 147,
+      "id": "031",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "In 1918 Azerbaijan became the first Muslim nation and one of the first nations in general to grant women the right to vote."
+    },
+    {
+      "name": "Bahamas",
+      "flag": "https://flagcdn.com/bs.svg",
+      "flagKnown": 98,
+      "id": "044",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The name Bahamas comes from the Spanish term 'baja mar', which means shallow sea."
+    },
+    {
+      "name": "Bahrain",
+      "flag": "https://flagcdn.com/bh.svg",
+      "flagKnown": 83,
+      "id": "048",
+      "similarity": {
+        "similarity1": ["634"],
+        "similarity2": []
+      },
+      "funFact": "Bahrain is an island located in the Persian Gulf. However, it's connected to the Saudi city of Al Khobar."
+    },
+    {
+      "name": "Bangladesh",
+      "flag": "https://flagcdn.com/bd.svg",
+      "flagKnown": 67,
+      "id": "050",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Dhaka, Bangladesh capital, is the most densely populated city on Earth, with a density of over 2,000 people per square km."
+    },
+    {
+      "name": "Barbados",
+      "flag": "https://flagcdn.com/bb.svg",
+      "flagKnown": 66,
+      "id": "052",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Rihanna is originally from Barbados."
+    },
+    {
+      "name": "Belarus",
+      "flag": "https://flagcdn.com/by.svg",
+      "flagKnown": 78,
+      "id": "112",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Two Israeli presidents were born in Belarus, Chaim Weizmann and Shimon Peres."
+    },
+    {
+      "name": "Belgium",
+      "flag": "https://flagcdn.com/be.svg",
+      "flagKnown": 29,
+      "id": "056",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Belgium holds the world record for the longest period without a government."
+    },
+    {
+      "name": "Belize",
+      "flag": "https://flagcdn.com/bz.svg",
+      "flagKnown": 151,
+      "id": "084",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "A British colony for more than 200 years, Belize today is the only nation in Central America where English is the official language. More than 80% of the population speak English as their mother tongue. Other languages spoken in Belize include Mayan, Kriol (Creole), Garifuna, and Spanish."
+    },
+    {
+      "name": "Benin",
+      "flag": "https://flagcdn.com/bj.svg",
+      "flagKnown": 175,
+      "id": "204",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Benin's south coast was once the 'slave coast'. Benin’s southern coast was a major departure point for slaves for over 100 years. Over 10,000 slaves a year were shipped from here to the Americas."
+    },
+    {
+      "name": "Bermuda",
+      "flag": "https://flagcdn.com/bm.svg",
+      "flagKnown": 197,
+      "id": "060",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "It's the Shipwreck Capital of the World. Bermuda's extensive coastal reef and the occasional big storm are the perfect conditions for shipwrecks. To date, over 300 wrecks have been found dating back to the 1600s."
+    },
+    {
+      "name": "Bhutan",
+      "flag": "https://flagcdn.com/bt.svg",
+      "flagKnown": 75,
+      "id": "064",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Bhutan is the only country in the world where tobacco is banned."
+    },
+    {
+      "name": "Bolivia (Plurinational State of)",
+      "flag": "https://flagcdn.com/bo.svg",
+      "flagKnown": 180,
+      "id": "068",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Despite having no coastline, Bolivia does have a navy. It mainly patrolls the Amazon tributaries."
+    },
+    {
+      "name": "Caribbean Netherlands",
+      "flag": "https://flagcdn.com/bq.svg",
+      "flagKnown": 197,
+      "id": "535",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The Carribbean Netherlands are three islands in the Carribbean that are classified as overseas territories of The Netherlands. The three islands are: Bonaire, Sint Eustatius, and Saba"
+    },
+    {
+      "name": "Bosnia and Herzegovina",
+      "flag": "https://flagcdn.com/ba.svg",
+      "flagKnown": 92,
+      "id": "070",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Bosnia and Herzegovina has about 152 unexploded landmines per square mile (58 per square km)."
+    },
+    {
+      "name": "Botswana",
+      "flag": "https://flagcdn.com/bw.svg",
+      "flagKnown": 125,
+      "id": "072",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Botswana Has Africa's Highest Concentration Of Elephants. Botswana is home to approximately 130,451 elephants. Additionally, the country has a density of 1.28 elephants per square km, which is the highest elephant concentration in Africa."
+    },
+    {
+      "name": "Bouvet Island",
+      "flag": "https://flagcdn.com/bv.svg",
+      "flagKnown": 197,
+      "id": "074",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Bouvet Island is an Norwegian uninhabited island in the southern Atlantic Ocean. It is widely considered to be the most remote island in the world, as the closest inhabited place to the island is Queen Maud Land, located in Antarctica, about 1,000 miles (1,600 km) away."
+    },
+    {
+      "name": "Brazil",
+      "flag": "https://flagcdn.com/br.svg",
+      "flagKnown": 11,
+      "id": "076",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Brazil was the last country in America to abolish slavery, in 1888."
+    },
+    {
+      "name": "British Indian Ocean Territory",
+      "flag": "https://flagcdn.com/io.svg",
+      "flagKnown": 197,
+      "id": "086",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The only inhabitants of the British Indian Ocean Territory are 2,500 British and US military personnel. Thus, there are no permanent inhabitants in the islands. There were inhabitants in the islands, up until 1973, when the British deported the 2,000 inhabitants to Mauritius."
+    },
+    {
+      "name": "United States Minor Outlying Islands",
+      "flag": "https://flagcdn.com/um.svg",
+      "flagKnown": 197,
+      "id": "581",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The United States Minor Outlying Islands are a group of 8 islands and atolls in the Pacific Ocean and 1 in the Carribbean. One of the atolls is Midway Atoll, where the Battle of Midway occured in WW2 between Japan and the US. This battle was a turning point in the Campaign for the Pacific."
+    },
+    {
+      "name": "Virgin Islands (British)",
+      "flag": "https://flagcdn.com/vg.svg",
+      "flagKnown": 197,
+      "id": "092",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The British Virgin Islands is an archipelago in the Carribbean, discovered and named by Christopher Colombus in 1493. The islands were first inhabited in 1500 BC by native American tribes. Several different empires, including the Spanish, Dutch, British, and French, fought to take control of the island."
+    },
+    {
+      "name": "Virgin Islands (U.S.)",
+      "flag": "https://flagcdn.com/vi.svg",
+      "flagKnown": 197,
+      "id": "850",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": [
+        "Although the US Virgin Islands are considered a part of the US, it is the only location in the United States where you drive on the left side of the road",
+        "The 2nd oldest synagogue in the US is located in the US Virgin Islands. It was founded in 1796 by Spanish and Portuguese Sephardic Jews who had come to the Caribbean Basin to finance trade between Europe and the New World."
+      ]
+    },
+    {
+      "name": "Brunei Darussalam",
+      "flag": "https://flagcdn.com/bn.svg",
+      "flagKnown": 119,
+      "id": "096",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": [
+        "Much of Shell's oil comes from offshore drilling platforms in Brunei.",
+        "Brunei is the last country in the world to gain independence from the British Empire, in 1984."
+      ]
+    },
+    {
+      "name": "Bulgaria",
+      "flag": "https://flagcdn.com/bg.svg",
+      "flagKnown": 86,
+      "id": "100",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Bulgaria is where the Early Cyrillic Alphabet, the predecessor to the modern Cyrillic Alphabet, was developed. It was originally created to translate the Bible into Slavic languages."
+    },
+    {
+      "name": "Burkina Faso",
+      "flag": "https://flagcdn.com/bf.svg",
+      "flagKnown": 169,
+      "id": "854",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The main export of Burkina Faso is gold, followed by cotton and animal products. Burkina Faso is also one of Africa’s largest producers of cotton."
+    },
+    {
+      "name": "Burundi",
+      "flag": "https://flagcdn.com/bi.svg",
+      "flagKnown": 160,
+      "id": "108",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The three stars in triangular configuration stand for the three ethnic groups of Burundi: the Hutu, the Twa and the Tutsi. The three stars also stand for the three elements of the national motto: Unité, Travail, Progrès ('Unity, Work and Progress'), which can be seen on the coat of arms of Burundi."
+    },
+    {
+      "name": "Cambodia",
+      "flag": "https://flagcdn.com/kh.svg",
+      "flagKnown": 77,
+      "id": "116",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Cambodia's flag is the only one in the world to feature a building."
+    },
+    {
+      "name": "Cameroon",
+      "flag": "https://flagcdn.com/cm.svg",
+      "flagKnown": 106,
+      "id": "120",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Before World War I, the vast majority of the country was a German colony. At that time it was known as Kamerun."
+    },
+    {
+      "name": "Canada",
+      "flag": "https://flagcdn.com/ca.svg",
+      "flagKnown": 2,
+      "id": "124",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Canada is a monarchy, which is Elizabeth II."
+    },
+    {
+      "name": "Cabo Verde",
+      "flag": "https://flagcdn.com/cv.svg",
+      "flagKnown": 164,
+      "id": "132",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Cabo Verde is an archipelago, that was uninhabited until the 15th century. Portuguese explorers colonised the islands in 1456, establishing the first European settlement in the tropics. Cape Verde only gained independence in 1975, which is why Portuguese is still the official spoken language across the archipelago."
+    },
+    {
+      "name": "Cayman Islands",
+      "flag": "https://flagcdn.com/ky.svg",
+      "flagKnown": 197,
+      "id": "136",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "As the Cayman Islands is a British Overseas Territory, driving is on the left-hand side of the road."
+    },
+    {
+      "name": "Central African Republic",
+      "flag": "https://flagcdn.com/cf.svg",
+      "flagKnown": 130,
+      "id": "140",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The Central African Republic is home to the ethnic group of Pygmy people, known for their short stature - typically under five feet tall."
+    },
+    {
+      "name": "Chad",
+      "flag": "https://flagcdn.com/td.svg",
+      "flagKnown": 146,
+      "id": "148",
+      "similarity": {
+        "similarity1": ["642"],
+        "similarity2": []
+      },
+      "funFact": "Chad is the largest of the 16 landlocked countries in Africa."
+    },
+    {
+      "name": "Chile",
+      "flag": "https://flagcdn.com/cl.svg",
+      "flagKnown": 56,
+      "id": "152",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "At 4,270 km (2,653 mi), Chile is the second longest country in the world, only narrowly being beat out by Brazil, which is 95 kilometers longer."
+    },
+    {
+      "name": "China",
+      "flag": "https://flagcdn.com/cn.svg",
+      "flagKnown": 15,
+      "id": "156",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Put all of China’s railway lines, it can loop around the earth two times!"
+    },
+    {
+      "name": "Christmas Island",
+      "flag": "https://flagcdn.com/cx.svg",
+      "flagKnown": 197,
+      "id": "162",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Captain William Mynors of the Royal Mary, an English East India Company vessel, named the island when he sailed past it on Christmas Day, in 1643."
+    },
+    {
+      "name": "Cocos (Keeling) Islands",
+      "flag": "https://flagcdn.com/cc.svg",
+      "flagKnown": 197,
+      "id": "166",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "'Cocos' references the vast crops of coconuts growing there. 'Keeling' is the surname of the founder of the islands, William Keeling."
+    },
+    {
+      "name": "Colombia",
+      "flag": "https://flagcdn.com/co.svg",
+      "flagKnown": 70,
+      "id": "170",
+      "similarity": {
+        "similarity1": ["218", "862"],
+        "similarity2": []
+      },
+      "funFact": "It is mandatory for radio and public television in Colombia to play the national anthem every day at 6 am and 6 pm."
+    },
+    {
+      "name": "Comoros",
+      "flag": "https://flagcdn.com/km.svg",
+      "flagKnown": 170,
+      "id": "174",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Someone attempts a coup in Comoros every 2 years."
+    },
+    {
+      "name": "Congo",
+      "flag": "https://flagcdn.com/cg.svg",
+      "flagKnown": 189,
+      "id": "178",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Oil accounts for 89% of all Congo's exports."
+    },
+    {
+      "name": "Congo (Democratic Republic of the)",
+      "flag": "https://flagcdn.com/cd.svg",
+      "flagKnown": 182,
+      "id": "180",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The Democratic Republic of the Congo's capital, Kinshasa, is the largest French-speaking city in the world (even above Paris)."
+    },
+    {
+      "name": "Cook Islands",
+      "flag": "https://flagcdn.com/ck.svg",
+      "flagKnown": 197,
+      "id": "184",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The official currency in the Cook Islands is New Zealand Dollar."
+    },
+    {
+      "name": "Costa Rica",
+      "flag": "https://flagcdn.com/cr.svg",
+      "flagKnown": 129,
+      "id": "188",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Costa Rica doesn’t have a military."
+    },
+    {
+      "name": "Croatia",
+      "flag": "https://flagcdn.com/hr.svg",
+      "flagKnown": 33,
+      "id": "191",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Croatia’s town of Hum, often referred to as the smallest town in the world."
+    },
+    {
+      "name": "Cuba",
+      "flag": "https://flagcdn.com/cu.svg",
+      "flagKnown": 50,
+      "id": "192",
+      "similarity": {
+        "similarity1": ["630"],
+        "similarity2": []
+      },
+      "funFact": "Cuba is the largest island in the Caribbean."
+    },
+    {
+      "name": "Curaçao",
+      "flag": "https://flagcdn.com/cw.svg",
+      "flagKnown": 197,
+      "id": "531",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "As a Netherlands overseas territory, Curaçao citizens hold the same rights to live and work in the EU as the Dutch."
+    },
+    {
+      "name": "Cyprus",
+      "flag": "https://flagcdn.com/cy.svg",
+      "flagKnown": 31,
+      "id": "196",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "According to the Greek Mythology, Cyprus is the birthplace of the Greek goddess of love, Aphrodite."
+    },
+    {
+      "name": "Czechia",
+      "flag": "https://flagcdn.com/cz.svg",
+      "flagKnown": 37,
+      "id": "203",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Czech people are the world’s heaviest consumers of beer. On average, they drink 188.6 litres of beer per capita."
+    },
+    {
+      "name": "Denmark",
+      "flag": "https://flagcdn.com/dk.svg",
+      "flagKnown": 24,
+      "id": "208",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Denmark is the world second happiest country for 2022."
+    },
+    {
+      "name": "Djibouti",
+      "flag": "https://flagcdn.com/dj.svg",
+      "flagKnown": 171,
+      "id": "262",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "At 155m below sea level, Lac Assal, in Djibouti is the lowest point in Africa."
+    },
+    {
+      "name": "Dominica",
+      "flag": "https://flagcdn.com/dm.svg",
+      "flagKnown": 145,
+      "id": "212",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Dominica is one of only 2 countries to have purple on its flag."
+    },
+    {
+      "name": "Dominican Republic",
+      "flag": "https://flagcdn.com/do.svg",
+      "flagKnown": 112,
+      "id": "214",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The first cathedral, hospital, and university in the Americas were founded in what is now Dominican Republic capital city, Santo Domingo."
+    },
+    {
+      "name": "Ecuador",
+      "flag": "https://flagcdn.com/ec.svg",
+      "flagKnown": 95,
+      "id": "218",
+      "similarity": {
+        "similarity1": ["170", "862"],
+        "similarity2": []
+      },
+      "funFact": "Ecuador's name comes from the Spanish word for the equator, which the country straddles it."
+    },
+    {
+      "name": "Egypt",
+      "flag": "https://flagcdn.com/eg.svg",
+      "flagKnown": 64,
+      "id": "818",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Egyptians were the inventors of the 365-day calender. They subdivided the year into 3 seasons."
+    },
+    {
+      "name": "El Salvador",
+      "flag": "https://flagcdn.com/sv.svg",
+      "flagKnown": 135,
+      "id": "222",
+      "similarity": {
+        "similarity1": ["340", "558"],
+        "similarity2": []
+      },
+      "funFact": [
+        "El Salvador is known as the “Land of the Volcanoes” because of the more than 20 volcanoes in the territory. It even has volcanoes in its flag.",
+        "El Salvador became the first country in the world to use Bitcoin as legal tender, after having been adopted as such by the Legislative Assembly of El Salvador in 2021."
+      ]
+    },
+    {
+      "name": "Equatorial Guinea",
+      "flag": "https://flagcdn.com/gq.svg",
+      "flagKnown": 194,
+      "id": "226",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The current capital of Equatorial Guinea is Malabo, which is located on the island of Bioko, and not the mainland. So, the government of this country is planning a new capital known as Oyala and is located in the Wele-Nzas province of the mainland region"
+    },
+    {
+      "name": "Eritrea",
+      "flag": "https://flagcdn.com/er.svg",
+      "flagKnown": 186,
+      "id": "232",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Eritrea has no official language."
+    },
+    {
+      "name": "Estonia",
+      "flag": "https://flagcdn.com/ee.svg",
+      "flagKnown": 46,
+      "id": "233",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Estonia has most start-ups per capita in Europe."
+    },
+    {
+      "name": "Ethiopia",
+      "flag": "https://flagcdn.com/et.svg",
+      "flagKnown": 144,
+      "id": "231",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Ethiopia was never colonised by the Europeans."
+    },
+    {
+      "name": "Falkland Islands (Malvinas)",
+      "flag": "https://flagcdn.com/fk.svg",
+      "flagKnown": 197,
+      "id": "238",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Sovereignty over the Falkland Islands (Spanish: Islas Malvinas) is disputed by Argentina and the United Kingdom."
+    },
+    {
+      "name": "Faroe Islands",
+      "flag": "https://flagcdn.com/fo.svg",
+      "flagKnown": 197,
+      "id": "234",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The Faroe Islands are devoid of trees. The ones that originally existed were probably cut by the first settlers and were never replanted."
+    },
+    {
+      "name": "Fiji",
+      "flag": "https://flagcdn.com/fj.svg",
+      "flagKnown": 80,
+      "id": "242",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Fiji is one of the few nations to have three official languages, English, Fijian, and Fiji Hindi."
+    },
+    {
+      "name": "Finland",
+      "flag": "https://flagcdn.com/fi.svg",
+      "flagKnown": 17,
+      "id": "246",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Finland is the world's happiest country."
+    },
+    {
+      "name": "France",
+      "flag": "https://flagcdn.com/fr.svg",
+      "flagKnown": 6,
+      "id": "250",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Thanks to French Guiana, France's largest border is with Brazil"
+    },
+    {
+      "name": "French Guiana",
+      "flag": "https://flagcdn.com/gf.svg",
+      "flagKnown": 197,
+      "id": "254",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Although French Guiana is in South America, its currency is the Euro."
+    },
+    {
+      "name": "French Polynesia",
+      "flag": "https://flagcdn.com/pf.svg",
+      "flagKnown": 197,
+      "id": "258",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "It is believed that the word “tattoo” comes from the Tahitian (French Polynesian) word tatau and dates as far back as 1500 B.C."
+    },
+    {
+      "name": "French Southern Territories",
+      "flag": "https://flagcdn.com/tf.svg",
+      "flagKnown": 197,
+      "id": "260",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The French Southern Territories has no permanently settled inhabitants."
+    },
+    {
+      "name": "Gabon",
+      "flag": "https://flagcdn.com/ga.svg",
+      "flagKnown": 193,
+      "id": "266",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The name Gabon comes from the Portuguese word “gabao” meaning “cloak”. Early explorers thought the estuary of the Komo River by the capital of Libreville was the shape of a cloak."
+    },
+    {
+      "name": "Gambia",
+      "flag": "https://flagcdn.com/gm.svg",
+      "flagKnown": 191,
+      "id": "270",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": [
+        "With an area of only 4,300 square miles (11,500 square kilometers), The Gambia is the smallest nation in mainland Africa",
+        "The Gambia is one of only a few countries to have a 'The' behind their name. This is due to the fact that its name originates from the Gambia river."
+      ]
+    },
+    {
+      "name": "Georgia",
+      "flag": "https://flagcdn.com/ge.svg",
+      "flagKnown": 49,
+      "id": "268",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The Georgian language is one of the most unique languages in the world and boasts its own alphabet."
+    },
+    {
+      "name": "Germany",
+      "flag": "https://flagcdn.com/de.svg",
+      "flagKnown": 7,
+      "id": "276",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "There are more football fan clubs in Germany than anywhere else in the world."
+    },
+    {
+      "name": "Ghana",
+      "flag": "https://flagcdn.com/gh.svg",
+      "flagKnown": 94,
+      "id": "288",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Ghana is the second-largest producer of gold in Africa. In fact, before 1957, Ghana was commonly known as the Gold Coast because of its availability of gold along the rivers Ankobra and Volta. "
+    },
+    {
+      "name": "Gibraltar",
+      "flag": "https://flagcdn.com/gi.svg",
+      "flagKnown": 197,
+      "id": "292",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "There is basically no tax on goods in Gibraltar. This includes cigarettes, booze, etc."
+    },
+    {
+      "name": "Greece",
+      "flag": "https://flagcdn.com/gr.svg",
+      "flagKnown": 12,
+      "id": "300",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Greece has more archaeological museums and theatres than any country in the world."
+    },
+    {
+      "name": "Greenland",
+      "flag": "https://flagcdn.com/gl.svg",
+      "flagKnown": 197,
+      "id": "304",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Greenland has the most northerly capital city in the world - Nuuk."
+    },
+    {
+      "name": "Grenada",
+      "flag": "https://flagcdn.com/gd.svg",
+      "flagKnown": 152,
+      "id": "308",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Christopher Columbus discovered the island in 1498 and named it Concepcion. A year after that, another bunch of explorers passed by the island and changed the name to Mayo. When the French came, they changed it to “Le Grenade” and finally when the British took over, they called it Grenada."
+    },
+    {
+      "name": "Guadeloupe",
+      "flag": "https://flagcdn.com/gp.svg",
+      "flagKnown": 197,
+      "id": "312",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "In fact, Columbus was also the first European to see Guadeloupe! He landed there in 1493, and gave the island its name: “Santa María de Guadalupe”. The region was designated as a shrine to the Virgin Mary, venerated in Guadalupe, a Spanish town in Extremadura."
+    },
+    {
+      "name": "Guam",
+      "flag": "https://flagcdn.com/gu.svg",
+      "flagKnown": 197,
+      "id": "316",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "'Where the American day begins' is the most popular slogan of Guam as this island is the first place where the sun rises on American soil."
+    },
+    {
+      "name": "Guatemala",
+      "flag": "https://flagcdn.com/gt.svg",
+      "flagKnown": 137,
+      "id": "320",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Guatemala is best known as the birthplace of the Mayan civilisation and many of its ancient traditions are present across the country."
+    },
+    {
+      "name": "Guernsey",
+      "flag": "https://flagcdn.com/gg.svg",
+      "flagKnown": 197,
+      "id": "831",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Guinea",
+      "flag": "https://flagcdn.com/gn.svg",
+      "flagKnown": 184,
+      "id": "324",
+      "similarity": {
+        "similarity1": ["466"],
+        "similarity2": []
+      },
+      "funFact": "Guinea is also known as Guinea-Conakry in order to distinction it from the neighboring nations of Equatorial Guinea and Guinea-Bissau, which all contain the word 'Guinea' in their name."
+    },
+    {
+      "name": "Guinea-Bissau",
+      "flag": "https://flagcdn.com/gw.svg",
+      "flagKnown": 195,
+      "id": "624",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Portuguese is the official language of guinea-bissau."
+    },
+    {
+      "name": "Guyana",
+      "flag": "https://flagcdn.com/gy.svg",
+      "flagKnown": 161,
+      "id": "328",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Guyana is the 'Land of Many Water(falls)'. The world's widest and longest single-drop waterfall is located on Guyana's Potaro River in the Kaieteur National Park."
+    },
+    {
+      "name": "Haiti",
+      "flag": "https://flagcdn.com/ht.svg",
+      "flagKnown": 131,
+      "id": "332",
+      "similarity": {
+        "similarity1": ["438"],
+        "similarity2": []
+      },
+      "funFact": "Haiti and Canada are the only countries in the Americas with French as an official language."
+    },
+    {
+      "name": "Heard Island and McDonald Islands",
+      "flag": "https://flagcdn.com/hm.svg",
+      "flagKnown": 197,
+      "id": "334",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Vatican City",
+      "flag": "https://flagcdn.com/va.svg",
+      "flagKnown": 53,
+      "id": "336",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Not only the Vatican City is smallest country in the world, it's the only county that uses Latin as its official language."
+    },
+    {
+      "name": "Honduras",
+      "flag": "https://flagcdn.com/hn.svg",
+      "flagKnown": 91,
+      "id": "340",
+      "similarity": {
+        "similarity1": ["222", "558"],
+        "similarity2": []
+      },
+      "funFact": "The name translates to “great depths” in Spanish – named by Christopher Columbus after the deep waters along the coast."
+    },
+    {
+      "name": "Hungary",
+      "flag": "https://flagcdn.com/hu.svg",
+      "flagKnown": 65,
+      "id": "348",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The ancient Hungarians originated from the Ural region in today's central Russia and migrated across the Eastern European steppe, until they settled in today's Hungary."
+    },
+    {
+      "name": "Hong Kong",
+      "flag": "https://flagcdn.com/hk.svg",
+      "flagKnown": 55,
+      "id": "344",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": " Hong Kong is so rich it has more Rolls Royces per person than any other city in the world"
+    },
+    {
+      "name": "Iceland",
+      "flag": "https://flagcdn.com/is.svg",
+      "flagKnown": 34,
+      "id": "352",
+      "similarity": {
+        "similarity1": ["578"],
+        "similarity2": []
+      },
+      "funFact": "Between 30 and 40% of Icelanders will not deny the existence of elves. Icelandic folklore is still rich with stories about the Huldufólk, meaning 'hidden people', who are said to live in the lava fields on the island."
+    },
+    {
+      "name": "India",
+      "flag": "https://flagcdn.com/in.svg",
+      "flagKnown": 25,
+      "id": "356",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "India is set to surpass China as the world's most populous country in 2023, with an expected population of about 1.4 billion people."
+    },
+    {
+      "name": "Indonesia",
+      "flag": "https://flagcdn.com/id.svg",
+      "flagKnown": 99,
+      "id": "360",
+      "similarity": {
+        "similarity1": ["492", "616"],
+        "similarity2": []
+      },
+      "funFact": "Indonesia is the largest Muslim-majority nation in the world."
+    },
+    {
+      "name": "Ivory Coast",
+      "flag": "https://flagcdn.com/ci.svg",
+      "flagKnown": 79,
+      "id": "384",
+      "similarity": {
+        "similarity1": ["372"],
+        "similarity2": []
+      },
+      "funFact": "Ivory Coast is the largest producer of cocoa beans in the world."
+    },
+    {
+      "name": "Iran (Islamic Republic of)",
+      "flag": "https://flagcdn.com/ir.svg",
+      "flagKnown": 63,
+      "id": "364",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Iran has its own calendar, which is a solar calendar, meaning that its time reckoning is based on the Earth's movements around the Sun."
+    },
+    {
+      "name": "Iraq",
+      "flag": "https://flagcdn.com/iq.svg",
+      "flagKnown": 36,
+      "id": "368",
+      "similarity": {
+        "similarity1": ["760"],
+        "similarity2": []
+      },
+      "funFact": "Iraq is home to the world's oldest civilisation."
+    },
+    {
+      "name": "Ireland",
+      "flag": "https://flagcdn.com/ie.svg",
+      "flagKnown": 14,
+      "id": "372",
+      "similarity": {
+        "similarity1": ["384"],
+        "similarity2": []
+      },
+      "funFact": "Iraq is considered the birthplace of Abraham."
+    },
+    {
+      "name": "Isle of Man",
+      "flag": "https://flagcdn.com/im.svg",
+      "flagKnown": 197,
+      "id": "833",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The island's language is Manx, otherwise known as Manx Gaelic, is an ancient language that originates from the islands Celtic past. It closely resembles that of Irish and Scottish Gaelic, but with a hint of Old Norse from when the Vikings came here."
+    },
+    {
+      "name": "Israel",
+      "flag": "https://flagcdn.com/il.svg",
+      "flagKnown": 9,
+      "id": "376",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Israel has more museums per capita than any other country in the world."
+    },
+    {
+      "name": "Italy",
+      "flag": "https://flagcdn.com/it.svg",
+      "flagKnown": 10,
+      "id": "380",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Italy is the only country to completely surround 2 countries, San Marino and Vatican."
+    },
+    {
+      "name": "Jamaica",
+      "flag": "https://flagcdn.com/jm.svg",
+      "flagKnown": 19,
+      "id": "388",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The top three fastest men in the world are Jamaicans!"
+    },
+    {
+      "name": "Japan",
+      "flag": "https://flagcdn.com/jp.svg",
+      "flagKnown": 1,
+      "id": "392",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Japan is a highly ethnically homogenous country - 98.5% of the population is Japanese."
+    },
+    {
+      "name": "Jersey",
+      "flag": "https://flagcdn.com/je.svg",
+      "flagKnown": 197,
+      "id": "832",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Although Jersey's small size, it has one of the largest tides in the world. At low tide, twice a day, the island almost doubles in size."
+    },
+    {
+      "name": "Jordan",
+      "flag": "https://flagcdn.com/jo.svg",
+      "flagKnown": 124,
+      "id": "400",
+      "similarity": {
+        "similarity1": ["414", "729", "784"],
+        "similarity2": []
+      },
+      "funFact": "Unlike other Arab countries, Jordan does not have its own oil."
+    },
+    {
+      "name": "Kazakhstan",
+      "flag": "https://flagcdn.com/kz.svg",
+      "flagKnown": 105,
+      "id": "398",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Kazakhstan provides over 50% of the world's supply of Uranium."
+    },
+    {
+      "name": "Kenya",
+      "flag": "https://flagcdn.com/ke.svg",
+      "flagKnown": 41,
+      "id": "404",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Besides being home to the world’s best long-distance runners, the first woman to win a Nobel Peace Prize was from Kenya."
+    },
+    {
+      "name": "Kiribati",
+      "flag": "https://flagcdn.com/ki.svg",
+      "flagKnown": 143,
+      "id": "296",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": " Kiribati has purchased 6,000 acres (24 sq km) of land in Fiji in case rising sea levels force the permanent evacuation of its residents."
+    },
+    {
+      "name": "Kuwait",
+      "flag": "https://flagcdn.com/kw.svg",
+      "flagKnown": 117,
+      "id": "414",
+      "similarity": {
+        "similarity1": ["400", "729", "784"],
+        "similarity2": []
+      },
+      "funFact": "The currency of Kuwait is the Kuwaiti dinar. It is the highest-valued currency unit per face value in the world."
+    },
+    {
+      "name": "Kyrgyzstan",
+      "flag": "https://flagcdn.com/kg.svg",
+      "flagKnown": 162,
+      "id": "417",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Kyrgyzstan's flag contains 40 rays stand for the number of tribes united by Manas to fight against the Mongols. Manas is a 10th-century legendary hero of the Kyrgyz people, who value him as their sacred ancient forefather."
+    },
+    {
+      "name": "Lao People's Democratic Republic",
+      "flag": "https://flagcdn.com/la.svg",
+      "flagKnown": 115,
+      "id": "418",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The Laotians consume more sticky rice than anyone else in the world."
+    },
+    {
+      "name": "Latvia",
+      "flag": "https://flagcdn.com/lv.svg",
+      "flagKnown": 59,
+      "id": "428",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "A Latvian-Jewish tailor named Jākobs Jufess invented the jeans we all know, wear and cannot live without now. Levi Strauss backed him financially."
+    },
+    {
+      "name": "Lebanon",
+      "flag": "https://flagcdn.com/lb.svg",
+      "flagKnown": 42,
+      "id": "422",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "There are more Lebanese living outside Lebanon, than within the country. Most of Lebanese live in Brazil."
+    },
+    {
+      "name": "Lesotho",
+      "flag": "https://flagcdn.com/ls.svg",
+      "flagKnown": 158,
+      "id": "426",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Lesotho is one of only 3 countries to be completely surrounded by another country. The other ones are Vatican and San Marino, both surrounded by Italy."
+    },
+    {
+      "name": "Liberia",
+      "flag": "https://flagcdn.com/lr.svg",
+      "flagKnown": 96,
+      "id": "430",
+      "similarity": {
+        "similarity1": ["458"],
+        "similarity2": []
+      },
+      "funFact": "Liberia is the first country in Africa which had a female president. Known as Africa’s Iron Lady, Ellen Johnson Sirleaf took office as Liberia’s 24th president in 2006. She also won the Nobel Peace Prize in 2011."
+    },
+    {
+      "name": "Libya",
+      "flag": "https://flagcdn.com/ly.svg",
+      "flagKnown": 88,
+      "id": "434",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The last flag of Libya was a green field and was considered the only solid colour national flag in the world during its time."
+    },
+    {
+      "name": "Liechtenstein",
+      "flag": "https://flagcdn.com/li.svg",
+      "flagKnown": 108,
+      "id": "438",
+      "similarity": {
+        "similarity1": ["332"],
+        "similarity2": []
+      },
+      "funFact": "Liechtenstein is a doubly landlocked country. It is surrounded by Switzerland and Austria, which in turn are also landlocked by other European countries, making it the second doubly landlocked country after Uzbekistan."
+    },
+    {
+      "name": "Lithuania",
+      "flag": "https://flagcdn.com/lt.svg",
+      "flagKnown": 127,
+      "id": "440",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Lithuania is the only country to have a national scent."
+    },
+    {
+      "name": "Luxembourg",
+      "flag": "https://flagcdn.com/lu.svg",
+      "flagKnown": 93,
+      "id": "442",
+      "similarity": {
+        "similarity1": ["528"],
+        "similarity2": []
+      },
+      "funFact": "Luxembourg has the highest minimum wage in the EU. However, the cost of living in Luxembourg is one of the highest in the world."
+    },
+    {
+      "name": "Macao",
+      "flag": "https://flagcdn.com/mo.svg",
+      "flagKnown": 197,
+      "id": "446",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Macao has the most densely populated region on earth."
+    },
+    {
+      "name": "North Macedonia",
+      "flag": "https://flagcdn.com/mk.svg",
+      "flagKnown": 44,
+      "id": "807",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Macedonia chose its name as North Macedonia because of a dispute with Greece who claimed the country can't use the name 'Macedonia' that is considered part of Greek culture."
+    },
+    {
+      "name": "Madagascar",
+      "flag": "https://flagcdn.com/mg.svg",
+      "flagKnown": 172,
+      "id": "450",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Although Madagascar is located in Africa, most of its ethnic groups are from a Malayo-Indonesian origin."
+    },
+    {
+      "name": "Malawi",
+      "flag": "https://flagcdn.com/mw.svg",
+      "flagKnown": 177,
+      "id": "454",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Malawi's name originates from the bordering Lake Malawi."
+    },
+    {
+      "name": "Malaysia",
+      "flag": "https://flagcdn.com/my.svg",
+      "flagKnown": 61,
+      "id": "458",
+      "similarity": {
+        "similarity1": ["430"],
+        "similarity2": []
+      },
+      "funFact": "Malaysia has a unique rotating monarchy system, in which nine ethnic Malay state rulers take turns as king for five-year terms."
+    },
+    {
+      "name": "Maldives",
+      "flag": "https://flagcdn.com/mv.svg",
+      "flagKnown": 154,
+      "id": "462",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "According to the constitution of Maldives, only Muslims are allowed to be called citizens of the country. Any other faith apart from Islam is not allowed."
+    },
+    {
+      "name": "Mali",
+      "flag": "https://flagcdn.com/ml.svg",
+      "flagKnown": 196,
+      "id": "466",
+      "similarity": {
+        "similarity1": ["324"],
+        "similarity2": []
+      },
+      "funFact": "Mansa Musa, Mali's king in the 14th century, is the richest man to ever live. He had so much gold that, on a trip to Cairo, he spent 71,000 pounds (32,000 kg) of gold."
+    },
+    {
+      "name": "Malta",
+      "flag": "https://flagcdn.com/mt.svg",
+      "flagKnown": 74,
+      "id": "470",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The official language of Malta is Maltese, a Semitic language derived from late medieval Sicilian Arabic with Romance superstrata. It's the only official Semitic language of the European Union."
+    },
+    {
+      "name": "Marshall Islands",
+      "flag": "https://flagcdn.com/mh.svg",
+      "flagKnown": 150,
+      "id": "584",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The islands are so narrow that you will have just one road running their length. No diversion, no shortcuts, you will have only one way to follow."
+    },
+    {
+      "name": "Martinique",
+      "flag": "https://flagcdn.com/mq.svg",
+      "flagKnown": 197,
+      "id": "474",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Mauritania",
+      "flag": "https://flagcdn.com/mr.svg",
+      "flagKnown": 165,
+      "id": "478",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Mauritania was the last country to abolish slavery, in 1981."
+    },
+    {
+      "name": "Mauritius",
+      "flag": "https://flagcdn.com/mu.svg",
+      "flagKnown": 176,
+      "id": "480",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Mayotte",
+      "flag": "https://flagcdn.com/yt.svg",
+      "flagKnown": 197,
+      "id": "175",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Mexico",
+      "flag": "https://flagcdn.com/mx.svg",
+      "flagKnown": 30,
+      "id": "484",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Not Egypt, but Mexico is home to the world’s largest pyramid."
+    },
+    {
+      "name": "Micronesia (Federated States of)",
+      "flag": "https://flagcdn.com/fm.svg",
+      "flagKnown": 134,
+      "id": "583",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Micronesia is one of just 22 countries not to have an army. Instead, as a former US-administered territory, the USA provides aid and is responsible for Micronesia’s defence. In return, the USA can maintain military bases in Micronesia."
+    },
+    {
+      "name": "Moldova (Republic of)",
+      "flag": "https://flagcdn.com/md.svg",
+      "flagKnown": 111,
+      "id": "498",
+      "similarity": {
+        "similarity1": ["020"],
+        "similarity2": []
+      },
+      "funFact": "With an army of only 5,150 soldiers, Moldova has one of the smallest armies in Europe."
+    },
+    {
+      "name": "Monaco",
+      "flag": "https://flagcdn.com/mc.svg",
+      "flagKnown": 89,
+      "id": "492",
+      "similarity": {
+        "similarity1": ["616", "360"],
+        "similarity2": []
+      },
+      "funFact": "With an average life expectancy of 89.4, it has the 2nd highest life expectancy"
+    },
+    {
+      "name": "Mongolia",
+      "flag": "https://flagcdn.com/mn.svg",
+      "flagKnown": 113,
+      "id": "496",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Mongolia's capital, Ulaanbaatar, is the world's coldest capital city. It has an average annual temperature of 30°F (about -1°C)."
+    },
+    {
+      "name": "Montenegro",
+      "flag": "https://flagcdn.com/me.svg",
+      "flagKnown": 104,
+      "id": "499",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Montenegro declared its independence from Serbia on June 3, 2006."
+    },
+    {
+      "name": "Montserrat",
+      "flag": "https://flagcdn.com/ms.svg",
+      "flagKnown": 197,
+      "id": "500",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Morocco",
+      "flag": "https://flagcdn.com/ma.svg",
+      "flagKnown": 69,
+      "id": "504",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Morocco hosts the oldest continuously operating university in the world, Al-Qarawiyyin university, that was founded in 859 AD."
+    },
+    {
+      "name": "Mozambique",
+      "flag": "https://flagcdn.com/mz.svg",
+      "flagKnown": 163,
+      "id": "508",
+      "similarity": {
+        "similarity1": ["716"],
+        "similarity2": []
+      },
+      "funFact": "Mozambique is the only nation to feature a modern firearm on their flag."
+    },
+    {
+      "name": "Myanmar",
+      "flag": "https://flagcdn.com/mm.svg",
+      "flagKnown": 181,
+      "id": "104",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "In 2005, Yangon was the capital of Myanmar. The government built a new city named Naypyidaw in secret and then announced that it was the new cpaital city."
+    },
+    {
+      "name": "Namibia",
+      "flag": "https://flagcdn.com/na.svg",
+      "flagKnown": 190,
+      "id": "516",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Namibia is home to the world's oldest desert, the Namib Desert."
+    },
+    {
+      "name": "Nauru",
+      "flag": "https://flagcdn.com/nr.svg",
+      "flagKnown": 179,
+      "id": "520",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Nauru is the fattest state in the world, over 71% of the country’s population is obese."
+    },
+    {
+      "name": "Nepal",
+      "flag": "https://flagcdn.com/np.svg",
+      "flagKnown": 38,
+      "id": "524",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": [
+        "Nepal is home to mount Everest, the world's tallest mountain.",
+        "Nepal is the birthplace of Buddha."
+      ]
+    },
+    {
+      "name": "Netherlands",
+      "flag": "https://flagcdn.com/nl.svg",
+      "flagKnown": 39,
+      "id": "528",
+      "similarity": {
+        "similarity1": ["442"],
+        "similarity2": []
+      },
+      "funFact": "The Netherlands was the first country to legalize same-sex marriage. The law came into effect on April 1, 2001."
+    },
+    {
+      "name": "New Caledonia",
+      "flag": "https://flagcdn.com/nc.svg",
+      "flagKnown": 197,
+      "id": "540",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "New Zealand",
+      "flag": "https://flagcdn.com/nz.svg",
+      "flagKnown": 23,
+      "id": "554",
+      "similarity": {
+        "similarity1": ["036"],
+        "similarity2": []
+      },
+      "funFact": "In addition to English and sign language, Maori is also an official language in New Zealand. 17% of the country’s population is native Maori, the Indigenous people of New Zealand."
+    },
+    {
+      "name": "Nicaragua",
+      "flag": "https://flagcdn.com/ni.svg",
+      "flagKnown": 133,
+      "id": "558",
+      "similarity": {
+        "similarity1": ["222", "340"],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Niger",
+      "flag": "https://flagcdn.com/ne.svg",
+      "flagKnown": 132,
+      "id": "562",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The country's name comes from the Niger river flowing through the country. The river's name possibly comes from the Berber word 'Gher', meaning river."
+    },
+    {
+      "name": "Nigeria",
+      "flag": "https://flagcdn.com/ng.svg",
+      "flagKnown": 47,
+      "id": "566",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Nigeria is the most populous country in Africa, with a population of over 200 million."
+    },
+    {
+      "name": "Niue",
+      "flag": "https://flagcdn.com/nu.svg",
+      "flagKnown": 197,
+      "id": "570",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Norfolk Island",
+      "flag": "https://flagcdn.com/nf.svg",
+      "flagKnown": 197,
+      "id": "574",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Korea (Democratic People's Republic of)",
+      "flag": "https://flagcdn.com/kp.svg",
+      "flagKnown": 51,
+      "id": "408",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Drugs are common and unregulated in North Korea."
+    },
+    {
+      "name": "Northern Mariana Islands",
+      "flag": "https://flagcdn.com/mp.svg",
+      "flagKnown": 197,
+      "id": "580",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Norway",
+      "flag": "https://flagcdn.com/no.svg",
+      "flagKnown": 20,
+      "id": "578",
+      "similarity": {
+        "similarity1": ["352"],
+        "similarity2": []
+      },
+      "funFact": "Norway has the most electric cars per capita in the world."
+    },
+    {
+      "name": "Oman",
+      "flag": "https://flagcdn.com/om.svg",
+      "flagKnown": 139,
+      "id": "512",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Oman is the oldest independent state in the Arab world. The ruling dynasty of Oman dates back to 1794, making it one of the oldest independent states in the Arab world. It was formerly a maritime empire. They gained independence from Portugal in 1650, a holiday that is still celebrated today. "
+    },
+    {
+      "name": "Pakistan",
+      "flag": "https://flagcdn.com/pk.svg",
+      "flagKnown": 54,
+      "id": "586",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Pakistan is the world's first Islamic country to attain nuclear power."
+    },
+    {
+      "name": "Palau",
+      "flag": "https://flagcdn.com/pw.svg",
+      "flagKnown": 155,
+      "id": "585",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Palau has a lake packed with millions of jellyfish, that are not poisonous."
+    },
+    {
+      "name": "Panama",
+      "flag": "https://flagcdn.com/pa.svg",
+      "flagKnown": 71,
+      "id": "591",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Papua New Guinea",
+      "flag": "https://flagcdn.com/pg.svg",
+      "flagKnown": 123,
+      "id": "598",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Paraguay",
+      "flag": "https://flagcdn.com/py.svg",
+      "flagKnown": 120,
+      "id": "600",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Peru",
+      "flag": "https://flagcdn.com/pe.svg",
+      "flagKnown": 97,
+      "id": "604",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Philippines",
+      "flag": "https://flagcdn.com/ph.svg",
+      "flagKnown": 122,
+      "id": "608",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Pitcairn",
+      "flag": "https://flagcdn.com/pn.svg",
+      "flagKnown": 197,
+      "id": "612",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Poland",
+      "flag": "https://flagcdn.com/pl.svg",
+      "flagKnown": 26,
+      "id": "616",
+      "similarity": {
+        "similarity1": ["492", "360"],
+        "similarity2": []
+      },
+      "funFact": "The Castle of the Teutonic Order, located in Poland, is the largest castle in the world."
+    },
+    {
+      "name": "Portugal",
+      "flag": "https://flagcdn.com/pt.svg",
+      "flagKnown": 28,
+      "id": "620",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Puerto Rico",
+      "flag": "https://flagcdn.com/pr.svg",
+      "flagKnown": 197,
+      "id": "630",
+      "similarity": {
+        "similarity1": ["192"],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Qatar",
+      "flag": "https://flagcdn.com/qa.svg",
+      "flagKnown": 62,
+      "id": "634",
+      "similarity": {
+        "similarity1": ["048"],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Republic of Kosovo",
+      "flag": "https://flagcdn.com/xk.svg",
+      "flagKnown": 85,
+      "id": "926",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Despite not being a part of the EU, Kosovo still uses the euro as its official currency."
+    },
+    {
+      "name": "Réunion",
+      "flag": "https://flagcdn.com/re.svg",
+      "flagKnown": 197,
+      "id": "638",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Romania",
+      "flag": "https://flagcdn.com/ro.svg",
+      "flagKnown": 52,
+      "id": "642",
+      "similarity": {
+        "similarity1": ["148"],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Russian Federation",
+      "flag": "https://flagcdn.com/ru.svg",
+      "flagKnown": 32,
+      "id": "643",
+      "similarity": {
+        "similarity1": ["528"],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Rwanda",
+      "flag": "https://flagcdn.com/rw.svg",
+      "flagKnown": 187,
+      "id": "646",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Saint Barthélemy",
+      "flag": "https://flagcdn.com/bl.svg",
+      "flagKnown": 197,
+      "id": "652",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Saint Helena, Ascension and Tristan da Cunha",
+      "flag": "https://flagcdn.com/sh.svg",
+      "flagKnown": 197,
+      "id": "654",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Saint Kitts and Nevis",
+      "flag": "https://flagcdn.com/kn.svg",
+      "flagKnown": 173,
+      "id": "659",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Saint Lucia",
+      "flag": "https://flagcdn.com/lc.svg",
+      "flagKnown": 116,
+      "id": "662",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Saint Martin (French part)",
+      "flag": "https://flagcdn.com/mf.svg",
+      "flagKnown": 197,
+      "id": "663",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Saint Pierre and Miquelon",
+      "flag": "https://flagcdn.com/pm.svg",
+      "flagKnown": 197,
+      "id": "666",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Saint Vincent and the Grenadines",
+      "flag": "https://flagcdn.com/vc.svg",
+      "flagKnown": 159,
+      "id": "670",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Samoa",
+      "flag": "https://flagcdn.com/ws.svg",
+      "flagKnown": 197,
+      "id": "882",
+      "similarity": {
+        "similarity1": ["158"],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "San Marino",
+      "flag": "https://flagcdn.com/sm.svg",
+      "flagKnown": 107,
+      "id": "674",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Sao Tome and Principe",
+      "flag": "https://flagcdn.com/st.svg",
+      "flagKnown": 188,
+      "id": "678",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Saudi Arabia",
+      "flag": "https://flagcdn.com/sa.svg",
+      "flagKnown": 35,
+      "id": "682",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Senegal",
+      "flag": "https://flagcdn.com/sn.svg",
+      "flagKnown": 138,
+      "id": "686",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Senegal is home to the mainland's Africa westernmost point."
+    },
+    {
+      "name": "Serbia",
+      "flag": "https://flagcdn.com/rs.svg",
+      "flagKnown": 68,
+      "id": "688",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Seychelles",
+      "flag": "https://flagcdn.com/sc.svg",
+      "flagKnown": 87,
+      "id": "690",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Although being very close to the coast of Africa, these islands remained uninhabited until the French arrived to the island, in 1770."
+    },
+    {
+      "name": "Sierra Leone",
+      "flag": "https://flagcdn.com/sl.svg",
+      "flagKnown": 178,
+      "id": "694",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Singapore",
+      "flag": "https://flagcdn.com/sg.svg",
+      "flagKnown": 109,
+      "id": "702",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Sint Maarten (Dutch part)",
+      "flag": "https://flagcdn.com/sx.svg",
+      "flagKnown": 197,
+      "id": "534",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Slovakia",
+      "flag": "https://flagcdn.com/sk.svg",
+      "flagKnown": 43,
+      "id": "703",
+      "similarity": {
+        "similarity1": ["705"],
+        "similarity2": ["688"]
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Slovenia",
+      "flag": "https://flagcdn.com/si.svg",
+      "flagKnown": 57,
+      "id": "705",
+      "similarity": {
+        "similarity1": ["703"],
+        "similarity2": ["688"]
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Solomon Islands",
+      "flag": "https://flagcdn.com/sb.svg",
+      "flagKnown": 192,
+      "id": "090",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Somalia",
+      "flag": "https://flagcdn.com/so.svg",
+      "flagKnown": 114,
+      "id": "706",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "South Africa",
+      "flag": "https://flagcdn.com/za.svg",
+      "flagKnown": 21,
+      "id": "710",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "In the 1960s and 70s, South Africa possessed nuclear weapons. They were eventually dismantled in 1989."
+    },
+    {
+      "name": "South Georgia and the South Sandwich Islands",
+      "flag": "https://flagcdn.com/gs.svg",
+      "flagKnown": 197,
+      "id": "239",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Korea (Republic of)",
+      "flag": "https://flagcdn.com/kr.svg",
+      "flagKnown": 5,
+      "id": "410",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Spain",
+      "flag": "https://flagcdn.com/es.svg",
+      "flagKnown": 18,
+      "id": "724",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Sri Lanka",
+      "flag": "https://flagcdn.com/lk.svg",
+      "flagKnown": 197,
+      "id": "144",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Sudan",
+      "flag": "https://flagcdn.com/sd.svg",
+      "flagKnown": 156,
+      "id": "729",
+      "similarity": {
+        "similarity1": ["400"],
+        "similarity2": ["414", "784"]
+      },
+      "funFact": [
+        "Despites pyramids being synonymous with Egypt, Sudan has the world's most pyramids, even more than Egypt. Sudan has around 255 pyramids, while Egypt has only 188.",
+        "Prior to South Sudan's seperation from Sudan in 2011, Sudan used to be the largest country in Africa, with a total landmass of over 950,000 square miles (2.5 million square km)."
+      ]
+    },
+    {
+      "name": "South Sudan",
+      "flag": "https://flagcdn.com/ss.svg",
+      "flagKnown": 153,
+      "id": "728",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Suriname",
+      "flag": "https://flagcdn.com/sr.svg",
+      "flagKnown": 174,
+      "id": "740",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Svalbard and Jan Mayen",
+      "flag": "https://flagcdn.com/sj.svg",
+      "flagKnown": 197,
+      "id": "744",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Kingdom of Eswatini",
+      "flag": "https://flagcdn.com/sz.svg",
+      "flagKnown": 102,
+      "id": "748",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Sweden",
+      "flag": "https://flagcdn.com/se.svg",
+      "flagKnown": 13,
+      "id": "752",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Switzerland",
+      "flag": "https://flagcdn.com/ch.svg",
+      "flagKnown": 8,
+      "id": "756",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Despite their neutrality, until 2021, all bridges connecting Switzerland to the outside world have been planted with bombs, to be blown up in case of invasion."
+    },
+    {
+      "name": "syrian Arab Republic",
+      "flag": "https://flagcdn.com/sy.svg",
+      "flagKnown": 81,
+      "id": "760",
+      "similarity": {
+        "similarity1": ["368"],
+        "similarity2": []
+      },
+      "funFact": "Syria's capital, Damascus, is one of the world's oldest continuously inhabited cities."
+    },
+    {
+      "name": "Taiwan",
+      "flag": "https://flagcdn.com/tw.svg",
+      "flagKnown": 140,
+      "id": "158",
+      "similarity": {
+        "similarity1": ["882"],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Tajikistan",
+      "flag": "https://flagcdn.com/tj.svg",
+      "flagKnown": 183,
+      "id": "762",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Tajikistan has the world's largest glacier, outside of the poles. The glacier spans over 50 miles (80 km)."
+    },
+    {
+      "name": "Tanzania, United Republic of",
+      "flag": "https://flagcdn.com/tz.svg",
+      "flagKnown": 167,
+      "id": "834",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Thailand",
+      "flag": "https://flagcdn.com/th.svg",
+      "flagKnown": 84,
+      "id": "764",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Timor-Leste",
+      "flag": "https://flagcdn.com/tl.svg",
+      "flagKnown": 166,
+      "id": "626",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Timor-Leste was the first nation to gain independence in the 21st century. They actually first became independent in 1975 but were invaded and occupied soon after."
+    },
+    {
+      "name": "Togo",
+      "flag": "https://flagcdn.com/tg.svg",
+      "flagKnown": 128,
+      "id": "768",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Tokelau",
+      "flag": "https://flagcdn.com/tk.svg",
+      "flagKnown": 197,
+      "id": "772",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Tonga",
+      "flag": "https://flagcdn.com/to.svg",
+      "flagKnown": 136,
+      "id": "776",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Trinidad and Tobago",
+      "flag": "https://flagcdn.com/tt.svg",
+      "flagKnown": 72,
+      "id": "780",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Tunisia",
+      "flag": "https://flagcdn.com/tn.svg",
+      "flagKnown": 90,
+      "id": "788",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Turkey",
+      "flag": "https://flagcdn.com/tr.svg",
+      "flagKnown": 22,
+      "id": "792",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Turkmenistan",
+      "flag": "https://flagcdn.com/tm.svg",
+      "flagKnown": 126,
+      "id": "795",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Turks and Caicos Islands",
+      "flag": "https://flagcdn.com/tc.svg",
+      "flagKnown": 197,
+      "id": "796",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The islands have gone through plenty of different owners. Currently, the British own the islands. However, the currency most commonly used on the islands, is the US dollar."
+    },
+    {
+      "name": "Tuvalu",
+      "flag": "https://flagcdn.com/tv.svg",
+      "flagKnown": 157,
+      "id": "798",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Tuvalu's domain is .tv. Leasing the domain to people is now the largest source of income for this tiny island."
+    },
+    {
+      "name": "Uganda",
+      "flag": "https://flagcdn.com/ug.svg",
+      "flagKnown": 103,
+      "id": "800",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Uganda is home to the 2nd largest fresh water lake in the world, Lake Victoria. The lake is also the source of the Nile River, the 2nd longest river in the world."
+    },
+    {
+      "name": "Ukraine",
+      "flag": "https://flagcdn.com/ua.svg",
+      "flagKnown": 40,
+      "id": "804",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "United Arab Emirates",
+      "flag": "https://flagcdn.com/ae.svg",
+      "flagKnown": 118,
+      "id": "784",
+      "similarity": {
+        "similarity1": ["400", "414", "729"],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "United Kingdom of Great Britain and Northern Ireland",
+      "flag": "https://flagcdn.com/gb.svg",
+      "flagKnown": 3,
+      "id": "826",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "The United Kingdom has owned the largest empire in history, the British Empire. At its peak, in 1920, the British controlled over 13 million square miles (35.5 million square km), which is 25% of the entire land area of Earth."
+    },
+    {
+      "name": "United States of America",
+      "flag": "https://flagcdn.com/us.svg",
+      "flagKnown": 4,
+      "id": "840",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Uruguay",
+      "flag": "https://flagcdn.com/uy.svg",
+      "flagKnown": 58,
+      "id": "858",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Uzbekistan",
+      "flag": "https://flagcdn.com/uz.svg",
+      "flagKnown": 142,
+      "id": "860",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Uzbekistan is one of only 2 double-landlocked countries. It is surrounded by Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan and Turkmenistan, which are also landlocked, making it the second double-landlocked country after Liechtenstein."
+    },
+    {
+      "name": "Vanuatu",
+      "flag": "https://flagcdn.com/vu.svg",
+      "flagKnown": 185,
+      "id": "548",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Venezuela (Bolivarian Republic of)",
+      "flag": "https://flagcdn.com/ve.svg",
+      "flagKnown": 73,
+      "id": "862",
+      "similarity": {
+        "similarity1": ["170", "218"],
+        "similarity2": []
+      },
+      "funFact": "With a proven 308 billion barrels, Venezuela has the world's largest oil reserves, even above Saudi Arabia."
+    },
+    {
+      "name": "Vietnam",
+      "flag": "https://flagcdn.com/vn.svg",
+      "flagKnown": 60,
+      "id": "704",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Following the death of Vietnam's first president, Ho Chi Min, they put his body on public display."
+    },
+    {
+      "name": "Wallis and Futuna",
+      "flag": "https://flagcdn.com/wf.svg",
+      "flagKnown": 197,
+      "id": "876",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Western Sahara",
+      "flag": "https://flagcdn.com/eh.svg",
+      "flagKnown": 197,
+      "id": "732",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": ""
+    },
+    {
+      "name": "Yemen",
+      "flag": "https://flagcdn.com/ye.svg",
+      "flagKnown": 141,
+      "id": "887",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Yemen has been in an on-going civil war since 2014, causing the death of over 350,000 people."
+    },
+    {
+      "name": "Zambia",
+      "flag": "https://flagcdn.com/zm.svg",
+      "flagKnown": 148,
+      "id": "894",
+      "similarity": {
+        "similarity1": [],
+        "similarity2": []
+      },
+      "funFact": "Zambia is the home of the largest waterfall in the world, Victoria Falls. Its height is 108 meters, and its twice the size of Niagara Falls."
+    },
+    {
+      "name": "Zimbabwe",
+      "flag": "https://flagcdn.com/zw.svg",
+      "flagKnown": 110,
+      "id": "716",
+      "similarity": {
+        "similarity1": ["508"],
+        "similarity2": []
+      },
+      "funFact": "With 16 official languages, Zimbabwe is the country with the most official languages."
+    }
+  ]
+}
