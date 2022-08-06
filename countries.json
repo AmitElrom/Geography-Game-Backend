@@ -935,7 +935,10 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The Georgian language is one of the most unique languages in the world and boasts its own alphabet."
+      "funFact": [
+        "Georgia has one of the oldest gold mines in the world, dating back to 4th millenium BC",
+        "The Georgian language is one of the most unique languages in the world and it has its own alphabet."
+      ]
     },
     {
       "name": "Germany",
@@ -1840,7 +1843,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Norfolk Island was used as a penal colony for Australian convicts in the late 18th and early 19th centuries."
     },
     {
       "name": "Korea (Democratic People's Republic of)",
@@ -1862,7 +1865,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The Northern Mariana Islands are a chain of 14 volcanic islands in the northwestern Pacific Ocean. The islands have a rich history dating back thousands of years. The islands were first settled by the Chamorro people, who came from Southeast Asia around 4,000 years ago. The Chamorros were eventually displaced by the Spanish, who colonized the islands in the 16th century."
     },
     {
       "name": "Norway",
@@ -1873,7 +1876,7 @@
         "similarity1": ["352"],
         "similarity2": []
       },
-      "funFact": "Norway has the most electric cars per capita in the world."
+      "funFact": "Norway is the world's leading market for electric cars, with over 50% of new cars sold in 2019 being electric. In addition, as of 2019, there are about 4 electric cars per 1,000 people in Norway."
     },
     {
       "name": "Oman",
@@ -1895,7 +1898,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Pakistan is the world's first Islamic country to attain nuclear power."
+      "funFact": "Pakistan is the first Islamic country to develop and possess nuclear weapons. They also have the 7th largest nuclear weapons stockpile in the world, with an estimated 120 nuclear warheads."
     },
     {
       "name": "Palau",
@@ -1917,7 +1920,10 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": [
+        "Panama has the Panama Canal, a man-made waterway that connects the Pacific and Atlantic oceans. It is considered one of the greatest engineering feats of the 20th century.",
+        "Panama is the southernmost country in Central America."
+      ]
     },
     {
       "name": "Papua New Guinea",
@@ -1928,7 +1934,10 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": [
+        "Papua New Guinea is located on the 'Ring of Fire', a region of the world where a large number of earthquakes and volcanic eruptions occur.",
+        "The country has over 800 different languages, making it the most linguistically diverse country in the world."
+      ]
     },
     {
       "name": "Paraguay",
@@ -1939,7 +1948,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": [
+        "Paraguay is one of the few countries in the world that have a flag that is different on both sides (See image for reference).",
+        "Paraguay is one of the world's leading exporters of soybeans."
+      ],
+      "funFactImages": [
+        "https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Paraguay_%28reverse%29.svg"
+      ]
     },
     {
       "name": "Peru",
@@ -1950,7 +1965,10 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": [
+        "Peru is also home to one of the world's deepest canyon, the Colca Canyon, the world's largest fog desert, the Atacama Desert, and the world's highest lake, Lake Titicaca.",
+        "Peru is home to the world's largest gold, copper, silver, tin, uranium and zinc reserves."
+      ]
     },
     {
       "name": "Philippines",
@@ -1961,7 +1979,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The Philippines is the only Christian nation in Asia and the 3rd-largest Catholic country in the world."
     },
     {
       "name": "Pitcairn",
@@ -1972,7 +1990,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The population of Pitcairn is only about 50 people, making it one of the smallest inhabited islands in the world. It is also one of the most isolated islands in the world, located about 4,000 miles (about 6500 km) from the nearest inhabited land, New Zealand."
     },
     {
       "name": "Poland",
@@ -1994,7 +2012,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Jews have played an important role in the history of Portugal. The most famous Jewish Portuguese is probably the doctor and philosopher Moses Maimonides."
     },
     {
       "name": "Puerto Rico",
@@ -2005,7 +2023,7 @@
         "similarity1": ["192"],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Puerto Rico is home to the world's largest radio telescope, which is located in the municipality of Arecibo."
     },
     {
       "name": "Qatar",
@@ -2016,10 +2034,10 @@
         "similarity1": ["048"],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Qatar has the highest GDP per capita, with around 80,000$."
     },
     {
-      "name": "Republic of Kosovo",
+      "name": "Kosovo",
       "flag": "https://flagcdn.com/xk.svg",
       "flagKnown": 85,
       "id": "926",
@@ -2038,7 +2056,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Réunion is home to one of the world's most active volcanoes, Piton de la Fournaise, with more than 100 recorded eruptions since the 16th century."
     },
     {
       "name": "Romania",
@@ -2049,10 +2067,10 @@
         "similarity1": ["148"],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Romania has the largest population of brown bears in Europe, with an estimated 6,000 brown bears living in the wild."
     },
     {
-      "name": "Russian Federation",
+      "name": "Russia",
       "flag": "https://flagcdn.com/ru.svg",
       "flagKnown": 32,
       "id": "643",
@@ -2060,7 +2078,10 @@
         "similarity1": ["528"],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": [
+        "The name 'Russia' is derived from 'Rus', a medieval state populated mostly by the East Slavs.",
+        "Although the majority of the Russian population is ethnic Russian, there are over 190 different ethnic groups represented in the country."
+      ]
     },
     {
       "name": "Rwanda",
@@ -2071,7 +2092,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Rwanda is one of the world's safest countries. It has a very low crime rate and is ranked as the safest country in Africa."
     },
     {
       "name": "Saint Barthélemy",
@@ -2082,7 +2103,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Saint Barthélemy is a French teritory in the Carribbean, and it is a part of the French West Indies. The island was a French territory for 2 centuries, before it was sold to Sweden in 1784, and later resold to the French in 1878."
     },
     {
       "name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -2093,7 +2114,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Saint Helena, Ascension and Tristan da Cunha is an island country in the southern Atlantic Ocean. Saint Helena was first discovered by the Portuguese in 1502. It was later occupied by the British and became an important stopover for ships travelling to and from the East."
     },
     {
       "name": "Saint Kitts and Nevis",
@@ -2104,7 +2125,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The official language of Saint Kitts and Nevis is English, although the local dialect of Saint Kitts Creole is also widely spoken."
     },
     {
       "name": "Saint Lucia",
@@ -2115,7 +2136,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Saint Lucia is a sovereign island country in the West Indies in the eastern Caribbean Sea on the boundary with the Atlantic Ocean. It is the only country in the world named after a woman."
     },
     {
       "name": "Saint Martin (French part)",
@@ -2126,7 +2147,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "The French overseas collectivity of Saint-Martin sits on an island  in the northeast Caribbean Sea that is split between France (the northern half) and the Netherlands (the southern half)."
     },
     {
       "name": "Saint Pierre and Miquelon",
@@ -2137,7 +2158,7 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": ""
+      "funFact": "Saint Pierre and Miquelon is an archipelago off the coast of Newfoundland, Canada. The islands are French territory and the only remaining French colony in North America."
     },
     {
       "name": "Saint Vincent and the Grenadines",
