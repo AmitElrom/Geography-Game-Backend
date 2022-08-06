@@ -62,6 +62,19 @@ const { countries } = require('./countries.json');
 // })
 
 // app.get('/', async (req, res) => {
+//     const funFacts = countries.map(country => {
+//         return country.funFact
+//     })
+//     let counter = 0;
+//     funFacts.forEach(funFact => {
+//         if (funFact === "") {
+//             counter++;
+//         }
+//     })
+//     res.json({ counter })
+// })
+
+// app.get('/', async (req, res) => {
 //     let longestName = '';
 //     for (let i = 0; i < countries.length; i++) {
 //         if (countries[i].name.length > longestName.length) {
@@ -76,10 +89,12 @@ const { countries } = require('./countries.json');
 //     let counter = 1;
 //     countries.forEach(country => {
 //         if (country.funFact === '') {
-//             if (counter === 8) {
+//             if (counter === 1) {
 //                 res.json(country.name)
 //             }
 //             counter++;
+//         } else {
+//             res.json({ status: 'no more empty fun facts' })
 //         }
 //     })
 // })
@@ -110,14 +125,14 @@ const { countries } = require('./countries.json');
 //     res.json(countries.length)
 // })
 
-app.get('/', async (req, res) => {
-    const countriesNoFunFacts = countries.filter(country => country.funFact === "")
-    let lastNoFunFactCountry = {
-        name: countriesNoFunFacts[countriesNoFunFacts.length - 2].name,
-        funFact: countriesNoFunFacts[countriesNoFunFacts.length - 2].funFact,
-    }
-    res.json(lastNoFunFactCountry)
-})
+// app.get('/', async (req, res) => {
+//     const countriesNoFunFacts = countries.filter(country => country.funFact === "")
+//     let lastNoFunFactCountry = {
+//         name: countriesNoFunFacts[countriesNoFunFacts.length - 1].name,
+//         funFact: countriesNoFunFacts[countriesNoFunFacts.length - 1].funFact,
+//     }
+//     res.json(lastNoFunFactCountry)
+// })
 
 
 app.listen(7000, () => {
