@@ -134,6 +134,43 @@ const { countries } = require('./countries.json');
 //     res.json(lastNoFunFactCountry)
 // })
 
+// app.get('/', async (req, res) => {
+//     const newCountries = countries.map(country => {
+//         if (Array.isArray(country.funFact)) {
+//             return {
+//                 name: country.name,
+//                 flag: country.flag,
+//                 flagKnown: country.flagKnown,
+//                 id: country.id,
+//                 similarity: country.similarity,
+//                 funFact: {
+//                     data: country.funFact,
+//                     images: country.funFactImages ? country.funFactImages : [],
+//                     mapLocationLink: ""
+//                 }
+//             }
+//         } else {
+//             return {
+//                 name: country.name,
+//                 flag: country.flag,
+//                 flagKnown: country.flagKnown,
+//                 id: country.id,
+//                 similarity: country.similarity,
+//                 funFact: {
+//                     data: [country.funFact],
+//                     images: country.funFactImages ? country.funFactImages : [],
+//                     mapLocationLink: ""
+//                 }
+//             }
+//         }
+//     })
+//     res.json(newCountries)
+// })
+
+app.get('/', async (req, res) => {
+    res.json(countries)
+})
+
 
 app.listen(7000, () => {
     console.log('server is listening to port 7000');

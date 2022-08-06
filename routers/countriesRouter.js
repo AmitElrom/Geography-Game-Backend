@@ -90,11 +90,19 @@ router.route('/')
                     trueArray: questionFalseCountries,
                     trueIndexes: falseCountriesIndexes
                 } = getMeRandomElements(falseCountries, 3)
+                const questionFalseCountriesManipulated = questionFalseCountries.map(country => {
+                    return {
+                        name: country.name,
+                        id: country.id,
+                        flag: country.flag,
+                        isCountry: country.isCountry
+                    }
+                })
                 // optional - splicing - causes false options are always different
                 for (let i = 0; i < 3; i++) {
                     falseCountries.splice(falseCountriesIndexes[i], 1)
                 }
-                questions.push([trueCountries[i], ...questionFalseCountries])
+                questions.push([trueCountries[i], ...questionFalseCountriesManipulated])
             }
 
             // return the questions array

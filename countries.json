@@ -9,7 +9,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Afghanistan is the world's largest producer of opium. As of 2021, Afghanistan is the source of more than 90% of the world's opium supply. It is the source of more than 95% of the European opium supply. Opium farming is a major source of employment in Afghanistan."
+      "funFact": {
+        "data": [
+          "Afghanistan is the world's largest producer of opium. As of 2021, Afghanistan is the source of more than 90% of the world's opium supply. It is the source of more than 95% of the European opium supply. Opium farming is a major source of employment in Afghanistan."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Åland Islands",
@@ -20,7 +26,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Despite being an autonomous region of Finland, Åland Islands' official language is actually Swedish. The students aren't even obliged to learn Finnish in school."
+      "funFact": {
+        "data": [
+          "Despite being an autonomous region of Finland, Åland Islands' official language is actually Swedish. The students aren't even obliged to learn Finnish in school."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Albania",
@@ -31,7 +43,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Only 3 million people live in the country. There are more Albanians now living outside the country than within its territories. The estimated diaspora population of Albanians is between seven to ten million."
+      "funFact": {
+        "data": [
+          "Only 3 million people live in the country. There are more Albanians now living outside the country than within its territories. The estimated diaspora population of Albanians is between seven to ten million."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Algeria",
@@ -42,7 +60,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Algeria is the largest country in Africa."
+      "funFact": {
+        "data": ["Algeria is the largest country in Africa."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "American Samoa",
@@ -53,10 +75,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "In the 1960s, the US spent a lot of moeny to build schools, streets, a hospital and 2 tuna canneries in the archipelgo. As of 2017, over 80% of the country's working population work in tuna canneries, while the other 20% work in agriculture or for the US government. Moreover, 93% of American Samoa's exports is canned tuna, and 100% of the exports go to the US.",
-        "During the moon landings in the 1960s and 70s, American Samoa's waters were a popular landing site for astronauts. A small American Samoa flag was sent to the moon on one of the missions, and later awarded, along with 3 moon rocks, to American Samoa, by US president Richard Nixon."
-      ]
+      "funFact": {
+        "data": [
+          "In the 1960s, the US spent a lot of moeny to build schools, streets, a hospital and 2 tuna canneries in the archipelgo. As of 2017, over 80% of the country's working population work in tuna canneries, while the other 20% work in agriculture or for the US government. Moreover, 93% of American Samoa's exports is canned tuna, and 100% of the exports go to the US.",
+          "During the moon landings in the 1960s and 70s, American Samoa's waters were a popular landing site for astronauts. A small American Samoa flag was sent to the moon on one of the missions, and later awarded, along with 3 moon rocks, to American Samoa, by US president Richard Nixon."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Andorra",
@@ -67,7 +93,13 @@
         "similarity1": ["498"],
         "similarity2": []
       },
-      "funFact": "Andorra is the only country in the world with Catalan as its official language."
+      "funFact": {
+        "data": [
+          "Andorra is the only country in the world with Catalan as its official language."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Angola",
@@ -78,7 +110,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Thanks to a small exclave a near their border with the DRC, Angola is the 2nd largest producer of oil in Africa."
+      "funFact": {
+        "data": [
+          "Thanks to a small exclave a near their border with the DRC, Angola is the 2nd largest producer of oil in Africa."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Anguilla",
@@ -89,7 +127,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Despite Anguilla being only 16 miles (25 km) long and 3 miles (5 km) wide and having a population of only 15,000 people, many famous celebrities have lived there, including Chuck Norris, Paris Hilton, Jay-Z, Michael Jordan, Leonardo DiCaprio, Liam Neeson and Sandra Bullock."
+      "funFact": {
+        "data": [
+          "Despite Anguilla being only 16 miles (25 km) long and 3 miles (5 km) wide and having a population of only 15,000 people, many famous celebrities have lived there, including Chuck Norris, Paris Hilton, Jay-Z, Michael Jordan, Leonardo DiCaprio, Liam Neeson and Sandra Bullock."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Antigua and Barbuda",
@@ -100,7 +144,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Antigua and Barbuda was one of the last countries to gain independce from the UK, gaining indepndence in 1981. The only countries to gain independence from UK afterwards are Saint Kitts and Nevis and Brunei, in 1983 and 1984, respectively."
+      "funFact": {
+        "data": [
+          "Antigua and Barbuda was one of the last countries to gain independce from the UK, gaining indepndence in 1981. The only countries to gain independence from UK afterwards are Saint Kitts and Nevis and Brunei, in 1983 and 1984, respectively."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Argentina",
@@ -111,7 +161,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Argentina was named after a mountain made of silver, since 'Argentina' in Italian means 'made of silver'."
+      "funFact": {
+        "data": [
+          "Argentina was named after a mountain made of silver, since 'Argentina' in Italian means 'made of silver'."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Armenia",
@@ -122,7 +178,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Armenia is the first country to adopt Christianity, all the way back in 300 AD. Armenia is also the 2nd most religious country in Europe, with over 97% of the population saying they believe in God."
+      "funFact": {
+        "data": [
+          "Armenia is the first country to adopt Christianity, all the way back in 300 AD. Armenia is also the 2nd most religious country in Europe, with over 97% of the population saying they believe in God."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Aruba",
@@ -133,7 +195,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Every native Aruban speaks 4 languages: Dutch, Papiamento (The official languages of Aruba), English and Spanish."
+      "funFact": {
+        "data": [
+          "Every native Aruban speaks 4 languages: Dutch, Papiamento (The official languages of Aruba), English and Spanish."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Australia",
@@ -144,10 +212,14 @@
         "similarity1": ["554"],
         "similarity2": []
       },
-      "funFact": [
-        "The capital of Australia is Canberra, and not Sydney as others assume.",
-        "The Great Barrier Reef, located off the shore of Australia, is the world's largest living organism, and is often listed as one of the Seven Wonders of the Natural World."
-      ]
+      "funFact": {
+        "data": [
+          "The capital of Australia is Canberra, and not Sydney as others assume.",
+          "The Great Barrier Reef, located off the shore of Australia, is the world's largest living organism, and is often listed as one of the Seven Wonders of the Natural World."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Austria",
@@ -158,7 +230,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The Austrian flag dates back to 1191, which makes it one of the oldest national flags in the world."
+      "funFact": {
+        "data": [
+          "The Austrian flag dates back to 1191, which makes it one of the oldest national flags in the world."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Azerbaijan",
@@ -169,7 +247,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "In 1918 Azerbaijan became the first Muslim nation and one of the first nations in general to grant women the right to vote."
+      "funFact": {
+        "data": [
+          "In 1918 Azerbaijan became the first Muslim nation and one of the first nations in general to grant women the right to vote."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Bahamas",
@@ -180,7 +264,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The name Bahamas comes from the Spanish term 'baja mar', which means shallow sea."
+      "funFact": {
+        "data": [
+          "The name Bahamas comes from the Spanish term 'baja mar', which means shallow sea."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Bahrain",
@@ -191,7 +281,13 @@
         "similarity1": ["634"],
         "similarity2": []
       },
-      "funFact": "Bahrain is an island located in the Persian Gulf. However, it's connected to the Saudi city of Al Khobar."
+      "funFact": {
+        "data": [
+          "Bahrain is an island located in the Persian Gulf. However, it's connected to the Saudi city of Al Khobar."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Bangladesh",
@@ -202,7 +298,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Dhaka, Bangladesh capital, is the most densely populated city on Earth, with a density of over 2,000 people per square km."
+      "funFact": {
+        "data": [
+          "Dhaka, Bangladesh capital, is the most densely populated city on Earth, with a density of over 2,000 people per square km."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Barbados",
@@ -213,7 +315,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Rihanna is originally from Barbados."
+      "funFact": {
+        "data": ["Rihanna is originally from Barbados."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Belarus",
@@ -224,7 +330,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Two Israeli presidents were born in Belarus, Chaim Weizmann and Shimon Peres."
+      "funFact": {
+        "data": [
+          "Two Israeli presidents were born in Belarus, Chaim Weizmann and Shimon Peres."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Belgium",
@@ -235,7 +347,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Belgium holds the world record for the longest period without a government."
+      "funFact": {
+        "data": [
+          "Belgium holds the world record for the longest period without a government."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Belize",
@@ -246,7 +364,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "A British colony for more than 200 years, Belize today is the only nation in Central America where English is the official language. More than 80% of the population speak English as their mother tongue. Other languages spoken in Belize include Mayan, Kriol (Creole), Garifuna, and Spanish."
+      "funFact": {
+        "data": [
+          "A British colony for more than 200 years, Belize today is the only nation in Central America where English is the official language. More than 80% of the population speak English as their mother tongue. Other languages spoken in Belize include Mayan, Kriol (Creole), Garifuna, and Spanish."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Benin",
@@ -257,7 +381,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Benin's south coast was once the 'slave coast'. Benin’s southern coast was a major departure point for slaves for over 100 years. Over 10,000 slaves a year were shipped from here to the Americas."
+      "funFact": {
+        "data": [
+          "Benin's south coast was once the 'slave coast'. Benin’s southern coast was a major departure point for slaves for over 100 years. Over 10,000 slaves a year were shipped from here to the Americas."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Bermuda",
@@ -268,7 +398,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "It's the Shipwreck Capital of the World. Bermuda's extensive coastal reef and the occasional big storm are the perfect conditions for shipwrecks. To date, over 300 wrecks have been found dating back to the 1600s."
+      "funFact": {
+        "data": [
+          "It's the Shipwreck Capital of the World. Bermuda's extensive coastal reef and the occasional big storm are the perfect conditions for shipwrecks. To date, over 300 wrecks have been found dating back to the 1600s."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Bhutan",
@@ -279,7 +415,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Bhutan is the only country in the world where tobacco is banned."
+      "funFact": {
+        "data": [
+          "Bhutan is the only country in the world where tobacco is banned."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Bolivia (Plurinational State of)",
@@ -290,7 +432,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Despite having no coastline, Bolivia does have a navy. It mainly patrolls the Amazon tributaries."
+      "funFact": {
+        "data": [
+          "Despite having no coastline, Bolivia does have a navy. It mainly patrolls the Amazon tributaries."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Caribbean Netherlands",
@@ -301,7 +449,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The Carribbean Netherlands are three islands in the Carribbean that are classified as overseas territories of The Netherlands. The three islands are: Bonaire, Sint Eustatius, and Saba"
+      "funFact": {
+        "data": [
+          "The Carribbean Netherlands are three islands in the Carribbean that are classified as overseas territories of The Netherlands. The three islands are: Bonaire, Sint Eustatius, and Saba"
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Bosnia and Herzegovina",
@@ -312,10 +466,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "Bosnia and Herzegovina has about 152 unexploded landmines per square mile (58 per square km).",
-        "Bosnia and Herzegovina's capital city, Sarajevo, is where Archduke Franz Ferdinand of Austro-Hungary was assassinated on June 28th 1914, an event which ultimately led to the beginning of WW1."
-      ]
+      "funFact": {
+        "data": [
+          "Bosnia and Herzegovina has about 152 unexploded landmines per square mile (58 per square km).",
+          "Bosnia and Herzegovina's capital city, Sarajevo, is where Archduke Franz Ferdinand of Austro-Hungary was assassinated on June 28th 1914, an event which ultimately led to the beginning of WW1."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Botswana",
@@ -326,7 +484,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Botswana Has Africa's Highest Concentration Of Elephants. Botswana is home to approximately 130,451 elephants. Additionally, the country has a density of 1.28 elephants per square km, which is the highest elephant concentration in Africa."
+      "funFact": {
+        "data": [
+          "Botswana Has Africa's Highest Concentration Of Elephants. Botswana is home to approximately 130,451 elephants. Additionally, the country has a density of 1.28 elephants per square km, which is the highest elephant concentration in Africa."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Bouvet Island",
@@ -337,7 +501,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Bouvet Island is an Norwegian uninhabited island in the southern Atlantic Ocean. It is widely considered to be the most remote island in the world, as the closest inhabited place to the island is Queen Maud Land, located in Antarctica, about 1,000 miles (1,600 km) away."
+      "funFact": {
+        "data": [
+          "Bouvet Island is an Norwegian uninhabited island in the southern Atlantic Ocean. It is widely considered to be the most remote island in the world, as the closest inhabited place to the island is Queen Maud Land, located in Antarctica, about 1,000 miles (1,600 km) away."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Brazil",
@@ -348,7 +518,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Brazil was the last country in America to abolish slavery, in 1888."
+      "funFact": {
+        "data": [
+          "Brazil was the last country in America to abolish slavery, in 1888."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "British Indian Ocean Territory",
@@ -359,7 +535,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The only inhabitants of the British Indian Ocean Territory are 2,500 British and US military personnel. Thus, there are no permanent inhabitants in the islands. There were inhabitants in the islands, up until 1973, when the British deported the 2,000 inhabitants to Mauritius."
+      "funFact": {
+        "data": [
+          "The only inhabitants of the British Indian Ocean Territory are 2,500 British and US military personnel. Thus, there are no permanent inhabitants in the islands. There were inhabitants in the islands, up until 1973, when the British deported the 2,000 inhabitants to Mauritius."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "United States Minor Outlying Islands",
@@ -370,7 +552,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The United States Minor Outlying Islands are a group of 8 islands and atolls in the Pacific Ocean and 1 in the Carribbean. One of the atolls is Midway Atoll, where the Battle of Midway occured in WW2 between Japan and the US. This battle was a turning point in the Campaign for the Pacific."
+      "funFact": {
+        "data": [
+          "The United States Minor Outlying Islands are a group of 8 islands and atolls in the Pacific Ocean and 1 in the Carribbean. One of the atolls is Midway Atoll, where the Battle of Midway occured in WW2 between Japan and the US. This battle was a turning point in the Campaign for the Pacific."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Virgin Islands (British)",
@@ -381,7 +569,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The British Virgin Islands is an archipelago in the Carribbean, discovered and named by Christopher Colombus in 1493. The islands were first inhabited in 1500 BC by native American tribes. Several different empires, including the Spanish, Dutch, British, and French, fought to take control of the island."
+      "funFact": {
+        "data": [
+          "The British Virgin Islands is an archipelago in the Carribbean, discovered and named by Christopher Colombus in 1493. The islands were first inhabited in 1500 BC by native American tribes. Several different empires, including the Spanish, Dutch, British, and French, fought to take control of the island."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Virgin Islands (U.S.)",
@@ -392,10 +586,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "Although the US Virgin Islands are considered a part of the US, it is the only location in the United States where you drive on the left side of the road",
-        "The 2nd oldest synagogue in the US is located in the US Virgin Islands. It was founded in 1796 by Spanish and Portuguese Sephardic Jews who had come to the Caribbean Basin to finance trade between Europe and the New World."
-      ]
+      "funFact": {
+        "data": [
+          "Although the US Virgin Islands are considered a part of the US, it is the only location in the United States where you drive on the left side of the road",
+          "The 2nd oldest synagogue in the US is located in the US Virgin Islands. It was founded in 1796 by Spanish and Portuguese Sephardic Jews who had come to the Caribbean Basin to finance trade between Europe and the New World."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Brunei Darussalam",
@@ -406,10 +604,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "Much of Shell's oil comes from offshore drilling platforms in Brunei.",
-        "Brunei is the last country in the world to gain independence from the British Empire, in 1984."
-      ]
+      "funFact": {
+        "data": [
+          "Much of Shell's oil comes from offshore drilling platforms in Brunei.",
+          "Brunei is the last country in the world to gain independence from the British Empire, in 1984."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Bulgaria",
@@ -420,7 +622,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Bulgaria is where the Early Cyrillic Alphabet, the predecessor to the modern Cyrillic Alphabet, was developed. It was originally created to translate the Bible into Slavic languages."
+      "funFact": {
+        "data": [
+          "Bulgaria is where the Early Cyrillic Alphabet, the predecessor to the modern Cyrillic Alphabet, was developed. It was originally created to translate the Bible into Slavic languages."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Burkina Faso",
@@ -431,7 +639,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The main export of Burkina Faso is gold, followed by cotton and animal products. Burkina Faso is also one of Africa’s largest producers of cotton."
+      "funFact": {
+        "data": [
+          "The main export of Burkina Faso is gold, followed by cotton and animal products. Burkina Faso is also one of Africa’s largest producers of cotton."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Burundi",
@@ -442,7 +656,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The three stars in triangular configuration stand for the three ethnic groups of Burundi: the Hutu, the Twa and the Tutsi. The three stars also stand for the three elements of the national motto: Unité, Travail, Progrès ('Unity, Work and Progress'), which can be seen on the coat of arms of Burundi."
+      "funFact": {
+        "data": [
+          "The three stars in triangular configuration stand for the three ethnic groups of Burundi: the Hutu, the Twa and the Tutsi. The three stars also stand for the three elements of the national motto: Unité, Travail, Progrès ('Unity, Work and Progress'), which can be seen on the coat of arms of Burundi."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Cambodia",
@@ -453,7 +673,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Cambodia's flag is the only one in the world to feature a building."
+      "funFact": {
+        "data": [
+          "Cambodia's flag is the only one in the world to feature a building."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Cameroon",
@@ -464,7 +690,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Before World War I, the vast majority of the country was a German colony. At that time it was known as Kamerun."
+      "funFact": {
+        "data": [
+          "Before World War I, the vast majority of the country was a German colony. At that time it was known as Kamerun."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Canada",
@@ -475,7 +707,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Canada is a monarchy, which is Elizabeth II."
+      "funFact": {
+        "data": ["Canada is a monarchy, which is Elizabeth II."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Cabo Verde",
@@ -486,7 +722,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Cabo Verde is an archipelago, that was uninhabited until the 15th century. Portuguese explorers colonised the islands in 1456, establishing the first European settlement in the tropics. Cape Verde only gained independence in 1975, which is why Portuguese is still the official spoken language across the archipelago."
+      "funFact": {
+        "data": [
+          "Cabo Verde is an archipelago, that was uninhabited until the 15th century. Portuguese explorers colonised the islands in 1456, establishing the first European settlement in the tropics. Cape Verde only gained independence in 1975, which is why Portuguese is still the official spoken language across the archipelago."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Cayman Islands",
@@ -497,7 +739,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "As the Cayman Islands is a British Overseas Territory, driving is on the left-hand side of the road."
+      "funFact": {
+        "data": [
+          "As the Cayman Islands is a British Overseas Territory, driving is on the left-hand side of the road."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Central African Republic",
@@ -508,7 +756,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The Central African Republic is home to the ethnic group of Pygmy people, known for their short stature - typically under five feet tall."
+      "funFact": {
+        "data": [
+          "The Central African Republic is home to the ethnic group of Pygmy people, known for their short stature - typically under five feet tall."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Chad",
@@ -519,7 +773,13 @@
         "similarity1": ["642"],
         "similarity2": []
       },
-      "funFact": "Chad is the largest of the 16 landlocked countries in Africa."
+      "funFact": {
+        "data": [
+          "Chad is the largest of the 16 landlocked countries in Africa."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Chile",
@@ -530,7 +790,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "At 4,270 km (2,653 mi), Chile is the second longest country in the world, only narrowly being beat out by Brazil, which is 95 kilometers longer."
+      "funFact": {
+        "data": [
+          "At 4,270 km (2,653 mi), Chile is the second longest country in the world, only narrowly being beat out by Brazil, which is 95 kilometers longer."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "China",
@@ -541,7 +807,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Put all of China’s railway lines, it can loop around the earth two times!"
+      "funFact": {
+        "data": [
+          "Put all of China’s railway lines, it can loop around the earth two times!"
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Christmas Island",
@@ -552,7 +824,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Captain William Mynors of the Royal Mary, an English East India Company vessel, named the island when he sailed past it on Christmas Day, in 1643."
+      "funFact": {
+        "data": [
+          "Captain William Mynors of the Royal Mary, an English East India Company vessel, named the island when he sailed past it on Christmas Day, in 1643."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Cocos (Keeling) Islands",
@@ -563,7 +841,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "'Cocos' references the vast crops of coconuts growing there. 'Keeling' is the surname of the founder of the islands, William Keeling."
+      "funFact": {
+        "data": [
+          "'Cocos' references the vast crops of coconuts growing there. 'Keeling' is the surname of the founder of the islands, William Keeling."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Colombia",
@@ -574,7 +858,13 @@
         "similarity1": ["218", "862"],
         "similarity2": []
       },
-      "funFact": "It is mandatory for radio and public television in Colombia to play the national anthem every day at 6 am and 6 pm."
+      "funFact": {
+        "data": [
+          "It is mandatory for radio and public television in Colombia to play the national anthem every day at 6 am and 6 pm."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Comoros",
@@ -585,7 +875,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Someone attempts a coup in Comoros every 2 years."
+      "funFact": {
+        "data": ["Someone attempts a coup in Comoros every 2 years."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Congo",
@@ -596,7 +890,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Oil accounts for 89% of all Congo's exports."
+      "funFact": {
+        "data": ["Oil accounts for 89% of all Congo's exports."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Congo (Democratic Republic of the)",
@@ -607,7 +905,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The Democratic Republic of the Congo's capital, Kinshasa, is the largest French-speaking city in the world (even above Paris)."
+      "funFact": {
+        "data": [
+          "The Democratic Republic of the Congo's capital, Kinshasa, is the largest French-speaking city in the world (even above Paris)."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Cook Islands",
@@ -618,7 +922,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The official currency in the Cook Islands is New Zealand Dollar."
+      "funFact": {
+        "data": [
+          "The official currency in the Cook Islands is New Zealand Dollar."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Costa Rica",
@@ -629,7 +939,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Costa Rica doesn’t have a military."
+      "funFact": {
+        "data": ["Costa Rica doesn’t have a military."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Croatia",
@@ -640,7 +954,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Croatia’s town of Hum, often referred to as the smallest town in the world."
+      "funFact": {
+        "data": [
+          "Croatia’s town of Hum, often referred to as the smallest town in the world."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Cuba",
@@ -651,7 +971,11 @@
         "similarity1": ["630"],
         "similarity2": []
       },
-      "funFact": "Cuba is the largest island in the Caribbean."
+      "funFact": {
+        "data": ["Cuba is the largest island in the Caribbean."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Curaçao",
@@ -662,7 +986,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "As a Netherlands overseas territory, Curaçao citizens hold the same rights to live and work in the EU as the Dutch."
+      "funFact": {
+        "data": [
+          "As a Netherlands overseas territory, Curaçao citizens hold the same rights to live and work in the EU as the Dutch."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Cyprus",
@@ -673,7 +1003,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "According to the Greek Mythology, Cyprus is the birthplace of the Greek goddess of love, Aphrodite."
+      "funFact": {
+        "data": [
+          "According to the Greek Mythology, Cyprus is the birthplace of the Greek goddess of love, Aphrodite."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Czechia",
@@ -684,7 +1020,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Czech people are the world’s heaviest consumers of beer. On average, they drink 188.6 litres of beer per capita."
+      "funFact": {
+        "data": [
+          "Czech people are the world’s heaviest consumers of beer. On average, they drink 188.6 litres of beer per capita."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Denmark",
@@ -695,10 +1037,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "As of 2022, Denmark is the world second happiest country.",
-        "Denmark's flag, containing a red background and a white nordic cross, is the oldest flag currently in use. Its first documented use was in 1219, in the battle of Lyndanisse"
-      ]
+      "funFact": {
+        "data": [
+          "As of 2022, Denmark is the world second happiest country.",
+          "Denmark's flag, containing a red background and a white nordic cross, is the oldest flag currently in use. Its first documented use was in 1219, in the battle of Lyndanisse"
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Djibouti",
@@ -709,7 +1055,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "At 155m below sea level, Lac Assal, in Djibouti is the lowest point in Africa."
+      "funFact": {
+        "data": [
+          "At 155m below sea level, Lac Assal, in Djibouti is the lowest point in Africa."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Dominica",
@@ -720,7 +1072,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Dominica is one of only 2 countries to have purple on its flag."
+      "funFact": {
+        "data": [
+          "Dominica is one of only 2 countries to have purple on its flag."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Dominican Republic",
@@ -731,7 +1089,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The first cathedral, hospital, and university in the Americas were founded in what is now Dominican Republic capital city, Santo Domingo."
+      "funFact": {
+        "data": [
+          "The first cathedral, hospital, and university in the Americas were founded in what is now Dominican Republic capital city, Santo Domingo."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Ecuador",
@@ -742,7 +1106,13 @@
         "similarity1": ["170", "862"],
         "similarity2": []
       },
-      "funFact": "Ecuador's name comes from the Spanish word for the equator, which the country straddles it."
+      "funFact": {
+        "data": [
+          "Ecuador's name comes from the Spanish word for the equator, which the country straddles it."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Egypt",
@@ -753,7 +1123,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Egyptians were the inventors of the 365-day calender. They subdivided the year into 3 seasons."
+      "funFact": {
+        "data": [
+          "Egyptians were the inventors of the 365-day calender. They subdivided the year into 3 seasons."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "El Salvador",
@@ -764,10 +1140,14 @@
         "similarity1": ["340", "558"],
         "similarity2": []
       },
-      "funFact": [
-        "El Salvador is known as the “Land of the Volcanoes” because of the more than 20 volcanoes in the territory. It even has volcanoes in its flag.",
-        "El Salvador became the first country in the world to use Bitcoin as legal tender, after having been adopted as such by the Legislative Assembly of El Salvador in 2021."
-      ]
+      "funFact": {
+        "data": [
+          "El Salvador is known as the “Land of the Volcanoes” because of the more than 20 volcanoes in the territory. It even has volcanoes in its flag.",
+          "El Salvador became the first country in the world to use Bitcoin as legal tender, after having been adopted as such by the Legislative Assembly of El Salvador in 2021."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Equatorial Guinea",
@@ -778,7 +1158,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The current capital of Equatorial Guinea is Malabo, which is located on the island of Bioko, and not the mainland. So, the government of this country is planning a new capital known as Oyala and is located in the Wele-Nzas province of the mainland region"
+      "funFact": {
+        "data": [
+          "The current capital of Equatorial Guinea is Malabo, which is located on the island of Bioko, and not the mainland. So, the government of this country is planning a new capital known as Oyala and is located in the Wele-Nzas province of the mainland region"
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Eritrea",
@@ -789,7 +1175,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Eritrea has no official language."
+      "funFact": {
+        "data": ["Eritrea has no official language."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Estonia",
@@ -800,7 +1190,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Estonia has most start-ups per capita in Europe."
+      "funFact": {
+        "data": ["Estonia has most start-ups per capita in Europe."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Ethiopia",
@@ -811,7 +1205,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Ethiopia was never colonised by the Europeans."
+      "funFact": {
+        "data": ["Ethiopia was never colonised by the Europeans."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Falkland Islands (Malvinas)",
@@ -822,7 +1220,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Sovereignty over the Falkland Islands (Spanish: Islas Malvinas) is disputed by Argentina and the United Kingdom."
+      "funFact": {
+        "data": [
+          "Sovereignty over the Falkland Islands (Spanish: Islas Malvinas) is disputed by Argentina and the United Kingdom."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Faroe Islands",
@@ -833,7 +1237,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The Faroe Islands are devoid of trees. The ones that originally existed were probably cut by the first settlers and were never replanted."
+      "funFact": {
+        "data": [
+          "The Faroe Islands are devoid of trees. The ones that originally existed were probably cut by the first settlers and were never replanted."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Fiji",
@@ -844,7 +1254,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Fiji is one of the few nations to have three official languages, English, Fijian, and Fiji Hindi."
+      "funFact": {
+        "data": [
+          "Fiji is one of the few nations to have three official languages, English, Fijian, and Fiji Hindi."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Finland",
@@ -855,7 +1271,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Finland is the world's happiest country."
+      "funFact": {
+        "data": ["Finland is the world's happiest country."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "France",
@@ -866,7 +1286,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Thanks to French Guiana, France's largest border is with Brazil"
+      "funFact": {
+        "data": [
+          "Thanks to French Guiana, France's largest border is with Brazil"
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "French Guiana",
@@ -877,7 +1303,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Although French Guiana is in South America, its currency is the Euro."
+      "funFact": {
+        "data": [
+          "Although French Guiana is in South America, its currency is the Euro."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "French Polynesia",
@@ -888,7 +1320,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "It is believed that the word “tattoo” comes from the Tahitian (French Polynesian) word tatau and dates as far back as 1500 B.C."
+      "funFact": {
+        "data": [
+          "It is believed that the word “tattoo” comes from the Tahitian (French Polynesian) word tatau and dates as far back as 1500 B.C."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "French Southern Territories",
@@ -899,7 +1337,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The French Southern Territories has no permanently settled inhabitants."
+      "funFact": {
+        "data": [
+          "The French Southern Territories has no permanently settled inhabitants."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Gabon",
@@ -910,7 +1354,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The name Gabon comes from the Portuguese word “gabao” meaning “cloak”. Early explorers thought the estuary of the Komo River by the capital of Libreville was the shape of a cloak."
+      "funFact": {
+        "data": [
+          "The name Gabon comes from the Portuguese word “gabao” meaning “cloak”. Early explorers thought the estuary of the Komo River by the capital of Libreville was the shape of a cloak."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Gambia",
@@ -921,10 +1371,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "With an area of only 4,300 square miles (11,500 square kilometers), The Gambia is the smallest nation in mainland Africa",
-        "The Gambia is one of only a few countries to have a 'The' behind their name. This is due to the fact that its name originates from the Gambia river."
-      ]
+      "funFact": {
+        "data": [
+          "With an area of only 4,300 square miles (11,500 square kilometers), The Gambia is the smallest nation in mainland Africa",
+          "The Gambia is one of only a few countries to have a 'The' behind their name. This is due to the fact that its name originates from the Gambia river."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Georgia",
@@ -935,10 +1389,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "Georgia has one of the oldest gold mines in the world, dating back to 4th millenium BC",
-        "The Georgian language is one of the most unique languages in the world and it has its own alphabet."
-      ]
+      "funFact": {
+        "data": [
+          "Georgia has one of the oldest gold mines in the world, dating back to 4th millenium BC",
+          "The Georgian language is one of the most unique languages in the world and it has its own alphabet."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Germany",
@@ -949,7 +1407,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "There are more football fan clubs in Germany than anywhere else in the world."
+      "funFact": {
+        "data": [
+          "There are more football fan clubs in Germany than anywhere else in the world."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Ghana",
@@ -960,7 +1424,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Ghana is the second-largest producer of gold in Africa. In fact, before 1957, Ghana was commonly known as the Gold Coast because of its availability of gold along the rivers Ankobra and Volta. "
+      "funFact": {
+        "data": [
+          "Ghana is the second-largest producer of gold in Africa. In fact, before 1957, Ghana was commonly known as the Gold Coast because of its availability of gold along the rivers Ankobra and Volta. "
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Gibraltar",
@@ -971,7 +1441,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "There is basically no tax on goods in Gibraltar. This includes cigarettes, booze, etc."
+      "funFact": {
+        "data": [
+          "There is basically no tax on goods in Gibraltar. This includes cigarettes, booze, etc."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Greece",
@@ -982,7 +1458,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Greece has more archaeological museums and theatres than any country in the world."
+      "funFact": {
+        "data": [
+          "Greece has more archaeological museums and theatres than any country in the world."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Greenland",
@@ -993,7 +1475,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Greenland has the most northerly capital city in the world - Nuuk."
+      "funFact": {
+        "data": [
+          "Greenland has the most northerly capital city in the world - Nuuk."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Grenada",
@@ -1004,7 +1492,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Christopher Columbus discovered the island in 1498 and named it Concepcion. A year after that, another bunch of explorers passed by the island and changed the name to Mayo. When the French came, they changed it to “Le Grenade” and finally when the British took over, they called it Grenada."
+      "funFact": {
+        "data": [
+          "Christopher Columbus discovered the island in 1498 and named it Concepcion. A year after that, another bunch of explorers passed by the island and changed the name to Mayo. When the French came, they changed it to “Le Grenade” and finally when the British took over, they called it Grenada."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Guadeloupe",
@@ -1015,7 +1509,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "In fact, Columbus was also the first European to see Guadeloupe! He landed there in 1493, and gave the island its name: “Santa María de Guadalupe”. The region was designated as a shrine to the Virgin Mary, venerated in Guadalupe, a Spanish town in Extremadura."
+      "funFact": {
+        "data": [
+          "In fact, Columbus was also the first European to see Guadeloupe! He landed there in 1493, and gave the island its name: “Santa María de Guadalupe”. The region was designated as a shrine to the Virgin Mary, venerated in Guadalupe, a Spanish town in Extremadura."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Guam",
@@ -1026,7 +1526,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "'Where the American day begins' is the most popular slogan of Guam as this island is the first place where the sun rises on American soil."
+      "funFact": {
+        "data": [
+          "'Where the American day begins' is the most popular slogan of Guam as this island is the first place where the sun rises on American soil."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Guatemala",
@@ -1037,7 +1543,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Guatemala is best known as the birthplace of the Mayan civilisation and many of its ancient traditions are present across the country."
+      "funFact": {
+        "data": [
+          "Guatemala is best known as the birthplace of the Mayan civilisation and many of its ancient traditions are present across the country."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Guernsey",
@@ -1048,10 +1560,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "Guernsey is located in the English Channel, just off the coast of Normandy, France. The official languages of Guernsey are both English and Guernésiais, and despite being a territory of the UK, Guernsey Pound is the official currency of Guernsey.",
-        "Guernsey is located in the English Channel, just off the coast of Normandy, France. 'Les Misérables' was written by Victor Hugo whilst living in Guernsey."
-      ]
+      "funFact": {
+        "data": [
+          "Guernsey is located in the English Channel, just off the coast of Normandy, France. The official languages of Guernsey are both English and Guernésiais, and despite being a territory of the UK, Guernsey Pound is the official currency of Guernsey.",
+          "Guernsey is located in the English Channel, just off the coast of Normandy, France. 'Les Misérables' was written by Victor Hugo whilst living in Guernsey."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Guinea",
@@ -1062,7 +1578,13 @@
         "similarity1": ["466"],
         "similarity2": []
       },
-      "funFact": "Guinea is also known as Guinea-Conakry in order to distinction it from the neighboring nations of Equatorial Guinea and Guinea-Bissau, which all contain the word 'Guinea' in their name."
+      "funFact": {
+        "data": [
+          "Guinea is also known as Guinea-Conakry in order to distinction it from the neighboring nations of Equatorial Guinea and Guinea-Bissau, which all contain the word 'Guinea' in their name."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Guinea-Bissau",
@@ -1073,7 +1595,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Portuguese is the official language of Guinea-Bissau, because it used to be a portugese colony."
+      "funFact": {
+        "data": [
+          "Portuguese is the official language of Guinea-Bissau, because it used to be a portugese colony."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Guyana",
@@ -1084,7 +1612,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Guyana is the 'Land of Many Water(falls)'. The world's widest and longest single-drop waterfall is located on Guyana's Potaro River in the Kaieteur National Park."
+      "funFact": {
+        "data": [
+          "Guyana is the 'Land of Many Water(falls)'. The world's widest and longest single-drop waterfall is located on Guyana's Potaro River in the Kaieteur National Park."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Haiti",
@@ -1095,7 +1629,13 @@
         "similarity1": ["438"],
         "similarity2": []
       },
-      "funFact": "Haiti and Canada are the only countries in the Americas with French as an official language."
+      "funFact": {
+        "data": [
+          "Haiti and Canada are the only countries in the Americas with French as an official language."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Heard Island and McDonald Islands",
@@ -1106,10 +1646,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "Despite being located between South Africa and Antarctica, Heard And Mcdonald Islands are actually a part of Australia",
-        "The first recorded sighting of the Heard Island was in 1853 by Captain John Heard. The island was named after him. Soon later, in 1854, William McDonald located the second largest island, documented it, and named it after himself."
-      ]
+      "funFact": {
+        "data": [
+          "Despite being located between South Africa and Antarctica, Heard And Mcdonald Islands are actually a part of Australia",
+          "The first recorded sighting of the Heard Island was in 1853 by Captain John Heard. The island was named after him. Soon later, in 1854, William McDonald located the second largest island, documented it, and named it after himself."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Vatican City",
@@ -1120,7 +1664,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Not only the Vatican City is smallest country in the world, it's the only county that uses Latin as its official language."
+      "funFact": {
+        "data": [
+          "Not only the Vatican City is smallest country in the world, it's the only county that uses Latin as its official language."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Honduras",
@@ -1131,7 +1681,13 @@
         "similarity1": ["222", "558"],
         "similarity2": []
       },
-      "funFact": "Honduras's name translates to “great depths” in Spanish. It was named by Christopher Columbus after the deep waters along the coast."
+      "funFact": {
+        "data": [
+          "Honduras's name translates to “great depths” in Spanish. It was named by Christopher Columbus after the deep waters along the coast."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Hungary",
@@ -1142,7 +1698,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The ancient Hungarians originated from the Ural region in today's central Russia and migrated across the Eastern European steppe, until they settled in today's Hungary."
+      "funFact": {
+        "data": [
+          "The ancient Hungarians originated from the Ural region in today's central Russia and migrated across the Eastern European steppe, until they settled in today's Hungary."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Hong Kong",
@@ -1153,7 +1715,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Hong Kong is so rich it has more Rolls Royces per capita than any other city in the world"
+      "funFact": {
+        "data": [
+          "Hong Kong is so rich it has more Rolls Royces per capita than any other city in the world"
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Iceland",
@@ -1164,7 +1732,13 @@
         "similarity1": ["578"],
         "similarity2": []
       },
-      "funFact": "Between 30% and 40% of Icelanders will not deny the existence of elves. Icelandic folklore is still rich with stories about the Huldufólk, meaning 'hidden people', who are said to live in the lava fields on the island."
+      "funFact": {
+        "data": [
+          "Between 30% and 40% of Icelanders will not deny the existence of elves. Icelandic folklore is still rich with stories about the Huldufólk, meaning 'hidden people', who are said to live in the lava fields on the island."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "India",
@@ -1175,7 +1749,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "India is set to surpass China as the world's most populous country in 2023, with an expected population of about 1.4 billion people."
+      "funFact": {
+        "data": [
+          "India is set to surpass China as the world's most populous country in 2023, with an expected population of about 1.4 billion people."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Indonesia",
@@ -1186,7 +1766,13 @@
         "similarity1": ["492", "616"],
         "similarity2": []
       },
-      "funFact": "Indonesia is the largest Muslim nation in the world, and it spreads across the 2nd, 3rd and, 6th and 13th biggest islands in the world."
+      "funFact": {
+        "data": [
+          "Indonesia is the largest Muslim nation in the world, and it spreads across the 2nd, 3rd and, 6th and 13th biggest islands in the world."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Ivory Coast",
@@ -1197,7 +1783,13 @@
         "similarity1": ["372"],
         "similarity2": []
       },
-      "funFact": "Ivory Coast is the largest producer of cocoa beans in the world."
+      "funFact": {
+        "data": [
+          "Ivory Coast is the largest producer of cocoa beans in the world."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Iran (Islamic Republic of)",
@@ -1208,7 +1800,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Iran has its own calendar, which is a solar calendar, meaning that its time reckoning is based on the Earth's movements around the Sun."
+      "funFact": {
+        "data": [
+          "Iran has its own calendar, which is a solar calendar, meaning that its time reckoning is based on the Earth's movements around the Sun."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Iraq",
@@ -1219,7 +1817,11 @@
         "similarity1": ["760"],
         "similarity2": []
       },
-      "funFact": "Iraq is home to the world's oldest civilisation."
+      "funFact": {
+        "data": ["Iraq is home to the world's oldest civilisation."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Ireland",
@@ -1230,7 +1832,11 @@
         "similarity1": ["384"],
         "similarity2": []
       },
-      "funFact": "Iraq is considered the birthplace of Abraham."
+      "funFact": {
+        "data": ["Iraq is considered the birthplace of Abraham."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Isle of Man",
@@ -1241,7 +1847,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The island's language is Manx, otherwise known as Manx Gaelic, is an ancient language that originates from the islands Celtic past. It closely resembles that of Irish and Scottish Gaelic, but with a hint of Old Norse from when the Vikings came here."
+      "funFact": {
+        "data": [
+          "The island's language is Manx, otherwise known as Manx Gaelic, is an ancient language that originates from the islands Celtic past. It closely resembles that of Irish and Scottish Gaelic, but with a hint of Old Norse from when the Vikings came here."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Israel",
@@ -1252,7 +1864,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Israel has more museums per capita than any other country in the world."
+      "funFact": {
+        "data": [
+          "Israel has more museums per capita than any other country in the world."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Italy",
@@ -1263,7 +1881,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Italy is the only country to completely surround 2 countries, San Marino and Vatican."
+      "funFact": {
+        "data": [
+          "Italy is the only country to completely surround 2 countries, San Marino and Vatican."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Jamaica",
@@ -1274,7 +1898,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The top three fastest men in the world are Jamaicans!"
+      "funFact": {
+        "data": ["The top three fastest men in the world are Jamaicans!"],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Japan",
@@ -1285,7 +1913,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Japan is a highly ethnically homogenous country - 98.5% of the population is Japanese."
+      "funFact": {
+        "data": [
+          "Japan is a highly ethnically homogenous country - 98.5% of the population is Japanese."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Jersey",
@@ -1296,7 +1930,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Although Jersey's small size, it has one of the largest tides in the world. At low tide, twice a day, the island almost doubles in size."
+      "funFact": {
+        "data": [
+          "Although Jersey's small size, it has one of the largest tides in the world. At low tide, twice a day, the island almost doubles in size."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Jordan",
@@ -1307,7 +1947,13 @@
         "similarity1": ["414", "729", "784"],
         "similarity2": []
       },
-      "funFact": "Unlike other Arab countries, Jordan does not have its own oil."
+      "funFact": {
+        "data": [
+          "Unlike other Arab countries, Jordan does not have its own oil."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Kazakhstan",
@@ -1318,7 +1964,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Kazakhstan provides over 50% of the world's supply of Uranium."
+      "funFact": {
+        "data": [
+          "Kazakhstan provides over 50% of the world's supply of Uranium."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Kenya",
@@ -1329,7 +1981,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Besides being home to the world’s best long-distance runners, the first woman to win a Nobel Peace Prize was from Kenya."
+      "funFact": {
+        "data": [
+          "Besides being home to the world’s best long-distance runners, the first woman to win a Nobel Peace Prize was from Kenya."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Kiribati",
@@ -1340,7 +1998,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": " Kiribati has purchased 6,000 acres (24 sq km) of land in Fiji in case rising sea levels force the permanent evacuation of its residents."
+      "funFact": {
+        "data": [
+          " Kiribati has purchased 6,000 acres (24 sq km) of land in Fiji in case rising sea levels force the permanent evacuation of its residents."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Kuwait",
@@ -1351,7 +2015,13 @@
         "similarity1": ["400", "729", "784"],
         "similarity2": []
       },
-      "funFact": "The currency of Kuwait is the Kuwaiti dinar. It is the highest-valued currency unit per face value in the world."
+      "funFact": {
+        "data": [
+          "The currency of Kuwait is the Kuwaiti dinar. It is the highest-valued currency unit per face value in the world."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Kyrgyzstan",
@@ -1362,7 +2032,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Kyrgyzstan's flag contains 40 rays stand for the number of tribes united by Manas to fight against the Mongols. Manas is a 10th-century legendary hero of the Kyrgyz people, who value him as their sacred ancient forefather."
+      "funFact": {
+        "data": [
+          "Kyrgyzstan's flag contains 40 rays stand for the number of tribes united by Manas to fight against the Mongols. Manas is a 10th-century legendary hero of the Kyrgyz people, who value him as their sacred ancient forefather."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Lao People's Democratic Republic",
@@ -1373,7 +2049,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The Laotians consume more sticky rice than anyone else in the world."
+      "funFact": {
+        "data": [
+          "The Laotians consume more sticky rice than anyone else in the world."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Latvia",
@@ -1384,7 +2066,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "A Latvian-Jewish tailor named Jākobs Jufess invented the jeans we all know, wear and cannot live without now. Levi Strauss backed him financially."
+      "funFact": {
+        "data": [
+          "A Latvian-Jewish tailor named Jākobs Jufess invented the jeans we all know, wear and cannot live without now. Levi Strauss backed him financially."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Lebanon",
@@ -1395,7 +2083,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "There are more Lebanese living outside Lebanon, than within the country. Most of Lebanese live in Brazil."
+      "funFact": {
+        "data": [
+          "There are more Lebanese living outside Lebanon, than within the country. Most of Lebanese live in Brazil."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Lesotho",
@@ -1406,7 +2100,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Lesotho is one of only 3 countries to be completely surrounded by another country. The other ones are Vatican and San Marino, both surrounded by Italy."
+      "funFact": {
+        "data": [
+          "Lesotho is one of only 3 countries to be completely surrounded by another country. The other ones are Vatican and San Marino, both surrounded by Italy."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Liberia",
@@ -1417,7 +2117,13 @@
         "similarity1": ["458"],
         "similarity2": []
       },
-      "funFact": "Liberia is the first country in Africa which had a female president. Known as Africa’s Iron Lady, Ellen Johnson Sirleaf took office as Liberia’s 24th president in 2006. She also won the Nobel Peace Prize in 2011."
+      "funFact": {
+        "data": [
+          "Liberia is the first country in Africa which had a female president. Known as Africa’s Iron Lady, Ellen Johnson Sirleaf took office as Liberia’s 24th president in 2006. She also won the Nobel Peace Prize in 2011."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Libya",
@@ -1428,7 +2134,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The last flag of Libya was a green field and was considered the only solid colour national flag in the world during its time."
+      "funFact": {
+        "data": [
+          "The last flag of Libya was a green field and was considered the only solid colour national flag in the world during its time."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Liechtenstein",
@@ -1439,7 +2151,13 @@
         "similarity1": ["332"],
         "similarity2": []
       },
-      "funFact": "Liechtenstein is a doubly landlocked country. It is surrounded by Switzerland and Austria, which in turn are also landlocked by other European countries, making it the second doubly landlocked country after Uzbekistan."
+      "funFact": {
+        "data": [
+          "Liechtenstein is a doubly landlocked country. It is surrounded by Switzerland and Austria, which in turn are also landlocked by other European countries, making it the second doubly landlocked country after Uzbekistan."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Lithuania",
@@ -1450,7 +2168,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Lithuania is the only country to have a national scent."
+      "funFact": {
+        "data": ["Lithuania is the only country to have a national scent."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Luxembourg",
@@ -1461,7 +2183,13 @@
         "similarity1": ["528"],
         "similarity2": []
       },
-      "funFact": "Luxembourg has the highest minimum wage in the EU. However, the cost of living in Luxembourg is one of the highest in the world."
+      "funFact": {
+        "data": [
+          "Luxembourg has the highest minimum wage in the EU. However, the cost of living in Luxembourg is one of the highest in the world."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Macao",
@@ -1472,7 +2200,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Macao has the most densely populated region on earth."
+      "funFact": {
+        "data": ["Macao has the most densely populated region on earth."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "North Macedonia",
@@ -1483,7 +2215,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Macedonia chose its name as North Macedonia because of a dispute with Greece who claimed the country can't use the name 'Macedonia' that is considered part of Greek culture."
+      "funFact": {
+        "data": [
+          "Macedonia chose its name as North Macedonia because of a dispute with Greece who claimed the country can't use the name 'Macedonia' that is considered part of Greek culture."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Madagascar",
@@ -1494,7 +2232,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Although Madagascar is located in Africa, most of its ethnic groups are from a Malayo-Indonesian origin."
+      "funFact": {
+        "data": [
+          "Although Madagascar is located in Africa, most of its ethnic groups are from a Malayo-Indonesian origin."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Malawi",
@@ -1505,7 +2249,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Malawi's name originates from the bordering Lake Malawi."
+      "funFact": {
+        "data": ["Malawi's name originates from the bordering Lake Malawi."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Malaysia",
@@ -1516,7 +2264,13 @@
         "similarity1": ["430"],
         "similarity2": []
       },
-      "funFact": "Malaysia has a unique rotating monarchy system, in which nine ethnic Malay state rulers take turns as king for five-year terms."
+      "funFact": {
+        "data": [
+          "Malaysia has a unique rotating monarchy system, in which nine ethnic Malay state rulers take turns as king for five-year terms."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Maldives",
@@ -1527,7 +2281,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "According to the constitution of Maldives, only Muslims are allowed to be called citizens of the country. Any other faith apart from Islam is not allowed."
+      "funFact": {
+        "data": [
+          "According to the constitution of Maldives, only Muslims are allowed to be called citizens of the country. Any other faith apart from Islam is not allowed."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Mali",
@@ -1538,7 +2298,13 @@
         "similarity1": ["324"],
         "similarity2": []
       },
-      "funFact": "Mansa Musa, Mali's king in the 14th century, is the richest man to ever live. He had so much gold that, on a trip to Cairo, he spent 71,000 pounds (32,000 kg) of gold."
+      "funFact": {
+        "data": [
+          "Mansa Musa, Mali's king in the 14th century, is the richest man to ever live. He had so much gold that, on a trip to Cairo, he spent 71,000 pounds (32,000 kg) of gold."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Malta",
@@ -1549,7 +2315,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The official language of Malta is Maltese, a Semitic language derived from late medieval Sicilian Arabic with Romance superstrata. It's the only official Semitic language of the European Union."
+      "funFact": {
+        "data": [
+          "The official language of Malta is Maltese, a Semitic language derived from late medieval Sicilian Arabic with Romance superstrata. It's the only official Semitic language of the European Union."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Marshall Islands",
@@ -1560,7 +2332,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The islands are so narrow that you will have just one road running their length. No diversion, no shortcuts, you will have only one way to follow."
+      "funFact": {
+        "data": [
+          "The islands are so narrow that you will have just one road running their length. No diversion, no shortcuts, you will have only one way to follow."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Martinique",
@@ -1571,7 +2349,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Martinique has been continuously inhabited for 4000 years. The Arawak tribe first settled there, before being replaced by the Caribbean Indians."
+      "funFact": {
+        "data": [
+          "Martinique has been continuously inhabited for 4000 years. The Arawak tribe first settled there, before being replaced by the Caribbean Indians."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Mauritania",
@@ -1581,7 +2365,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Mauritania was the last country to abolish slavery, in 1981."
+      "funFact": {
+        "data": [
+          "Mauritania was the last country to abolish slavery, in 1981."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Mauritius",
@@ -1592,7 +2382,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The Dodo bird, an extinct flightless bird, was endemic to Mauritius. It got extinct because it was hunted by sailors and by the invasive species they brought to the island, while its habitat was being destroyed. The last widely accepted sighting of a dodo was in 1662."
+      "funFact": {
+        "data": [
+          "The Dodo bird, an extinct flightless bird, was endemic to Mauritius. It got extinct because it was hunted by sailors and by the invasive species they brought to the island, while its habitat was being destroyed. The last widely accepted sighting of a dodo was in 1662."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Mayotte",
@@ -1603,7 +2399,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Mayotte is a group of islands under French sovereignty, near Comoros and Madagascar off the coast of Africa. Comoros, which used to be a French colony, sees Mayotte as a part of its territory, and doesn't recognize the French sovereignty on the islands"
+      "funFact": {
+        "data": [
+          "Mayotte is a group of islands under French sovereignty, near Comoros and Madagascar off the coast of Africa. Comoros, which used to be a French colony, sees Mayotte as a part of its territory, and doesn't recognize the French sovereignty on the islands"
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Mexico",
@@ -1614,7 +2416,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Not Egypt, but Mexico is home to the world's largest pyramid. It is located in Cholula and its size is 984 by 1,033 ft (300 by 315 metres)."
+      "funFact": {
+        "data": [
+          "Not Egypt, but Mexico is home to the world's largest pyramid. It is located in Cholula and its size is 984 by 1,033 ft (300 by 315 metres)."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Micronesia (Federated States of)",
@@ -1625,7 +2433,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Micronesia is one of just 22 countries not to have an army. Instead, as a former US-administered territory, the USA provides aid and is responsible for Micronesia's defence. In return, the USA can maintain military bases in Micronesia."
+      "funFact": {
+        "data": [
+          "Micronesia is one of just 22 countries not to have an army. Instead, as a former US-administered territory, the USA provides aid and is responsible for Micronesia's defence. In return, the USA can maintain military bases in Micronesia."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Moldova (Republic of)",
@@ -1636,7 +2450,13 @@
         "similarity1": ["020"],
         "similarity2": []
       },
-      "funFact": "With an army of only 5,150 soldiers, Moldova has one of the smallest armies in Europe."
+      "funFact": {
+        "data": [
+          "With an army of only 5,150 soldiers, Moldova has one of the smallest armies in Europe."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Monaco",
@@ -1647,7 +2467,13 @@
         "similarity1": ["616", "360"],
         "similarity2": []
       },
-      "funFact": "With an average life expectancy of 89.4, Monaco has the 2nd highest life expectancy"
+      "funFact": {
+        "data": [
+          "With an average life expectancy of 89.4, Monaco has the 2nd highest life expectancy"
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Mongolia",
@@ -1658,7 +2484,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Mongolia's capital, Ulaanbaatar, is the world's coldest capital city. It has an average annual temperature of 30°F (about -1°C)."
+      "funFact": {
+        "data": [
+          "Mongolia's capital, Ulaanbaatar, is the world's coldest capital city. It has an average annual temperature of 30°F (about -1°C)."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Montenegro",
@@ -1669,7 +2501,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Montenegro declared its independence from Serbia on June 3, 2006, after being a part of Serbia and Montenegro since 1992, after Yoguslavia's dissolution."
+      "funFact": {
+        "data": [
+          "Montenegro declared its independence from Serbia on June 3, 2006, after being a part of Serbia and Montenegro since 1992, after Yoguslavia's dissolution."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Montserrat",
@@ -1680,7 +2518,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Despite being a British island in the Carribbean, the island is named after Santa Maria de Montserrat Monastery, a Benedictine monastery locate on Montserrat, a Spanish mountain. It was discovered and named by Christopher Colombus in 1493."
+      "funFact": {
+        "data": [
+          "Despite being a British island in the Carribbean, the island is named after Santa Maria de Montserrat Monastery, a Benedictine monastery locate on Montserrat, a Spanish mountain. It was discovered and named by Christopher Colombus in 1493."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Morocco",
@@ -1691,7 +2535,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Morocco hosts the oldest continuously operating university in the world, Al-Qarawiyyin university, founded in 859 AD."
+      "funFact": {
+        "data": [
+          "Morocco hosts the oldest continuously operating university in the world, Al-Qarawiyyin university, founded in 859 AD."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Mozambique",
@@ -1702,7 +2552,13 @@
         "similarity1": ["716"],
         "similarity2": []
       },
-      "funFact": "Mozambique is the only nation to feature a modern firearm on their flag. Its flag features an AK-47, also known as Kalashnikov."
+      "funFact": {
+        "data": [
+          "Mozambique is the only nation to feature a modern firearm on their flag. Its flag features an AK-47, also known as Kalashnikov."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Myanmar",
@@ -1713,7 +2569,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "In 2005, Yangon was the capital of Myanmar. The government built a new city named Naypyidaw in secret and then announced that it was the new cpaital city."
+      "funFact": {
+        "data": [
+          "In 2005, Yangon was the capital of Myanmar. The government built a new city named Naypyidaw in secret and then announced that it was the new cpaital city."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Namibia",
@@ -1724,7 +2586,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Namibia is home to the world's oldest desert, the Namib Desert, existing for between 55 million and 80 million years."
+      "funFact": {
+        "data": [
+          "Namibia is home to the world's oldest desert, the Namib Desert, existing for between 55 million and 80 million years."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Nauru",
@@ -1735,7 +2603,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Nauru is the fattest state in the world. over 71% of the country's population is obese."
+      "funFact": {
+        "data": [
+          "Nauru is the fattest state in the world. over 71% of the country's population is obese."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Nepal",
@@ -1746,10 +2620,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "Nepal is home to mount Everest, the world's tallest mountain.",
-        "Nepal is the birthplace of Buddha."
-      ]
+      "funFact": {
+        "data": [
+          "Nepal is home to mount Everest, the world's tallest mountain.",
+          "Nepal is the birthplace of Buddha."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Netherlands",
@@ -1760,7 +2638,13 @@
         "similarity1": ["442"],
         "similarity2": []
       },
-      "funFact": "The Netherlands was the first country to legalize same-sex marriage. The law came into effect on April 1, 2001."
+      "funFact": {
+        "data": [
+          "The Netherlands was the first country to legalize same-sex marriage. The law came into effect on April 1, 2001."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "New Caledonia",
@@ -1771,7 +2655,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Surprisingly, there is no official language in New Caledonia, although French is the most widely-spoken language in the area. Aside from French, there are over 30 Melanesian dialects and languages spoken in the achipelago."
+      "funFact": {
+        "data": [
+          "Surprisingly, there is no official language in New Caledonia, although French is the most widely-spoken language in the area. Aside from French, there are over 30 Melanesian dialects and languages spoken in the achipelago."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "New Zealand",
@@ -1782,7 +2672,13 @@
         "similarity1": ["036"],
         "similarity2": []
       },
-      "funFact": "In addition to English and sign language, Maori is also an official language in New Zealand. 17% of the country's population is native Maori, the Indigenous people of New Zealand."
+      "funFact": {
+        "data": [
+          "In addition to English and sign language, Maori is also an official language in New Zealand. 17% of the country's population is native Maori, the Indigenous people of New Zealand."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Nicaragua",
@@ -1793,10 +2689,14 @@
         "similarity1": ["222", "340"],
         "similarity2": []
       },
-      "funFact": [
-        "The Americas' First Elected Female Head Of State Is From Nicaragua. Violeta Chamorro served as the president of the country from April 25, 1990, to January 10, 1997.",
-        "Nicaragua is the only country in Latin America to be colonised by both the Spanish and the British. The Spanish conquest of the Nicaraguan territory took place in 1522. The British began colonising Nicaragua in 1633 and they controlled the area until 1860."
-      ]
+      "funFact": {
+        "data": [
+          "The Americas' First Elected Female Head Of State Is From Nicaragua. Violeta Chamorro served as the president of the country from April 25, 1990, to January 10, 1997.",
+          "Nicaragua is the only country in Latin America to be colonised by both the Spanish and the British. The Spanish conquest of the Nicaraguan territory took place in 1522. The British began colonising Nicaragua in 1633 and they controlled the area until 1860."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Niger",
@@ -1807,7 +2707,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The country's name comes from the Niger river flowing through the country. The river's name possibly comes from the Berber word 'Gher', meaning river."
+      "funFact": {
+        "data": [
+          "The country's name comes from the Niger river flowing through the country. The river's name possibly comes from the Berber word 'Gher', meaning river."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Nigeria",
@@ -1818,7 +2724,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Nigeria is the most populous country in Africa, with a population of over 200 million people."
+      "funFact": {
+        "data": [
+          "Nigeria is the most populous country in Africa, with a population of over 200 million people."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Niue",
@@ -1829,10 +2741,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "There are more Niueans living outside of Niue than in Niue. Niue's population is around 1,600 residents, while a whopping 22,200 Niueans live in New Zealand.",
-        "Since more niueans live outside of the Niue than in it, Niuean is considered an endangered language, with only 7,00 native speakers."
-      ]
+      "funFact": {
+        "data": [
+          "There are more Niueans living outside of Niue than in Niue. Niue's population is around 1,600 residents, while a whopping 22,200 Niueans live in New Zealand.",
+          "Since more niueans live outside of the Niue than in it, Niuean is considered an endangered language, with only 7,00 native speakers."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Norfolk Island",
@@ -1843,7 +2759,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Norfolk Island was used as a penal colony for Australian convicts in the late 18th and early 19th centuries."
+      "funFact": {
+        "data": [
+          "Norfolk Island was used as a penal colony for Australian convicts in the late 18th and early 19th centuries."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Korea (Democratic People's Republic of)",
@@ -1854,7 +2776,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Despite the popular opinion, drugs are actually common and unregulated in North Korea."
+      "funFact": {
+        "data": [
+          "Despite the popular opinion, drugs are actually common and unregulated in North Korea."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Northern Mariana Islands",
@@ -1865,7 +2793,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The Northern Mariana Islands are a chain of 14 volcanic islands in the northwestern Pacific Ocean. The islands have a rich history dating back thousands of years. The islands were first settled by the Chamorro people, who came from Southeast Asia around 4,000 years ago. The Chamorros were eventually displaced by the Spanish, who colonized the islands in the 16th century."
+      "funFact": {
+        "data": [
+          "The Northern Mariana Islands are a chain of 14 volcanic islands in the northwestern Pacific Ocean. The islands have a rich history dating back thousands of years. The islands were first settled by the Chamorro people, who came from Southeast Asia around 4,000 years ago. The Chamorros were eventually displaced by the Spanish, who colonized the islands in the 16th century."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Norway",
@@ -1876,7 +2810,13 @@
         "similarity1": ["352"],
         "similarity2": []
       },
-      "funFact": "Norway is the world's leading market for electric cars, with over 50% of new cars sold in 2019 being electric. In addition, as of 2019, there are about 4 electric cars per 1,000 people in Norway."
+      "funFact": {
+        "data": [
+          "Norway is the world's leading market for electric cars, with over 50% of new cars sold in 2019 being electric. In addition, as of 2019, there are about 4 electric cars per 1,000 people in Norway."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Oman",
@@ -1887,7 +2827,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Oman is the oldest independent state in the Arab world. The ruling dynasty of Oman dates back to 1794, making it one of the oldest independent states in the Arab world. It was formerly a maritime empire. They gained independence from Portugal in 1650, a holiday that is still celebrated today. "
+      "funFact": {
+        "data": [
+          "Oman is the oldest independent state in the Arab world. The ruling dynasty of Oman dates back to 1794, making it one of the oldest independent states in the Arab world. It was formerly a maritime empire. They gained independence from Portugal in 1650, a holiday that is still celebrated today. "
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Pakistan",
@@ -1898,7 +2844,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Pakistan is the first Islamic country to develop and possess nuclear weapons. They also have the 7th largest nuclear weapons stockpile in the world, with an estimated 120 nuclear warheads."
+      "funFact": {
+        "data": [
+          "Pakistan is the first Islamic country to develop and possess nuclear weapons. They also have the 7th largest nuclear weapons stockpile in the world, with an estimated 120 nuclear warheads."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Palau",
@@ -1909,7 +2861,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Palau has a lake packed with millions of jellyfish, that are not poisonous."
+      "funFact": {
+        "data": [
+          "Palau has a lake packed with millions of jellyfish, that are not poisonous."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Panama",
@@ -1920,10 +2878,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "Panama has the Panama Canal, a man-made waterway that connects the Pacific and Atlantic oceans. It is considered one of the greatest engineering feats of the 20th century.",
-        "Panama is the southernmost country in Central America."
-      ]
+      "funFact": {
+        "data": [
+          "Panama has the Panama Canal, a man-made waterway that connects the Pacific and Atlantic oceans. It is considered one of the greatest engineering feats of the 20th century.",
+          "Panama is the southernmost country in Central America."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Papua New Guinea",
@@ -1934,10 +2896,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "Papua New Guinea is located on the 'Ring of Fire', a region of the world where a large number of earthquakes and volcanic eruptions occur.",
-        "The country has over 800 different languages, making it the most linguistically diverse country in the world."
-      ]
+      "funFact": {
+        "data": [
+          "Papua New Guinea is located on the 'Ring of Fire', a region of the world where a large number of earthquakes and volcanic eruptions occur.",
+          "The country has over 800 different languages, making it the most linguistically diverse country in the world."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Paraguay",
@@ -1948,13 +2914,16 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "Paraguay is one of the few countries in the world that have a flag that is different on both sides (See image for reference).",
-        "Paraguay is one of the world's leading exporters of soybeans."
-      ],
-      "funFactImages": [
-        "https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Paraguay_%28reverse%29.svg"
-      ]
+      "funFact": {
+        "data": [
+          "Paraguay is one of the few countries in the world that have a flag that is different on both sides (See image for reference).",
+          "Paraguay is one of the world's leading exporters of soybeans."
+        ],
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Paraguay_%28reverse%29.svg"
+        ],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Peru",
@@ -1965,10 +2934,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "Peru is also home to one of the world's deepest canyon, the Colca Canyon, the world's largest fog desert, the Atacama Desert, and the world's highest lake, Lake Titicaca.",
-        "Peru is home to the world's largest gold, copper, silver, tin, uranium and zinc reserves."
-      ]
+      "funFact": {
+        "data": [
+          "Peru is also home to one of the world's deepest canyon, the Colca Canyon, the world's largest fog desert, the Atacama Desert, and the world's highest lake, Lake Titicaca.",
+          "Peru is home to the world's largest gold, copper, silver, tin, uranium and zinc reserves."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Philippines",
@@ -1979,7 +2952,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The Philippines is the only Christian nation in Asia and the 3rd-largest Catholic country in the world."
+      "funFact": {
+        "data": [
+          "The Philippines is the only Christian nation in Asia and the 3rd-largest Catholic country in the world."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Pitcairn",
@@ -1990,7 +2969,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The population of Pitcairn is only about 50 people, making it one of the smallest inhabited islands in the world. It is also one of the most isolated islands in the world, located about 4,000 miles (about 6500 km) from the nearest inhabited land, New Zealand."
+      "funFact": {
+        "data": [
+          "The population of Pitcairn is only about 50 people, making it one of the smallest inhabited islands in the world. It is also one of the most isolated islands in the world, located about 4,000 miles (about 6500 km) from the nearest inhabited land, New Zealand."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Poland",
@@ -2001,7 +2986,13 @@
         "similarity1": ["492", "360"],
         "similarity2": []
       },
-      "funFact": "The Castle of the Teutonic Order, located in Poland, is the largest castle in the world."
+      "funFact": {
+        "data": [
+          "The Castle of the Teutonic Order, located in Poland, is the largest castle in the world."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Portugal",
@@ -2012,7 +3003,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Jews have played an important role in the history of Portugal. The most famous Jewish Portuguese is probably the doctor and philosopher Moses Maimonides."
+      "funFact": {
+        "data": [
+          "Jews have played an important role in the history of Portugal. The most famous Jewish Portuguese is probably the doctor and philosopher Moses Maimonides."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Puerto Rico",
@@ -2023,7 +3020,13 @@
         "similarity1": ["192"],
         "similarity2": []
       },
-      "funFact": "Puerto Rico is home to the world's largest radio telescope, which is located in the municipality of Arecibo."
+      "funFact": {
+        "data": [
+          "Puerto Rico is home to the world's largest radio telescope, which is located in the municipality of Arecibo."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Qatar",
@@ -2034,7 +3037,11 @@
         "similarity1": ["048"],
         "similarity2": []
       },
-      "funFact": "Qatar has the highest GDP per capita, with around 80,000$."
+      "funFact": {
+        "data": ["Qatar has the highest GDP per capita, with around 80,000$."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Kosovo",
@@ -2045,7 +3052,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Despite not being a part of the EU, Kosovo still uses the euro as its official currency."
+      "funFact": {
+        "data": [
+          "Despite not being a part of the EU, Kosovo still uses the euro as its official currency."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Réunion",
@@ -2056,7 +3069,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Réunion is home to one of the world's most active volcanoes, Piton de la Fournaise, with more than 100 recorded eruptions since the 16th century."
+      "funFact": {
+        "data": [
+          "Réunion is home to one of the world's most active volcanoes, Piton de la Fournaise, with more than 100 recorded eruptions since the 16th century."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Romania",
@@ -2067,7 +3086,13 @@
         "similarity1": ["148"],
         "similarity2": []
       },
-      "funFact": "Romania has the largest population of brown bears in Europe, with an estimated 6,000 brown bears living in the wild."
+      "funFact": {
+        "data": [
+          "Romania has the largest population of brown bears in Europe, with an estimated 6,000 brown bears living in the wild."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Russia",
@@ -2078,10 +3103,14 @@
         "similarity1": ["528"],
         "similarity2": []
       },
-      "funFact": [
-        "The name 'Russia' is derived from 'Rus', a medieval state populated mostly by the East Slavs.",
-        "Although the majority of the Russian population is ethnic Russian, there are over 190 different ethnic groups represented in the country."
-      ]
+      "funFact": {
+        "data": [
+          "The name 'Russia' is derived from 'Rus', a medieval state populated mostly by the East Slavs.",
+          "Although the majority of the Russian population is ethnic Russian, there are over 190 different ethnic groups represented in the country."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Rwanda",
@@ -2092,7 +3121,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Rwanda is one of the world's safest countries. It has a very low crime rate and is ranked as the safest country in Africa."
+      "funFact": {
+        "data": [
+          "Rwanda is one of the world's safest countries. It has a very low crime rate and is ranked as the safest country in Africa."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Saint Barthélemy",
@@ -2103,7 +3138,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Saint Barthélemy is a French teritory in the Carribbean, and it is a part of the French West Indies. The island was a French territory for 2 centuries, before it was sold to Sweden in 1784, and later resold to the French in 1878."
+      "funFact": {
+        "data": [
+          "Saint Barthélemy is a French teritory in the Carribbean, and it is a part of the French West Indies. The island was a French territory for 2 centuries, before it was sold to Sweden in 1784, and later resold to the French in 1878."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Saint Helena, Ascension and Tristan da Cunha",
@@ -2114,7 +3155,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Saint Helena, Ascension and Tristan da Cunha is an island country in the southern Atlantic Ocean. Saint Helena was first discovered by the Portuguese in 1502. It was later occupied by the British and became an important stopover for ships travelling to and from the East."
+      "funFact": {
+        "data": [
+          "Saint Helena, Ascension and Tristan da Cunha is an island country in the southern Atlantic Ocean. Saint Helena was first discovered by the Portuguese in 1502. It was later occupied by the British and became an important stopover for ships travelling to and from the East."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Saint Kitts and Nevis",
@@ -2125,7 +3172,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The official language of Saint Kitts and Nevis is English, although the local dialect of Saint Kitts Creole is also widely spoken."
+      "funFact": {
+        "data": [
+          "The official language of Saint Kitts and Nevis is English, although the local dialect of Saint Kitts Creole is also widely spoken."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Saint Lucia",
@@ -2136,7 +3189,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Saint Lucia is a sovereign island country in the West Indies in the eastern Caribbean Sea on the boundary with the Atlantic Ocean. It is the only country in the world named after a woman."
+      "funFact": {
+        "data": [
+          "Saint Lucia is a sovereign island country in the West Indies in the eastern Caribbean Sea on the boundary with the Atlantic Ocean. It is the only country in the world named after a woman."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Saint Martin (French part)",
@@ -2147,7 +3206,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The French overseas collectivity of Saint-Martin sits on an island  in the northeast Caribbean Sea that is split between France (the northern half) and the Netherlands (the southern half)."
+      "funFact": {
+        "data": [
+          "The French overseas collectivity of Saint-Martin sits on an island  in the northeast Caribbean Sea that is split between France (the northern half) and the Netherlands (the southern half)."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Saint Pierre and Miquelon",
@@ -2158,7 +3223,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Saint Pierre and Miquelon is an archipelago off the coast of Newfoundland, Canada. The islands are French territory and the only remaining French colony in North America."
+      "funFact": {
+        "data": [
+          "Saint Pierre and Miquelon is an archipelago off the coast of Newfoundland, Canada. The islands are French territory and the only remaining French colony in North America."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Saint Vincent and the Grenadines",
@@ -2169,7 +3240,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Saint Vincent and the Grenadines is a multi-island, southern Caribbean country. The native people of the islands may have been cannibals."
+      "funFact": {
+        "data": [
+          "Saint Vincent and the Grenadines is a multi-island, southern Caribbean country. The native people of the islands may have been cannibals."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Samoa",
@@ -2180,7 +3257,13 @@
         "similarity1": ["158"],
         "similarity2": []
       },
-      "funFact": "Although only 78 miles (125 km) seperate between Samoa and its closest neighbor, American Samoa, since they are located on different sides of the International Date Line, almost 24 hours seperate between the islands."
+      "funFact": {
+        "data": [
+          "Although only 78 miles (125 km) seperate between Samoa and its closest neighbor, American Samoa, since they are located on different sides of the International Date Line, almost 24 hours seperate between the islands."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "San Marino",
@@ -2191,7 +3274,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "San Marino, a small country surrounded by Italy is the oldest surviving sovereign state and constitutional republic in the world. The official date of its founding is September 3, 301."
+      "funFact": {
+        "data": [
+          "San Marino, a small country surrounded by Italy is the oldest surviving sovereign state and constitutional republic in the world. The official date of its founding is September 3, 301."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Sao Tome and Principe",
@@ -2202,7 +3291,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Sao Tome and Principe is the second-smallest African country. The island of Sao Tome was named after Saint Thomas by the Portuguese explorers as they arrived here on Saint Thomas' day."
+      "funFact": {
+        "data": [
+          "Sao Tome and Principe is the second-smallest African country. The island of Sao Tome was named after Saint Thomas by the Portuguese explorers as they arrived here on Saint Thomas' day."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Saudi Arabia",
@@ -2213,7 +3308,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Saudi Arabia is building the world's tallest skyscraper. The Kingdom Jeddah Tower, in the city of Jeddah which is currently on hold, will stand at least 3,280-feet tall once completed. That's almost 200 metres taller than the Burj Khalifa, which currently holds the title of the world's tallest free-standing structure."
+      "funFact": {
+        "data": [
+          "Saudi Arabia is building the world's tallest skyscraper. The Kingdom Jeddah Tower, in the city of Jeddah which is currently on hold, will stand at least 3,280-feet tall once completed. That's almost 200 metres taller than the Burj Khalifa, which currently holds the title of the world's tallest free-standing structure."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Senegal",
@@ -2224,7 +3325,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Senegal is home to the mainland's Africa westernmost point."
+      "funFact": {
+        "data": ["Senegal is home to the mainland's Africa westernmost point."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Serbia",
@@ -2235,7 +3340,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Serbia is one of the world's biggest exporters of raspberries, and in the year 2012, Serbia was responsible for almost 95% of the world's raspberries!"
+      "funFact": {
+        "data": [
+          "Serbia is one of the world's biggest exporters of raspberries, and in the year 2012, Serbia was responsible for almost 95% of the world's raspberries!"
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Seychelles",
@@ -2246,7 +3357,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Although being very close to the coast of Africa, these islands remained uninhabited until the French arrived to the island, in 1770."
+      "funFact": {
+        "data": [
+          "Although being very close to the coast of Africa, these islands remained uninhabited until the French arrived to the island, in 1770."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Sierra Leone",
@@ -2257,7 +3374,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The name Sierra Leone was adapted from the Portuguese name for the country: Serra Leoa. The literal meaning is 'Lioness Mountains.'"
+      "funFact": {
+        "data": [
+          "The name Sierra Leone was adapted from the Portuguese name for the country: Serra Leoa. The literal meaning is 'Lioness Mountains.'"
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Singapore",
@@ -2268,7 +3391,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Chewing gum is banned in Singapore. Only those with medical prescription can chew gum."
+      "funFact": {
+        "data": [
+          "Chewing gum is banned in Singapore. Only those with medical prescription can chew gum."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Sint Maarten (Dutch part)",
@@ -2279,10 +3408,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "Sint Maarten encompasses the southern 44% of the divided island of Saint Martin, while the northern 56% of the island constitutes the French overseas collectivity of Saint Martin.",
-        "Sint Maarten most restaurants and beaches per square mile."
-      ]
+      "funFact": {
+        "data": [
+          "Sint Maarten encompasses the southern 44% of the divided island of Saint Martin, while the northern 56% of the island constitutes the French overseas collectivity of Saint Martin.",
+          "Sint Maarten most restaurants and beaches per square mile."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Slovakia",
@@ -2293,7 +3426,13 @@
         "similarity1": ["705"],
         "similarity2": ["688"]
       },
-      "funFact": "Slovakia is the world's highest number of castles per capita, 180 castles in the whole country."
+      "funFact": {
+        "data": [
+          "Slovakia is the world's highest number of castles per capita, 180 castles in the whole country."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Slovenia",
@@ -2304,7 +3443,13 @@
         "similarity1": ["703"],
         "similarity2": ["688"]
       },
-      "funFact": "Unlike the other countries that made up Yugoslavia in the past, in Slovenia there is ethnic uniformity to a large extent."
+      "funFact": {
+        "data": [
+          "Unlike the other countries that made up Yugoslavia in the past, in Slovenia there is ethnic uniformity to a large extent."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Solomon Islands",
@@ -2315,7 +3460,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The world's largest raised coral atoll is East Rennell in the Solomon Islands. An atoll is a ring-shaped island, including a coral rim that encircles a lagoon partially or completely."
+      "funFact": {
+        "data": [
+          "The world's largest raised coral atoll is East Rennell in the Solomon Islands. An atoll is a ring-shaped island, including a coral rim that encircles a lagoon partially or completely."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Somalia",
@@ -2326,7 +3477,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Somalia sits in the Horn of Africa and has the Longest Coastline In Mainland Africa"
+      "funFact": {
+        "data": [
+          "Somalia sits in the Horn of Africa and has the Longest Coastline In Mainland Africa"
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "South Africa",
@@ -2337,7 +3494,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "In the 1960s and 70s, South Africa possessed nuclear weapons. They were eventually dismantled in 1989."
+      "funFact": {
+        "data": [
+          "In the 1960s and 70s, South Africa possessed nuclear weapons. They were eventually dismantled in 1989."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "South Georgia and the South Sandwich Islands",
@@ -2348,7 +3511,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "It was the site of the southernmost battle ever fought. During the 1982 Falkland Islands War, Argentina sent troops to South Georgia, a British Overseas Territory."
+      "funFact": {
+        "data": [
+          "It was the site of the southernmost battle ever fought. During the 1982 Falkland Islands War, Argentina sent troops to South Georgia, a British Overseas Territory."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Korea (Republic of)",
@@ -2359,7 +3528,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "South Korea Is Known As The Plastic Surgery Capital Of The World. Because of the rigid Korean beauty standards, undergoing cosmetic surgery is very common among Koreans."
+      "funFact": {
+        "data": [
+          "South Korea Is Known As The Plastic Surgery Capital Of The World. Because of the rigid Korean beauty standards, undergoing cosmetic surgery is very common among Koreans."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Spain",
@@ -2370,7 +3545,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "In 1479, the Crown of Castile and the various territories of the Crown of Aragon were united in a personal union, creating for the first time since the 8th century a single political unit, referred to as España (Spain)."
+      "funFact": {
+        "data": [
+          "In 1479, the Crown of Castile and the various territories of the Crown of Aragon were united in a personal union, creating for the first time since the 8th century a single political unit, referred to as España (Spain)."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Sri Lanka",
@@ -2381,7 +3562,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The oldest living tree known to be planted by man is in Sri Lanka. It is a sacred fig (also called a bo-tree), and it was planted in 288 BC, thus the tree is 2,300 years old."
+      "funFact": {
+        "data": [
+          "The oldest living tree known to be planted by man is in Sri Lanka. It is a sacred fig (also called a bo-tree), and it was planted in 288 BC, thus the tree is 2,300 years old."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Sudan",
@@ -2392,10 +3579,14 @@
         "similarity1": ["400"],
         "similarity2": ["414", "784"]
       },
-      "funFact": [
-        "Despites pyramids being synonymous with Egypt, Sudan has the world's most pyramids, even more than Egypt. Sudan has around 255 pyramids, while Egypt has only 188.",
-        "Prior to South Sudan's seperation from Sudan in 2011, Sudan used to be the largest country in Africa, with a total landmass of over 950,000 square miles (2.5 million square km)."
-      ]
+      "funFact": {
+        "data": [
+          "Despites pyramids being synonymous with Egypt, Sudan has the world's most pyramids, even more than Egypt. Sudan has around 255 pyramids, while Egypt has only 188.",
+          "Prior to South Sudan's seperation from Sudan in 2011, Sudan used to be the largest country in Africa, with a total landmass of over 950,000 square miles (2.5 million square km)."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "South Sudan",
@@ -2406,7 +3597,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "South Sudan is the newest internationally recognized country in the world, which declared independence on July 9, 2011."
+      "funFact": {
+        "data": [
+          "South Sudan is the newest internationally recognized country in the world, which declared independence on July 9, 2011."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Suriname",
@@ -2417,7 +3614,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Suriname is the smallest country in South America and its official language is Dutch."
+      "funFact": {
+        "data": [
+          "Suriname is the smallest country in South America and its official language is Dutch."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Svalbard and Jan Mayen",
@@ -2428,10 +3631,14 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": [
-        "In Svalbard and Jan Mayen was the northernmost church in the world until 2017 when the St. Nicholas Russian Orthodox Church was built in Nagurskoye air force base in Russia.",
-        "Svalbard does not currently use a distinct flag and it actually uses Norway's flag."
-      ]
+      "funFact": {
+        "data": [
+          "In Svalbard and Jan Mayen was the northernmost church in the world until 2017 when the St. Nicholas Russian Orthodox Church was built in Nagurskoye air force base in Russia.",
+          "Svalbard does not currently use a distinct flag and it actually uses Norway's flag."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Kingdom of Eswatini",
@@ -2442,7 +3649,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "In April 2018, the official name was changed from Kingdom of Swaziland to Kingdom of Eswatini, mirroring the name commonly used in Swazi. The government is an absolute monarchy, the last of its kind in Africa, and has been ruled by King Mswati III since 1986."
+      "funFact": {
+        "data": [
+          "In April 2018, the official name was changed from Kingdom of Swaziland to Kingdom of Eswatini, mirroring the name commonly used in Swazi. The government is an absolute monarchy, the last of its kind in Africa, and has been ruled by King Mswati III since 1986."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Sweden",
@@ -2453,7 +3666,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The Nobel Prize is awarded every year in Sweden."
+      "funFact": {
+        "data": ["The Nobel Prize is awarded every year in Sweden."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Switzerland",
@@ -2464,7 +3681,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Despite their neutrality, until 2021, all bridges connecting Switzerland to the outside world have been planted with bombs, to be blown up in case of invasion."
+      "funFact": {
+        "data": [
+          "Despite their neutrality, until 2021, all bridges connecting Switzerland to the outside world have been planted with bombs, to be blown up in case of invasion."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "syrian Arab Republic",
@@ -2475,7 +3698,13 @@
         "similarity1": ["368"],
         "similarity2": []
       },
-      "funFact": "Syria's capital, Damascus, is one of the world's oldest continuously inhabited cities."
+      "funFact": {
+        "data": [
+          "Syria's capital, Damascus, is one of the world's oldest continuously inhabited cities."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Taiwan",
@@ -2486,7 +3715,13 @@
         "similarity1": ["882"],
         "similarity2": []
       },
-      "funFact": "Only 2.3% of the Taiwanese population is native The other 97.7% are ethnically Chinese. This is because Taiwan was ruled by the Qing Dynasty for 200 years. During this time, the locals were pushed out."
+      "funFact": {
+        "data": [
+          "Only 2.3% of the Taiwanese population is native The other 97.7% are ethnically Chinese. This is because Taiwan was ruled by the Qing Dynasty for 200 years. During this time, the locals were pushed out."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Tajikistan",
@@ -2497,7 +3732,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Tajikistan has the world's largest glacier, outside of the poles. The glacier spans over 50 miles (80 km)."
+      "funFact": {
+        "data": [
+          "Tajikistan has the world's largest glacier, outside of the poles. The glacier spans over 50 miles (80 km)."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Tanzania, United Republic of",
@@ -2508,7 +3749,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Mount Kilimanjaro, Africa's highest mountain, is in northeastern Tanzania."
+      "funFact": {
+        "data": [
+          "Mount Kilimanjaro, Africa's highest mountain, is in northeastern Tanzania."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Thailand",
@@ -2519,7 +3766,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Thailand was previously known as Siam. The name was changed in 1939 to Thailand, which 'Land of the Free'."
+      "funFact": {
+        "data": [
+          "Thailand was previously known as Siam. The name was changed in 1939 to Thailand, which 'Land of the Free'."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Timor-Leste",
@@ -2530,7 +3783,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Timor-Leste was the first nation to gain independence in the 21st century. They actually first became independent in 1975 but were invaded and occupied soon after."
+      "funFact": {
+        "data": [
+          "Timor-Leste was the first nation to gain independence in the 21st century. They actually first became independent in 1975 but were invaded and occupied soon after."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Togo",
@@ -2541,7 +3800,11 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The voodoo religion is practised widely in Togo."
+      "funFact": {
+        "data": ["The voodoo religion is practised widely in Togo."],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Tokelau",
@@ -2552,7 +3815,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The islands were first settled by Polynesian peoples about 1000 years ago, and it was not until 1889 that Tokelau became a British protectorate. Today it is a dependent territory of New Zealand."
+      "funFact": {
+        "data": [
+          "The islands were first settled by Polynesian peoples about 1000 years ago, and it was not until 1889 that Tokelau became a British protectorate. Today it is a dependent territory of New Zealand."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Tonga",
@@ -2563,7 +3832,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Tonga is a constitutional monarchy. It is the only remaining indigenous monarchy in the Pacific islands."
+      "funFact": {
+        "data": [
+          "Tonga is a constitutional monarchy. It is the only remaining indigenous monarchy in the Pacific islands."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Trinidad and Tobago",
@@ -2574,7 +3849,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The singer Nicki Minaj is originally from Trinidad and Tobago."
+      "funFact": {
+        "data": [
+          "The singer Nicki Minaj is originally from Trinidad and Tobago."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Tunisia",
@@ -2585,7 +3866,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Tunisia is home to the northernmost point of Africa, Cape Angela (Ras Angela)."
+      "funFact": {
+        "data": [
+          "Tunisia is home to the northernmost point of Africa, Cape Angela (Ras Angela)."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Turkey",
@@ -2596,7 +3883,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The Turkish people were originally equestrian nomads from Northeast Asia."
+      "funFact": {
+        "data": [
+          "The Turkish people were originally equestrian nomads from Northeast Asia."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Turkmenistan",
@@ -2607,7 +3900,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Turkmenistan is a secretive Asian dictatorship that is stricter than North Korea, where the streets are paved with marble and gold."
+      "funFact": {
+        "data": [
+          "Turkmenistan is a secretive Asian dictatorship that is stricter than North Korea, where the streets are paved with marble and gold."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Turks and Caicos Islands",
@@ -2618,7 +3917,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The islands have gone through plenty of different owners. Currently, the British own the islands. However, the currency most commonly used on the islands, is the US dollar."
+      "funFact": {
+        "data": [
+          "The islands have gone through plenty of different owners. Currently, the British own the islands. However, the currency most commonly used on the islands, is the US dollar."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Tuvalu",
@@ -2629,7 +3934,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Tuvalu's domain is .tv. Leasing the domain to people is now the largest source of income for this tiny island."
+      "funFact": {
+        "data": [
+          "Tuvalu's domain is .tv. Leasing the domain to people is now the largest source of income for this tiny island."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Uganda",
@@ -2640,7 +3951,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Uganda is home to the 2nd largest fresh water lake in the world, Lake Victoria. The lake is also the source of the Nile River, the 2nd longest river in the world."
+      "funFact": {
+        "data": [
+          "Uganda is home to the 2nd largest fresh water lake in the world, Lake Victoria. The lake is also the source of the Nile River, the 2nd longest river in the world."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Ukraine",
@@ -2651,7 +3968,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The UAE was the first country in the world to appoint a minister for artificial intelligence."
+      "funFact": {
+        "data": [
+          "The UAE was the first country in the world to appoint a minister for artificial intelligence."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "United Arab Emirates",
@@ -2662,7 +3985,13 @@
         "similarity1": ["400", "414", "729"],
         "similarity2": []
       },
-      "funFact": "The UAE was the first country in the world to appoint a minister for artificial intelligence."
+      "funFact": {
+        "data": [
+          "The UAE was the first country in the world to appoint a minister for artificial intelligence."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "United Kingdom of Great Britain and Northern Ireland",
@@ -2673,7 +4002,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The United Kingdom has owned the largest empire in history, the British Empire. At its peak, in 1920, the British controlled over 13 million square miles (35.5 million square km), which is 25% of the entire land area of Earth."
+      "funFact": {
+        "data": [
+          "The United Kingdom has owned the largest empire in history, the British Empire. At its peak, in 1920, the British controlled over 13 million square miles (35.5 million square km), which is 25% of the entire land area of Earth."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "United States of America",
@@ -2684,7 +4019,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Many recognize Washington, DC as the capital of the United States but that wasn't always the case. Washington didn’t become the capital until 1790. Believe it or not, from 1785 until 1790, New York City served as the countries capital."
+      "funFact": {
+        "data": [
+          "Many recognize Washington, DC as the capital of the United States but that wasn't always the case. Washington didn’t become the capital until 1790. Believe it or not, from 1785 until 1790, New York City served as the countries capital."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Uruguay",
@@ -2695,7 +4036,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The name Uruguay comes from the Guaraní (an Uruguay's indigenous language) word for the Uruguay River, which means either 'river where the bird lives', 'river of the painted birds', 'river of the snails', or 'winding river.'"
+      "funFact": {
+        "data": [
+          "The name Uruguay comes from the Guaraní (an Uruguay's indigenous language) word for the Uruguay River, which means either 'river where the bird lives', 'river of the painted birds', 'river of the snails', or 'winding river.'"
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Uzbekistan",
@@ -2706,7 +4053,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Uzbekistan is one of only 2 double-landlocked countries. It is surrounded by Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan and Turkmenistan, which are also landlocked, making it the second double-landlocked country after Liechtenstein."
+      "funFact": {
+        "data": [
+          "Uzbekistan is one of only 2 double-landlocked countries. It is surrounded by Kazakhstan, Kyrgyzstan, Tajikistan, Afghanistan and Turkmenistan, which are also landlocked, making it the second double-landlocked country after Liechtenstein."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Vanuatu",
@@ -2717,7 +4070,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "The national anthem of Vanuatu is in Bislama, one of Vanuatu 3 official languages, along with English and French and called 'Yumi, yumi, yumi.'. Yumi means 'we' in English."
+      "funFact": {
+        "data": [
+          "The national anthem of Vanuatu is in Bislama, one of Vanuatu 3 official languages, along with English and French and called 'Yumi, yumi, yumi.'. Yumi means 'we' in English."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Venezuela (Bolivarian Republic of)",
@@ -2728,7 +4087,13 @@
         "similarity1": ["170", "218"],
         "similarity2": []
       },
-      "funFact": "With a proven 308 billion barrels, Venezuela has the world's largest oil reserves, even above Saudi Arabia."
+      "funFact": {
+        "data": [
+          "With a proven 308 billion barrels, Venezuela has the world's largest oil reserves, even above Saudi Arabia."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Vietnam",
@@ -2739,7 +4104,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Following the death of Vietnam's first president, Ho Chi Min, they put his body on public display."
+      "funFact": {
+        "data": [
+          "Following the death of Vietnam's first president, Ho Chi Min, they put his body on public display."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Wallis and Futuna",
@@ -2750,7 +4121,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "As a French territory Wallis and Futuna celebrates Bastille Day on 14 July."
+      "funFact": {
+        "data": [
+          "As a French territory Wallis and Futuna celebrates Bastille Day on 14 July."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Western Sahara",
@@ -2761,7 +4138,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Western Sahara, formerly the Spanish colony of Spanish Sahara, is a disputed territory claimed by both the Kingdom of Morocco and the Popular Front for the Liberation of the Saguia el Hamra and Rio de Oro (Polisario Front), which is an independence movement based in Algeria."
+      "funFact": {
+        "data": [
+          "Western Sahara, formerly the Spanish colony of Spanish Sahara, is a disputed territory claimed by both the Kingdom of Morocco and the Popular Front for the Liberation of the Saguia el Hamra and Rio de Oro (Polisario Front), which is an independence movement based in Algeria."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Yemen",
@@ -2772,7 +4155,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Yemen has been in an on-going civil war since 2014, causing the death of over 350,000 people."
+      "funFact": {
+        "data": [
+          "Yemen has been in an on-going civil war since 2014, causing the death of over 350,000 people."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Zambia",
@@ -2783,7 +4172,13 @@
         "similarity1": [],
         "similarity2": []
       },
-      "funFact": "Zambia is the home of the largest waterfall in the world, Victoria Falls. Its height is 108 meters, and its twice the size of Niagara Falls."
+      "funFact": {
+        "data": [
+          "Zambia is the home of the largest waterfall in the world, Victoria Falls. Its height is 108 meters, and its twice the size of Niagara Falls."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     },
     {
       "name": "Zimbabwe",
@@ -2794,7 +4189,13 @@
         "similarity1": ["508"],
         "similarity2": []
       },
-      "funFact": "With 16 official languages, Zimbabwe is the country with the most official languages."
+      "funFact": {
+        "data": [
+          "With 16 official languages, Zimbabwe is the country with the most official languages."
+        ],
+        "images": [],
+        "mapLocationLink": ""
+      }
     }
   ]
 }
