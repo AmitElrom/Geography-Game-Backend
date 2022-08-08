@@ -167,8 +167,14 @@ const { countries } = require('./countries.json');
 //     res.json(newCountries)
 // })
 
+// app.get('/', async (req, res) => {
+//     res.json(countries)
+// })
+
 app.get('/', async (req, res) => {
-    res.json(countries)
+    let number = +req.query.number;
+    const country = countries.find(country => country.flagKnown === number)
+    res.json(country)
 })
 
 

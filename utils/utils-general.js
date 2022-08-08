@@ -10,4 +10,9 @@ const getMeRandomElements = (sourceArray, neededElements) => {
     return result;
 }
 
-module.exports = { getMeRandomElements };
+const getMeRandomElement = (sourceArray) => {
+    const item = sourceArray[Math.floor(Math.random() * sourceArray.length)];
+    return item;
+}
+
+module.exports = { getMeRandomElements, getMeRandomElement };
