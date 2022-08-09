@@ -66,7 +66,8 @@ router.route('/')
                                 let questionFalseCountries;
 
                                 if (trueCountry.similarity.similarity1.length > 0) {
-                                    const similarities = [...trueCountry.similarity.similarity1, ...trueCountry.similarity.similarity2.length];
+                                    console.log('similarities === 1 - 1');
+                                    const similarities = [...trueCountry.similarity.similarity1, ...trueCountry.similarity.similarity2];
                                     // select randomly a country with a flag that similars to true country's flag to be a false country of the question
                                     let similarFalseCountryId = getMeRandomElement(similarities);
                                     // find the country with the 'similarFalseCountryId'
@@ -81,6 +82,7 @@ router.route('/')
                                     questionFalseCountries = [...question2FalseCountries, similarFalseCountry];
 
                                 } else {
+                                    console.log('similarities === 1 - 0');
                                     const {
                                         trueArray: question3FalseCountries
                                     } = getMeRandomElements(falseCountries, 3);
@@ -118,6 +120,7 @@ router.route('/')
                                     const similarity1WithoutSimilarFalseCountryId = trueCountry.similarity.similarity1.filter(countryId => countryId !== similarFirstFalseCountryId);
                                     // checking if 'similarity1WithoutSimilarFalseCountryId' array has items - countries id's fields
                                     if (similarity1WithoutSimilarFalseCountryId.length > 0) {
+                                        console.log('similarities === 2 - ' + 2);
                                         // combining the array's items (countries id's fields) of 'trueCountry.similarity.similarity2' with the items' (countries id's fields) array of  'similarity1WithoutSimilarFalseCountryId'
                                         const similarities = [...similarity1WithoutSimilarFalseCountryId, ...trueCountry.similarity.similarity2];
                                         // select randomly a country with a flag that similars to true country's flag (from 'similarity1' and 'similarity2' besides 'similarFalseCountryId') to be a false country of the question
@@ -130,6 +133,7 @@ router.route('/')
                                         const thirdFalseCountry = getMeRandomElement(falseCountriesWithoutsimilarFalseCountries);
                                         questionFalseCountries = [...similarFalseCountries, thirdFalseCountry];
                                     } else {
+                                        console.log('similarities === 2 - ' + 1);
                                         let falseCountriesWithoutsimilarFalseCountry = countries.filter(country => country.id !== similarity1WithoutSimilarFalseCountryId);
                                         // select randomly 2 countries to be the false countries of the question
                                         const {
@@ -139,6 +143,7 @@ router.route('/')
                                         questionFalseCountries = [...question2FalseCountries, similarFirstFalseCountry];
                                     }
                                 } else {
+                                    console.log('similarities === 2 - ' + 0);
                                     const {
                                         trueArray: question3FalseCountries
                                     } = getMeRandomElements(falseCountries, 3);

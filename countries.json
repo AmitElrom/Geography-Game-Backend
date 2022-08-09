@@ -23,7 +23,7 @@
       "flagKnown": 197,
       "id": "248",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["352"],
         "similarity2": []
       },
       "funFact": {
@@ -57,7 +57,7 @@
       "flagKnown": 76,
       "id": "012",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["586"],
         "similarity2": []
       },
       "funFact": {
@@ -361,7 +361,7 @@
       "flagKnown": 151,
       "id": "084",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["316"],
         "similarity2": []
       },
       "funFact": {
@@ -503,7 +503,7 @@
       },
       "funFact": {
         "data": [
-          "Bouvet Island is an Norwegian uninhabited island in the southern Atlantic Ocean. It is widely considered to be the most remote island in the world, as the closest inhabited place to the island is Queen Maud Land, located in Antarctica, about 1,000 miles (1,600 km) away."
+          "Bouvet Island is a Norwegian uninhabited island in the southern Atlantic Ocean. It is widely considered to be the most remote island in the world, as the closest inhabited place to the island is Queen Maud Land, located in Antarctica, about 1,000 miles (1,600 km) away."
         ],
         "images": [],
         "mapLocationLink": ""
@@ -753,7 +753,7 @@
       "flagKnown": 130,
       "id": "140",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["480"],
         "similarity2": []
       },
       "funFact": {
@@ -787,7 +787,7 @@
       "flagKnown": 56,
       "id": "152",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["203"],
         "similarity2": []
       },
       "funFact": {
@@ -1017,7 +1017,7 @@
       "flagKnown": 37,
       "id": "203",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["152"],
         "similarity2": []
       },
       "funFact": {
@@ -1523,7 +1523,7 @@
       "flagKnown": 197,
       "id": "316",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["084"],
         "similarity2": []
       },
       "funFact": {
@@ -1643,7 +1643,7 @@
       "flagKnown": 197,
       "id": "334",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["554"],
         "similarity2": []
       },
       "funFact": {
@@ -1666,7 +1666,7 @@
       },
       "funFact": {
         "data": [
-          "Not only the Vatican City is smallest country in the world, it's the only county that uses Latin as its official language."
+          "Not only is the Vatican City smallest country in the world, it's the only country that uses Latin as its official language."
         ],
         "images": [],
         "mapLocationLink": ""
@@ -1730,7 +1730,7 @@
       "id": "352",
       "similarity": {
         "similarity1": ["578"],
-        "similarity2": []
+        "similarity2": ["248"]
       },
       "funFact": {
         "data": [
@@ -2379,7 +2379,7 @@
       "flagKnown": 176,
       "id": "480",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["140"],
         "similarity2": []
       },
       "funFact": {
@@ -2670,7 +2670,7 @@
       "id": "554",
       "similarity": {
         "similarity1": ["036"],
-        "similarity2": []
+        "similarity2": ["334"]
       },
       "funFact": {
         "data": [
@@ -2841,7 +2841,7 @@
       "flagKnown": 54,
       "id": "586",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["012"],
         "similarity2": []
       },
       "funFact": {
@@ -3577,11 +3577,11 @@
       "id": "729",
       "similarity": {
         "similarity1": ["400"],
-        "similarity2": ["414", "784"]
+        "similarity2": ["728", "414", "784"]
       },
       "funFact": {
         "data": [
-          "Despites pyramids being synonymous with Egypt, Sudan has the world's most pyramids, even more than Egypt. Sudan has around 255 pyramids, while Egypt has only 188.",
+          "Despite pyramids being synonymous with Egypt, Sudan has the world's most pyramids, even more than Egypt. Sudan has around 255 pyramids, while Egypt has only 188.",
           "Prior to South Sudan's seperation from Sudan in 2011, Sudan used to be the largest country in Africa, with a total landmass of over 950,000 square miles (2.5 million square km)."
         ],
         "images": [],
@@ -3594,7 +3594,7 @@
       "flagKnown": 153,
       "id": "728",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["729"],
         "similarity2": []
       },
       "funFact": {
