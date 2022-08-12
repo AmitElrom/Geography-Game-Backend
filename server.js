@@ -9,6 +9,22 @@ app.use(express.json())
 
 const { countries } = require('./countries.json');
 
+// using axios to get data from countries rest api and manipulate it 
+
+// app.get('/', async (req, res) => {
+//     const { data: countries } = await axios.default.get('https://restcountries.com/v2/all?fields=name,flag')
+//     const newCountries = countries.filter
+//      (country => !country.name.toLowerCase().includes('palestine')).map(country => {
+//         return {
+//             name: country.name,
+//             flag: country.flag,
+//             flagKnown: 0
+//             id: country.numericCode
+//         }
+//     })
+//     res.json(newCountries)
+// })
+
 // // app.get('/', async (req, res) => {
 // //     const { data: countriesElrom } = await axios.default.get('http://localhost:8000/countries-elrom');
 // //     const { data: countriesAPI } = await axios.default.get('https://restcountries.com/v2/all?fields=numericCode,flag');

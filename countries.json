@@ -158,8 +158,8 @@
       "flagKnown": 27,
       "id": "032",
       "similarity": {
-        "similarity1": [],
-        "similarity2": []
+        "similarity1": ["340"],
+        "similarity2": ["222", "558", "376"]
       },
       "funFact": {
         "data": [
@@ -295,7 +295,7 @@
       "flagKnown": 67,
       "id": "050",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["392"],
         "similarity2": []
       },
       "funFact": {
@@ -344,7 +344,7 @@
       "flagKnown": 29,
       "id": "056",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["276"],
         "similarity2": []
       },
       "funFact": {
@@ -424,12 +424,12 @@
       }
     },
     {
-      "name": "Bolivia (Plurinational State of)",
+      "name": "Bolivia",
       "flag": "https://flagcdn.com/bo.svg",
       "flagKnown": 180,
       "id": "068",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["288"],
         "similarity2": []
       },
       "funFact": {
@@ -561,7 +561,7 @@
       }
     },
     {
-      "name": "Virgin Islands (British)",
+      "name": "British Virgin Islands",
       "flag": "https://flagcdn.com/vg.svg",
       "flagKnown": 197,
       "id": "092",
@@ -578,7 +578,7 @@
       }
     },
     {
-      "name": "Virgin Islands (U.S.)",
+      "name": "U.S Virgin Islands",
       "flag": "https://flagcdn.com/vi.svg",
       "flagKnown": 197,
       "id": "850",
@@ -687,7 +687,7 @@
       "flagKnown": 106,
       "id": "120",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["686"],
         "similarity2": []
       },
       "funFact": {
@@ -704,7 +704,7 @@
       "flagKnown": 2,
       "id": "124",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["604"],
         "similarity2": []
       },
       "funFact": {
@@ -821,7 +821,7 @@
       "flagKnown": 197,
       "id": "162",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["090"],
         "similarity2": []
       },
       "funFact": {
@@ -855,8 +855,8 @@
       "flagKnown": 70,
       "id": "170",
       "similarity": {
-        "similarity1": ["218", "862"],
-        "similarity2": []
+        "similarity1": ["218"],
+        "similarity2": ["862"]
       },
       "funFact": {
         "data": [
@@ -897,7 +897,7 @@
       }
     },
     {
-      "name": "Congo (Democratic Republic of the)",
+      "name": "Democratic Republic of the Congo",
       "flag": "https://flagcdn.com/cd.svg",
       "flagKnown": 182,
       "id": "180",
@@ -936,11 +936,11 @@
       "flagKnown": 129,
       "id": "188",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["764"],
         "similarity2": []
       },
       "funFact": {
-        "data": ["Costa Rica doesn’t have a military."],
+        "data": ["Costa Rica doesn't have a military."],
         "images": [],
         "mapLocationLink": ""
       }
@@ -951,8 +951,8 @@
       "flagKnown": 33,
       "id": "191",
       "similarity": {
-        "similarity1": [],
-        "similarity2": []
+        "similarity1": ["600"],
+        "similarity2": ["705"]
       },
       "funFact": {
         "data": [
@@ -1103,8 +1103,8 @@
       "flagKnown": 95,
       "id": "218",
       "similarity": {
-        "similarity1": ["170", "862"],
-        "similarity2": []
+        "similarity1": ["170"],
+        "similarity2": ["862"]
       },
       "funFact": {
         "data": [
@@ -1137,8 +1137,8 @@
       "flagKnown": 135,
       "id": "222",
       "similarity": {
-        "similarity1": ["340", "558"],
-        "similarity2": []
+        "similarity1": ["558"],
+        "similarity2": ["340", "032"]
       },
       "funFact": {
         "data": [
@@ -1212,7 +1212,7 @@
       }
     },
     {
-      "name": "Falkland Islands (Malvinas)",
+      "name": "Falkland Islands",
       "flag": "https://flagcdn.com/fk.svg",
       "flagKnown": 197,
       "id": "238",
@@ -1251,7 +1251,7 @@
       "flagKnown": 80,
       "id": "242",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["798"],
         "similarity2": []
       },
       "funFact": {
@@ -1351,8 +1351,8 @@
       "flagKnown": 193,
       "id": "266",
       "similarity": {
-        "similarity1": [],
-        "similarity2": []
+        "similarity1": ["694"],
+        "similarity2": ["646"]
       },
       "funFact": {
         "data": [
@@ -1404,7 +1404,7 @@
       "flagKnown": 7,
       "id": "276",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["056"],
         "similarity2": []
       },
       "funFact": {
@@ -1421,7 +1421,7 @@
       "flagKnown": 94,
       "id": "288",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["068"],
         "similarity2": []
       },
       "funFact": {
@@ -1455,7 +1455,7 @@
       "flagKnown": 12,
       "id": "300",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["858"],
         "similarity2": []
       },
       "funFact": {
@@ -1576,7 +1576,7 @@
       "id": "324",
       "similarity": {
         "similarity1": ["466"],
-        "similarity2": []
+        "similarity2": ["686"]
       },
       "funFact": {
         "data": [
@@ -1679,7 +1679,7 @@
       "id": "340",
       "similarity": {
         "similarity1": ["222", "558"],
-        "similarity2": []
+        "similarity2": ["032"]
       },
       "funFact": {
         "data": [
@@ -1695,8 +1695,8 @@
       "flagKnown": 65,
       "id": "348",
       "similarity": {
-        "similarity1": [],
-        "similarity2": []
+        "similarity1": ["762"],
+        "similarity2": ["364"]
       },
       "funFact": {
         "data": [
@@ -1746,7 +1746,7 @@
       "flagKnown": 25,
       "id": "356",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["562"],
         "similarity2": []
       },
       "funFact": {
@@ -1763,8 +1763,8 @@
       "flagKnown": 99,
       "id": "360",
       "similarity": {
-        "similarity1": ["492", "616"],
-        "similarity2": []
+        "similarity1": ["492", "702"],
+        "similarity2": ["616"]
       },
       "funFact": {
         "data": [
@@ -1792,12 +1792,12 @@
       }
     },
     {
-      "name": "Iran (Islamic Republic of)",
+      "name": "Iran",
       "flag": "https://flagcdn.com/ir.svg",
       "flagKnown": 63,
       "id": "364",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["348"],
         "similarity2": []
       },
       "funFact": {
@@ -1814,11 +1814,14 @@
       "flagKnown": 36,
       "id": "368",
       "similarity": {
-        "similarity1": ["760"],
+        "similarity1": ["760", "887"],
         "similarity2": []
       },
       "funFact": {
-        "data": ["Iraq is home to the world's oldest civilisation."],
+        "data": [
+          "Iraq is home to the world's oldest civilisation.",
+          "Iraq is considered the birthplace of Abraham."
+        ],
         "images": [],
         "mapLocationLink": ""
       }
@@ -1833,7 +1836,9 @@
         "similarity2": []
       },
       "funFact": {
-        "data": ["Iraq is considered the birthplace of Abraham."],
+        "data": [
+          "Ireland has won the Eurovision Song Contest more times than any other country. They've won 7 times, and they are also the only country to win 3 times in a row, in 1992, 1993 and 1994."
+        ],
         "images": [],
         "mapLocationLink": ""
       }
@@ -1861,7 +1866,7 @@
       "flagKnown": 9,
       "id": "376",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["032"],
         "similarity2": []
       },
       "funFact": {
@@ -1878,7 +1883,7 @@
       "flagKnown": 10,
       "id": "380",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["484"],
         "similarity2": []
       },
       "funFact": {
@@ -1910,7 +1915,7 @@
       "flagKnown": 1,
       "id": "392",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["050"],
         "similarity2": []
       },
       "funFact": {
@@ -1978,7 +1983,7 @@
       "flagKnown": 41,
       "id": "404",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["728"],
         "similarity2": []
       },
       "funFact": {
@@ -2114,7 +2119,7 @@
       "flagKnown": 96,
       "id": "430",
       "similarity": {
-        "similarity1": ["458"],
+        "similarity1": ["458", "840"],
         "similarity2": []
       },
       "funFact": {
@@ -2261,7 +2266,7 @@
       "flagKnown": 61,
       "id": "458",
       "similarity": {
-        "similarity1": ["430"],
+        "similarity1": ["430", "840"],
         "similarity2": []
       },
       "funFact": {
@@ -2329,7 +2334,7 @@
       "flagKnown": 150,
       "id": "584",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["520"],
         "similarity2": []
       },
       "funFact": {
@@ -2413,7 +2418,7 @@
       "flagKnown": 30,
       "id": "484",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["380"],
         "similarity2": []
       },
       "funFact": {
@@ -2425,12 +2430,12 @@
       }
     },
     {
-      "name": "Micronesia (Federated States of)",
+      "name": "Micronesia",
       "flag": "https://flagcdn.com/fm.svg",
       "flagKnown": 134,
       "id": "583",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["706"],
         "similarity2": []
       },
       "funFact": {
@@ -2442,7 +2447,7 @@
       }
     },
     {
-      "name": "Moldova (Republic of)",
+      "name": "Moldova",
       "flag": "https://flagcdn.com/md.svg",
       "flagKnown": 111,
       "id": "498",
@@ -2464,8 +2469,8 @@
       "flagKnown": 89,
       "id": "492",
       "similarity": {
-        "similarity1": ["616", "360"],
-        "similarity2": []
+        "similarity1": ["702", "360"],
+        "similarity2": ["616"]
       },
       "funFact": {
         "data": [
@@ -2600,12 +2605,12 @@
       "flagKnown": 179,
       "id": "520",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["584"],
         "similarity2": []
       },
       "funFact": {
         "data": [
-          "Nauru is the fattest state in the world. over 71% of the country's population is obese."
+          "Nauru is the fattest state in the world. Over 71% of the country's population is obese."
         ],
         "images": [],
         "mapLocationLink": ""
@@ -2686,8 +2691,8 @@
       "flagKnown": 133,
       "id": "558",
       "similarity": {
-        "similarity1": ["222", "340"],
-        "similarity2": []
+        "similarity1": ["222"],
+        "similarity2": ["340", "032"]
       },
       "funFact": {
         "data": [
@@ -2704,7 +2709,7 @@
       "flagKnown": 132,
       "id": "562",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["356"],
         "similarity2": []
       },
       "funFact": {
@@ -2756,7 +2761,7 @@
       "flagKnown": 197,
       "id": "574",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["566"],
         "similarity2": []
       },
       "funFact": {
@@ -2768,7 +2773,7 @@
       }
     },
     {
-      "name": "Korea (Democratic People's Republic of)",
+      "name": "North Korea",
       "flag": "https://flagcdn.com/kp.svg",
       "flagKnown": 51,
       "id": "408",
@@ -2931,7 +2936,7 @@
       "flagKnown": 97,
       "id": "604",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["124"],
         "similarity2": []
       },
       "funFact": {
@@ -2984,7 +2989,7 @@
       "id": "616",
       "similarity": {
         "similarity1": ["492", "360"],
-        "similarity2": []
+        "similarity2": ["702"]
       },
       "funFact": {
         "data": [
@@ -3101,7 +3106,7 @@
       "id": "643",
       "similarity": {
         "similarity1": ["528"],
-        "similarity2": []
+        "similarity2": ["703", "705"]
       },
       "funFact": {
         "data": [
@@ -3118,7 +3123,7 @@
       "flagKnown": 187,
       "id": "646",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["266"],
         "similarity2": []
       },
       "funFact": {
@@ -3169,7 +3174,7 @@
       "flagKnown": 173,
       "id": "659",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["780"],
         "similarity2": []
       },
       "funFact": {
@@ -3198,7 +3203,7 @@
       }
     },
     {
-      "name": "Saint Martin (French part)",
+      "name": "Saint Martin",
       "flag": "https://flagcdn.com/mf.svg",
       "flagKnown": 197,
       "id": "663",
@@ -3322,8 +3327,8 @@
       "flagKnown": 138,
       "id": "686",
       "similarity": {
-        "similarity1": [],
-        "similarity2": []
+        "similarity1": ["120"],
+        "similarity2": ["466"]
       },
       "funFact": {
         "data": ["Senegal is home to the mainland's Africa westernmost point."],
@@ -3371,12 +3376,12 @@
       "flagKnown": 178,
       "id": "694",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["266"],
         "similarity2": []
       },
       "funFact": {
         "data": [
-          "The name Sierra Leone was adapted from the Portuguese name for the country: Serra Leoa. The literal meaning is 'Lioness Mountains.'"
+          "The name Sierra Leone was adapted from the Portuguese name for the country: Serra Leoa. The literal meaning of the name is 'Lioness Mountains'."
         ],
         "images": [],
         "mapLocationLink": ""
@@ -3388,8 +3393,8 @@
       "flagKnown": 109,
       "id": "702",
       "similarity": {
-        "similarity1": [],
-        "similarity2": []
+        "similarity1": ["492", "360"],
+        "similarity2": ["616"]
       },
       "funFact": {
         "data": [
@@ -3400,7 +3405,7 @@
       }
     },
     {
-      "name": "Sint Maarten (Dutch part)",
+      "name": "Sint Maarten",
       "flag": "https://flagcdn.com/sx.svg",
       "flagKnown": 197,
       "id": "534",
@@ -3441,7 +3446,7 @@
       "id": "705",
       "similarity": {
         "similarity1": ["703"],
-        "similarity2": ["688"]
+        "similarity2": ["688", "191"]
       },
       "funFact": {
         "data": [
@@ -3457,7 +3462,7 @@
       "flagKnown": 192,
       "id": "090",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["162"],
         "similarity2": []
       },
       "funFact": {
@@ -3474,7 +3479,7 @@
       "flagKnown": 114,
       "id": "706",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["583"],
         "similarity2": []
       },
       "funFact": {
@@ -3520,7 +3525,7 @@
       }
     },
     {
-      "name": "Korea (Republic of)",
+      "name": "South Korea",
       "flag": "https://flagcdn.com/kr.svg",
       "flagKnown": 5,
       "id": "410",
@@ -3594,8 +3599,8 @@
       "flagKnown": 153,
       "id": "728",
       "similarity": {
-        "similarity1": ["729"],
-        "similarity2": []
+        "similarity1": ["404"],
+        "similarity2": ["729"]
       },
       "funFact": {
         "data": [
@@ -3641,7 +3646,7 @@
       }
     },
     {
-      "name": "Kingdom of Eswatini",
+      "name": "Eswatini",
       "flag": "https://flagcdn.com/sz.svg",
       "flagKnown": 102,
       "id": "748",
@@ -3651,7 +3656,8 @@
       },
       "funFact": {
         "data": [
-          "In April 2018, the official name was changed from Kingdom of Swaziland to Kingdom of Eswatini, mirroring the name commonly used in Swazi. The government is an absolute monarchy, the last of its kind in Africa, and has been ruled by King Mswati III since 1986."
+          "In April 2018, the official name was changed from Kingdom of Swaziland to Kingdom of Eswatini, mirroring the name commonly used in Swazi.",
+          "The government is an absolute monarchy, the last of its kind in Africa, and has been ruled by King Mswati III since 1986."
         ],
         "images": [],
         "mapLocationLink": ""
@@ -3678,7 +3684,7 @@
       "flagKnown": 8,
       "id": "756",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["776"],
         "similarity2": []
       },
       "funFact": {
@@ -3690,12 +3696,12 @@
       }
     },
     {
-      "name": "Syrian Arab Republic",
+      "name": "Syria",
       "flag": "https://flagcdn.com/sy.svg",
       "flagKnown": 81,
       "id": "760",
       "similarity": {
-        "similarity1": ["368"],
+        "similarity1": ["368", "887"],
         "similarity2": []
       },
       "funFact": {
@@ -3729,7 +3735,7 @@
       "flagKnown": 183,
       "id": "762",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["348"],
         "similarity2": []
       },
       "funFact": {
@@ -3741,7 +3747,7 @@
       }
     },
     {
-      "name": "Tanzania, United Republic of",
+      "name": "Tanzania",
       "flag": "https://flagcdn.com/tz.svg",
       "flagKnown": 167,
       "id": "834",
@@ -3751,7 +3757,7 @@
       },
       "funFact": {
         "data": [
-          "Mount Kilimanjaro, Africa's highest mountain, is in northeastern Tanzania."
+          "Mount Kilimanjaro, Africa's highest mountain, is located in northeastern Tanzania."
         ],
         "images": [],
         "mapLocationLink": ""
@@ -3763,7 +3769,7 @@
       "flagKnown": 84,
       "id": "764",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["188"],
         "similarity2": []
       },
       "funFact": {
@@ -3801,7 +3807,7 @@
         "similarity2": []
       },
       "funFact": {
-        "data": ["The voodoo religion is practised widely in Togo."],
+        "data": ["The voodoo religion is widely practiced in Togo."],
         "images": [],
         "mapLocationLink": ""
       }
@@ -3829,7 +3835,7 @@
       "flagKnown": 136,
       "id": "776",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["756"],
         "similarity2": []
       },
       "funFact": {
@@ -3846,7 +3852,7 @@
       "flagKnown": 72,
       "id": "780",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["659"],
         "similarity2": []
       },
       "funFact": {
@@ -3863,7 +3869,7 @@
       "flagKnown": 90,
       "id": "788",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["792"],
         "similarity2": []
       },
       "funFact": {
@@ -3880,7 +3886,7 @@
       "flagKnown": 22,
       "id": "792",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["788"],
         "similarity2": []
       },
       "funFact": {
@@ -3931,7 +3937,7 @@
       "flagKnown": 157,
       "id": "798",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["242"],
         "similarity2": []
       },
       "funFact": {
@@ -3970,7 +3976,7 @@
       },
       "funFact": {
         "data": [
-          "The UAE was the first country in the world to appoint a minister for artificial intelligence."
+          "Arsenalna, also known as Kiev city metro line, is the deepest metro station in the world. It is 350 ft (105.5m) deep."
         ],
         "images": [],
         "mapLocationLink": ""
@@ -4016,7 +4022,7 @@
       "flagKnown": 4,
       "id": "840",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["458", "430"],
         "similarity2": []
       },
       "funFact": {
@@ -4033,7 +4039,7 @@
       "flagKnown": 58,
       "id": "858",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["300"],
         "similarity2": []
       },
       "funFact": {
@@ -4079,7 +4085,7 @@
       }
     },
     {
-      "name": "Venezuela (Bolivarian Republic of)",
+      "name": "Venezuela",
       "flag": "https://flagcdn.com/ve.svg",
       "flagKnown": 73,
       "id": "862",
@@ -4152,7 +4158,7 @@
       "flagKnown": 141,
       "id": "887",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["760", "368"],
         "similarity2": []
       },
       "funFact": {
@@ -4169,7 +4175,7 @@
       "flagKnown": 148,
       "id": "894",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["716"],
         "similarity2": []
       },
       "funFact": {
@@ -4187,7 +4193,7 @@
       "id": "716",
       "similarity": {
         "similarity1": ["508"],
-        "similarity2": []
+        "similarity2": ["894"]
       },
       "funFact": {
         "data": [
