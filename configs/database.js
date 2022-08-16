@@ -1,3 +1,5 @@
-const { connect } = require('mongoose');
+const { createConnection } = require('mongoose');
 
-connect('mongodb://localhost:27017/GeographyGameDB');
+const connection = createConnection('mongodb://localhost:27017/geoGameDB')
+
+module.exports = connection;
