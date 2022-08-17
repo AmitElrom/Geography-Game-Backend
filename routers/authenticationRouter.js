@@ -1,5 +1,6 @@
+require('dotenv').config()
 const { genSalt, hash, compare } = require('bcryptjs');
-const jwt = require('jsonwebtoken');
+const { sign } = require('jsonwebtoken');
 const express = require('express');
 const router = express.Router();
 
@@ -45,7 +46,6 @@ router.route('/sign-up')
             } else {
                 const reqBody = { email, firstName, lastName, password1, password2 };
                 const missingFields = [];
-                let missingFieldsStr = '';
                 for (const prop in reqBody) {
                     if (!reqBody[prop]) {
                         missingFields.push(prop);
@@ -53,7 +53,7 @@ router.route('/sign-up')
                 }
                 let auxiliaryVerb1 = missingFields.length === 1 ? ' a' : '';
                 let auxiliaryVerb2 = missingFields.length === 1 ? '' : 's';
-                missingFieldsStr = missingFields.join(', ');
+                let missingFieldsStr = missingFields.join(', ');
                 res.status(400).json({ error: `Error - new user has${auxiliaryVerb1} missing field${auxiliaryVerb2} - ${missingFieldsStr}.` })
             }
         } catch (error) {
@@ -63,19 +63,44 @@ router.route('/sign-up')
 
 router.route('/sign-in')
     .post(async (req, res) => {
-        const { email, password } = req.body;
-        // check id user with particulat email exists
-        const existedUser = await User.findOne({ email });
-        if (existedUser) {
-            let isMatch = await compare(password, existedUser.password);
-            if (isMatch) {
-
+        try {
+            const { email, password } = req.body;
+            if (email && password) {
+                // check id user with particular email exists
+                const existedUser = await User.findOne({ email });
+                if (existedUser) {
+                    let isMatch = await compare(password, existedUser.password);
+                    if (isMatch) {
+                        const userData = { email };
+                        const token = sign(userData, process.env.ACCESS_TOKEN_KEY);
+                        res.status(200).json({
+                            message: 'Success - logged in successfully',
+                            token
+                        })
+                    } else {
+                        res.status(403).json({ error: `Error - wrong password` })
+                    }
+                } else {
+                    res.status(403).json({ error: `Error - a user with an email of ${email} is not exists.` })
+                }
             } else {
-                res.status(403).json({ error: `Error - wrong password` })
+                const reqBody = { email, password };
+                const missingFields = [];
+                for (const prop in reqBody) {
+                    if (!reqBody[prop]) {
+                        missingFields.push(prop)
+                    }
+                }
+                let auxiliaryVerb1 = missingFields.length === 1 ? ' a' : '';
+                let auxiliaryVerb2 = missingFields.length === 1 ? '' : 's';
+                let missingFieldsStr = missingFields.join(', ');
+                res.status(400).json({ error: `Error - user has${auxiliaryVerb1} missing field${auxiliaryVerb2} - ${missingFieldsStr}.` })
             }
-        } else {
-            res.status(403).json({ error: `Error - a user with an email of ${email} is not exists.` })
+        } catch (error) {
+            res.status(401).json({ error })
         }
+
+
     })
 
 module.exports = router;
