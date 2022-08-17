@@ -5,15 +5,12 @@ const express = require('express');
 const router = express.Router();
 
 const { User } = require('../models/models');
+const { authenticateToken } = require('../middlewares/authentication');
 
 router.route('/')
-    .get(async (req, res) => {
-        try {
-            const users = await User.find({})
-            res.status(200).json(users)
-        } catch (err) {
-            res.status(400).json(err)
-        }
+    .get(authenticateToken, async (req, res) => {
+        const user = await User.findOne({ email: req.user.email });
+        res.json(user.firstName + ' ' + user.lastName + ' is connected.')
     })
 
 router.route('/sign-up')
@@ -99,8 +96,6 @@ router.route('/sign-in')
         } catch (error) {
             res.status(401).json({ error })
         }
-
-
     })
 
 module.exports = router;
