@@ -32,7 +32,10 @@ router.route('/sign-up')
                         })
                         res.status(201).json({
                             message: `Success message - a user with the email of ${email} was added.`,
-                            newUser
+                            newUser: {
+                                email: newUser.email,
+                                name: `${newUser.firstName} ${newUser.lastName}`
+                            }
                         })
                     } else {
                         res.status(400).json({ error: "Error - passwords don't match." })
