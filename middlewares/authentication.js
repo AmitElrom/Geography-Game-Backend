@@ -10,14 +10,14 @@ const authenticateToken = (req, res, next) => {
             // check if the token is the same token saved in env file
             verify(authToken, process.env.ACCESS_TOKEN_KEY, (err, user) => {
                 if (err) {
-                    res.status(403).json({ error: 'Error - wrong token - user is not authorized.' })
+                    res.status(200).json({ error: 'Error - wrong token - user is not authorized.', status: '403' })
                 } else {
                     req.user = user;
                     next()
                 }
             });
         } else {
-            res.status(401).json({ error: 'Error - no token - user is not authorized.' })
+            res.status(200).json({ error: 'Error - no token - user is not authorized.', status: '401' })
         }
     } catch (error) {
         res.status(401).json({ error })

@@ -13,6 +13,20 @@ router.route('/')
         res.json(user.firstName + ' ' + user.lastName + ' is connected.')
     })
 
+router.route('/check-sign-in')
+    .post(authenticateToken, async (req, res) => {
+        const user = await User.findOne({ email: req.user.email });
+        const { email, firstName, lastName } = user;
+        res.json({
+            status: `${user.firstName} ${user.lastName} is connected`,
+            user: {
+                email,
+                firstName,
+                lastName
+            }
+        })
+    })
+
 router.route('/sign-up')
     .post(async (req, res) => {
         try {
@@ -78,10 +92,10 @@ router.route('/sign-in')
                             token
                         })
                     } else {
-                        res.status(403).json({ error: `Error - wrong password` })
+                        res.status(403).json({ error: `Error - wrong password`, status: '403' })
                     }
                 } else {
-                    res.status(403).json({ error: `Error - a user with an email of ${email} is not exists.` })
+                    res.status(403).json({ error: `Error - a user with an email of ${email} is not exists.`, status: '403' })
                 }
             } else {
                 const reqBody = { email, password };
