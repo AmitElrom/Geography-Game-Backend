@@ -48,7 +48,8 @@ router.route('/sign-up')
                             message: `Success message - a user with the email of ${email} was added.`,
                             newUser: {
                                 email: newUser.email,
-                                name: `${newUser.firstName} ${newUser.lastName}`
+                                name: `${newUser.firstName} ${newUser.lastName}`,
+                                token
                             }
                         })
                     } else {
@@ -83,12 +84,15 @@ router.route('/sign-in')
                 // check id user with particular email exists
                 const existedUser = await User.findOne({ email });
                 if (existedUser) {
+                    const { email, firstName, lastName } = existedUser;
+                    const userData = { email, firstName, lastName, fullName: `${firstName} ${lastName}` };
                     let isMatch = await compare(password, existedUser.password);
                     if (isMatch) {
-                        const userData = { email };
-                        const token = sign(userData, process.env.ACCESS_TOKEN_KEY);
+                        const userDataToToken = { email };
+                        const token = sign(userDataToToken, process.env.ACCESS_TOKEN_KEY);
                         res.status(200).json({
-                            message: 'Success - logged in successfully',
+                            message: `Success - user with email ${email} logged in successfully`,
+                            userData,
                             token
                         })
                     } else {

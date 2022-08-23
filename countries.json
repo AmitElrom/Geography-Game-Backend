@@ -1386,7 +1386,7 @@
       "flagKnown": 49,
       "id": "268",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["756", "776"],
         "similarity2": []
       },
       "funFact": {
@@ -1966,7 +1966,7 @@
       "flagKnown": 105,
       "id": "398",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["417"],
         "similarity2": []
       },
       "funFact": {
@@ -2034,7 +2034,7 @@
       "flagKnown": 162,
       "id": "417",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["398"],
         "similarity2": []
       },
       "funFact": {
@@ -3684,7 +3684,7 @@
       "flagKnown": 8,
       "id": "756",
       "similarity": {
-        "similarity1": ["776"],
+        "similarity1": ["776", "268"],
         "similarity2": []
       },
       "funFact": {
@@ -3835,7 +3835,7 @@
       "flagKnown": 136,
       "id": "776",
       "similarity": {
-        "similarity1": ["756"],
+        "similarity1": ["756", "268"],
         "similarity2": []
       },
       "funFact": {
