@@ -22,7 +22,8 @@ router.route('/check-sign-in')
             user: {
                 email,
                 firstName,
-                lastName
+                lastName,
+                fullName: `${firstName} ${lastName}`
             }
         })
     })
@@ -44,13 +45,18 @@ router.route('/sign-up')
                             email,
                             password: hashedPassword
                         })
+
+                        const token = sign({ email: newUser.email }, process.env.ACCESS_TOKEN_KEY);
+
                         res.status(201).json({
                             message: `Success message - a user with the email of ${email} was added.`,
-                            newUser: {
-                                email: newUser.email,
-                                name: `${newUser.firstName} ${newUser.lastName}`,
-                                token
-                            }
+                            userData: {
+                                email,
+                                firstName,
+                                lastName,
+                                fullName: `${newUser.firstName} ${newUser.lastName}`,
+                            },
+                            token,
                         })
                     } else {
                         res.status(400).json({ error: "Error - passwords don't match." })

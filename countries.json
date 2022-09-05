@@ -1288,7 +1288,7 @@
       },
       "funFact": {
         "data": [
-          "Thanks to French Guiana, France's largest border is with Brazil"
+          "Thanks to French Guiana, France's largest border is with Brazil."
         ],
         "images": [],
         "mapLocationLink": ""
@@ -1339,7 +1339,7 @@
       },
       "funFact": {
         "data": [
-          "The French Southern Territories has no permanently settled inhabitants."
+          "The French Southern Territories have no permanently settled inhabitants."
         ],
         "images": [],
         "mapLocationLink": ""
@@ -4000,7 +4000,7 @@
       }
     },
     {
-      "name": "United Kingdom of Great Britain and Northern Ireland",
+      "name": "United Kingdom",
       "flag": "https://flagcdn.com/gb.svg",
       "flagKnown": 3,
       "id": "826",
