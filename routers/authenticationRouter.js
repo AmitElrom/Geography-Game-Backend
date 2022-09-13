@@ -125,4 +125,31 @@ router.route('/sign-in')
         }
     })
 
+router.route('/')
+    .put(authenticateToken, async (req, res) => {
+        try {
+            const { firstName, lastName, email } = req.body;
+            const { email: emailFromAuth } = req.user;
+
+            const query = { email: emailFromAuth };
+            const update = {
+                firstName,
+                lastName,
+                email
+            };
+            const option = { new: true }
+            // const option = { new: true };
+            const updatedUser = await User.findOneAndUpdate(query, update, option);
+            const updatedUserToClient = {
+                firstName: updatedUser.firstName,
+                lastName: updatedUser.lastName,
+                email: updatedUser.email
+            }
+            res.status(200).json(updatedUserToClient)
+        } catch (error) {
+            res.status(400).json({ error })
+        }
+
+    })
+
 module.exports = router;
