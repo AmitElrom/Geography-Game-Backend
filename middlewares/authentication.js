@@ -1,5 +1,6 @@
 require('dotenv').config();
 const { verify } = require('jsonwebtoken');
+const router = require('../routers/authenticationRouter');
 
 const authenticateToken = (req, res, next) => {
     try {
@@ -23,5 +24,6 @@ const authenticateToken = (req, res, next) => {
         res.status(401).json({ error })
     }
 }
+
 
 module.exports = { authenticateToken };

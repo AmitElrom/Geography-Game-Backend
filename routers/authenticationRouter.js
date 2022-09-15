@@ -90,11 +90,11 @@ router.route('/sign-in')
                 // check id user with particular email exists
                 const existedUser = await User.findOne({ email });
                 if (existedUser) {
-                    const { email, firstName, lastName } = existedUser;
+                    const { email, firstName, lastName, _id } = existedUser;
                     const userData = { email, firstName, lastName, fullName: `${firstName} ${lastName}` };
                     let isMatch = await compare(password, existedUser.password);
                     if (isMatch) {
-                        const userDataToToken = { email };
+                        const userDataToToken = { email, _id };
                         const token = sign(userDataToToken, process.env.ACCESS_TOKEN_KEY);
                         res.status(200).json({
                             message: `Success - user with email ${email} logged in successfully`,
@@ -129,16 +129,15 @@ router.route('/')
     .put(authenticateToken, async (req, res) => {
         try {
             const { firstName, lastName, email } = req.body;
-            const { email: emailFromAuth } = req.user;
+            const { _id } = req.user;
 
-            const query = { email: emailFromAuth };
+            const query = { _id };
             const update = {
                 firstName,
                 lastName,
                 email
             };
             const option = { new: true }
-            // const option = { new: true };
             const updatedUser = await User.findOneAndUpdate(query, update, option);
             const updatedUserToClient = {
                 firstName: updatedUser.firstName,
@@ -150,6 +149,21 @@ router.route('/')
             res.status(400).json({ error })
         }
 
+    })
+
+router.route('/forgot-password')
+    .post(async (req, res) => {
+        try {
+            const { email } = req.body;
+            const user = await User.findOne({ email });
+            if (!user) {
+                res.status(200).json({ message: "User doesn't exist" });
+            } else {
+
+            }
+        } catch (error) {
+            res.status(400).json({ error });
+        }
     })
 
 module.exports = router;
