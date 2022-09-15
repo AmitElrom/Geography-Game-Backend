@@ -151,6 +151,28 @@ router.route('/')
 
     })
 
+router.route('/change-password')
+    .put(authenticateToken, async (req, res) => {
+        try {
+            const { newPassword, confirmedPassword } = req.body;
+            const { _id } = req.user;
+            if (newPassword === confirmedPassword) {
+                let salt = await genSalt(10);
+                let hashedPassword = await hash(newPassword, salt);
+                const query = { _id };
+                const update = {
+                    password: hashedPassword
+                };
+                const updatedUser = await User.findOneAndUpdate(query, update);
+                res.status(200).json({ message: `User with email ${updatedUser.email} changed password successfully.` })
+            } else {
+                res.status(400).json({ message: 'Passwords do not match.' })
+            }
+        } catch (error) {
+            res.status(400).json({ error })
+        }
+    })
+
 router.route('/forgot-password')
     .post(async (req, res) => {
         try {
