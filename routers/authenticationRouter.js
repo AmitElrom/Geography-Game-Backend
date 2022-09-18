@@ -166,7 +166,14 @@ router.route('/change-password')
                     password: hashedPassword
                 };
                 const updatedUser = await User.findOneAndUpdate(query, update);
-                res.status(200).json({ message: `User with email ${updatedUser.email} changed password successfully.` })
+
+                const { email, firstName, lastName } = updatedUser;
+                const userData = { email, firstName, lastName, fullName: `${firstName} ${lastName}` };
+
+                res.status(200).json({
+                    message: `User with email ${email} changed password successfully.`,
+                    userData
+                })
             } else {
                 res.status(400).json({ message: 'Passwords do not match.' })
             }
@@ -205,8 +212,9 @@ router.route('/forgot-password')
                     text: emailCode
                 };
 
-                const successInfo = await transporter.sendMail(mailOptions)
-                res.status(200).json(successInfo);
+                const successInfo = await transporter.sendMail(mailOptions);
+
+                res.status(200).json({ message: `Verification code was sent to ${successInfo.accepted[0]}` });
             } else {
                 res.status(404).json({ message: "User doesn't exist" });
             }
