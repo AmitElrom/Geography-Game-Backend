@@ -1,11 +1,13 @@
 require('dotenv').config()
 const { genSalt, hash, compare } = require('bcryptjs');
 const { sign } = require('jsonwebtoken');
+const { createTransport } = require('nodemailer');
 const express = require('express');
 const router = express.Router();
 
 const { User } = require('../models/models');
 const { authenticateToken } = require('../middlewares/authentication');
+const { generateVerificationCode: genCode } = require('../utils/utils-create');
 
 router.route('/')
     .get(authenticateToken, async (req, res) => {
@@ -173,19 +175,68 @@ router.route('/change-password')
         }
     })
 
+let emailCode = '';
 router.route('/forgot-password')
     .post(async (req, res) => {
         try {
             const { email } = req.body;
-            const user = await User.findOne({ email });
-            if (!user) {
-                res.status(200).json({ message: "User doesn't exist" });
-            } else {
 
+            // check if user with that email exists
+            const existedUser = await User.findOne({ email });
+
+            if (existedUser) {
+                const transporter = createTransport({
+                    service: 'gmail',
+                    auth: {
+                        user: 'amitelrom99@gmail.com',
+                        pass: process.env.EMAIL_PASSWORD,
+                    },
+                    tls: {
+                        rejectUnauthorized: false
+                    }
+                });
+
+                emailCode = genCode(6);
+
+                const mailOptions = {
+                    from: 'amitelrom99@gmail.com',
+                    to: email,
+                    subject: 'Geography Game - Verification Code',
+                    text: emailCode
+                };
+
+                const successInfo = await transporter.sendMail(mailOptions)
+                res.status(200).json(successInfo);
+            } else {
+                res.status(404).json({ message: "User doesn't exist" });
             }
         } catch (error) {
             res.status(400).json({ error });
         }
     })
+
+router.route('/verify-code')
+    .post(async (req, res) => {
+        try {
+            // pending - make sure email is on session storage and sent via client
+            const { code, email } = req.body;
+
+            const existedUser = await User.findOne({ email });
+            let _id = existedUser._id;
+
+            if (code === emailCode) {
+                // create token
+                const userDataToToken = { email, _id };
+                const token = sign(userDataToToken, process.env.ACCESS_TOKEN_KEY);
+
+                res.status(200).json({ token });
+            } else {
+                res.status(401).json({ message: "User is unauthorized" });
+            }
+        } catch (error) {
+            res.status(400).json({ error });
+        }
+    })
+
 
 module.exports = router;

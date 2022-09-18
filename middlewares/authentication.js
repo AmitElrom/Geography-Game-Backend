@@ -1,5 +1,6 @@
 require('dotenv').config();
 const { verify } = require('jsonwebtoken');
+const { createTransport } = require('nodemailer');
 const router = require('../routers/authenticationRouter');
 
 const authenticateToken = (req, res, next) => {
@@ -25,5 +26,36 @@ const authenticateToken = (req, res, next) => {
     }
 }
 
+const sendEmail = async (req, res, next) => {
+    try {
+        const { email } = req.body;
 
-module.exports = { authenticateToken };
+        const transporter = createTransport({
+            service: 'gmail',
+            auth: {
+                user: 'amitelrom99@gmail.com',
+                pass: process.env.EMAIL_PASSWORD,
+            },
+            tls: {
+                rejectUnauthorized: false
+            }
+        });
+
+        const mailOptions = {
+            from: 'amitelrom99@gmail.com',
+            to: 'amitelrom99@gmail.com',
+            subject: 'Testing',
+            text: 'First emaul send from Nodejs using Nodemailer'
+        };
+
+        const successInfo = await transporter.sendMail(mailOptions)
+        req.sendEmailRes = successInfo;
+        next();
+
+    } catch (error) {
+        res.status(400).json({ error });
+    }
+};
+
+
+module.exports = { authenticateToken, sendEmail };
