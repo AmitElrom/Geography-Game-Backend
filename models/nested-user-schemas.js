@@ -1,16 +1,21 @@
 const { Schema } = require('mongoose');
 
-const levelScoresSchema = new Schema({
+const questionSchema = new Schema({
     isCorrect: { type: Boolean, required: true },
     trueCountry: { type: String, required: true },
     falseCountry: { type: String, required: false },
-    startTime: {},
-    endTime: {}
+});
+
+const gameSchema = new Schema({
+    totalScore: { type: Number, required: true },
+    startTime: { type: Number, required: true },
+    endTime: { type: Number, required: true },
+    questions: [questionSchema]
 });
 
 const levelSchema = new Schema({
-    totalScore: { type: Number, required: true },
-    levelScores: [levelScoresSchema]
+    totalScore: { type: Number, required: false },
+    games: [gameSchema]
 });
 
 const scoreSchema = new Schema({

@@ -8,7 +8,7 @@ const userSchema = new Schema({
     lastName: { type: String, required: true },
     email: { type: String, required: true },
     password: { type: String, required: true },
-    // score: scoreSchema
+    score: scoreSchema
 })
 
 const User = connection.model('users', userSchema);
