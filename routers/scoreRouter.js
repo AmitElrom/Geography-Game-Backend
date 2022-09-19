@@ -8,19 +8,21 @@ const { authenticateToken } = require('../middlewares/authentication');
 
 router.route('/')
     .put(authenticateToken, async (req, res) => {
-        const { isCorrect,
-            trueCountry,
-            falseCountry,
-            startTime,
-            endTime } = req.body;
 
-        console.log({
-            isCorrect,
-            trueCountry,
-            falseCountry,
+        // expected variables : 
+        // level => beginner/ amateur/ medium/ hard/ expert : String
+        // totalScore (game) : Number
+        // Array of questions => every item in the array is an object with the fields => 
+        // => isCorrect : Boolean, trueCountry : String, falseCountry : String || Undefined
+
+        const {
             startTime,
-            endTime
-        });
+            endTime,
+            totalScore,
+            questions
+        } = req.body;
+
+
     })
 
 
