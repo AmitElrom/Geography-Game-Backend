@@ -16,12 +16,38 @@ router.route('/')
         // => isCorrect : Boolean, trueCountry : String, falseCountry : String || Undefined
 
         const {
+            level,
             startTime,
             endTime,
-            totalScore,
-            questions
+            score,
+            questions,
+            userId
         } = req.body;
 
+        const { _id } = req.user;
+
+        const user = await User.findOne({ _id });
+        if (user) {
+
+            console.log(user.score);
+
+            let newTotalScore = +score + (user.score ? user.score[level].totalScore : 0);
+            console.log(newTotalScore);
+            const newGame = { totalScore: score, startTime, endTime, questions };
+            const newGames = user.score ? [...user.score[level].games, newGame] : [newGame];
+
+            const updatedUser = await User.findOneAndUpdate({ _id }, {
+                score: {
+                    ...user.score,
+                    [level]: {
+                        totalScore: newTotalScore,
+                        games: newGames
+                    }
+                }
+            }, { new: true })
+
+            res.status(200).json(updatedUser)
+        }
 
     })
 
