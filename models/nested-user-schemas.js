@@ -26,4 +26,4 @@ const scoreSchema = new Schema({
     expert: levelSchema,
 });
 
-module.exports = { scoreSchema };
+module.exports = { scoreSchema, levelSchema, gameSchema, questionSchema };

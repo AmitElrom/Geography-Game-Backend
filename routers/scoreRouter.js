@@ -21,7 +21,6 @@ router.route('/')
             endTime,
             score,
             questions,
-            userId
         } = req.body;
 
         const { _id } = req.user;
@@ -29,24 +28,21 @@ router.route('/')
         const user = await User.findOne({ _id });
         if (user) {
 
-            console.log(user.score);
-
-            let newTotalScore = +score + (user.score ? user.score[level].totalScore : 0);
-            console.log(newTotalScore);
+            let newTotalScore = +score + (user.score ? +user?.score[level]?.totalScore : 0);
             const newGame = { totalScore: score, startTime, endTime, questions };
-            const newGames = user.score ? [...user.score[level].games, newGame] : [newGame];
+            const newGames = user.score ? [...user?.score[level]?.games, newGame] : [newGame];
 
-            const updatedUser = await User.findOneAndUpdate({ _id }, {
+            const update = await User.updateOne({ _id }, {
                 score: {
-                    ...user.score,
                     [level]: {
-                        totalScore: newTotalScore,
-                        games: newGames
+                        $push: {
+                            games: newGame,
+                        }
                     }
                 }
-            }, { new: true })
+            })
 
-            res.status(200).json(updatedUser)
+            res.status(200).json(update)
         }
 
     })

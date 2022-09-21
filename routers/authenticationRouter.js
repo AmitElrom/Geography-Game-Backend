@@ -45,7 +45,29 @@ router.route('/sign-up')
                             firstName,
                             lastName,
                             email,
-                            password: hashedPassword
+                            password: hashedPassword,
+                            score: {
+                                beginner: {
+                                    totalScore: 0,
+                                    games: []
+                                },
+                                amateur: {
+                                    totalScore: 0,
+                                    games: []
+                                },
+                                medium: {
+                                    totalScore: 0,
+                                    games: []
+                                },
+                                hard: {
+                                    totalScore: 0,
+                                    games: []
+                                },
+                                expert: {
+                                    totalScore: 0,
+                                    games: []
+                                },
+                            }
                         })
 
                         const token = sign({ email: newUser.email }, process.env.ACCESS_TOKEN_KEY);
