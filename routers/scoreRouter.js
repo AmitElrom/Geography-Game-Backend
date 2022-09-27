@@ -7,7 +7,7 @@ const { authenticateToken } = require('../middlewares/authentication');
 
 
 router.route('/')
-    .put(authenticateToken, async (req, res) => {
+    .patch(authenticateToken, async (req, res) => {
 
         // expected variables : 
         // level => beginner/ amateur/ medium/ hard/ expert : String
@@ -30,17 +30,30 @@ router.route('/')
 
             let newTotalScore = +score + (user.score ? +user?.score[level]?.totalScore : 0);
             const newGame = { totalScore: score, startTime, endTime, questions };
-            const newGames = user.score ? [...user?.score[level]?.games, newGame] : [newGame];
+            // const newGames = user.score ? [...user?.score[level]?.games, newGame] : [newGame];
+
+            let levelId = user.score[level]._id;
+
+            // const update = await User.updateOne({ _id }, {
+            //     score: {
+            //         [level]: {
+            //             $push: {
+            //                 games: newGame,
+            //             }
+            //         }
+            //     }
+            // })
 
             const update = await User.updateOne({ _id }, {
                 score: {
+                    ...user.score._doc,
                     [level]: {
-                        $push: {
-                            games: newGame,
-                        }
+                        totalScore: newTotalScore,
+                        games: [...user.score[level].games, newGame]
                     }
                 }
             })
+
 
             res.status(200).json(update)
         }
