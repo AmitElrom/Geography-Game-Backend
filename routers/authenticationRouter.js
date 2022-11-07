@@ -114,7 +114,7 @@ router.route('/sign-in')
                 // check id user with particular email exists
                 const existedUser = await User.findOne({ email });
                 if (existedUser) {
-                    const { email, firstName, lastName, _id } = existedUser;
+                    const { email, firstName, lastName, _id, score } = existedUser;
                     const userData = { email, firstName, lastName, fullName: `${firstName} ${lastName}` };
                     let isMatch = await compare(password, existedUser.password);
                     if (isMatch) {
