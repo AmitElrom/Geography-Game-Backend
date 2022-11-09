@@ -70,7 +70,8 @@ router.route('/sign-up')
                             }
                         })
 
-                        const token = sign({ email: newUser.email }, process.env.ACCESS_TOKEN_KEY);
+                        const userDataToToken = { email: newUser.email, _id: newUser._id };
+                        const token = sign(userDataToToken, process.env.ACCESS_TOKEN_KEY);
 
                         res.status(201).json({
                             message: `Success message - a user with the email of ${email} was added.`,

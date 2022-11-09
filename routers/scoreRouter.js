@@ -4,8 +4,6 @@ const router = express.Router();
 const User = require('../models/userModel');
 
 const { authenticateToken } = require('../middlewares/authentication');
-const { findOne } = require('../models/userModel');
-
 
 router.route('/')
     .patch(authenticateToken, async (req, res) => {
@@ -25,8 +23,8 @@ router.route('/')
         } = req.body;
 
         const { _id } = req.user;
-
         const user = await User.findOne({ _id });
+
         if (user) {
 
             let newTotalScore = +score + (user.score ? +user?.score[level]?.totalScore : 0);
@@ -62,11 +60,11 @@ router.route('/')
                             lastName: user.lastName,
                         },
                         userScore: {
-                            beginner: user.score.beginner.games ? user.score.beginner.totalScore / user.score.beginner.games.length : 0,
-                            amateur: user.score.amateur.games ? user.score.amateur.totalScore / user.score.amateur.games.length : 0,
-                            medium: user.score.medium.games ? user.score.medium.totalScore / user.score.medium.games.length : 0,
-                            hard: user.score.hard.games ? user.score.hard.totalScore / user.score.hard.games.length : 0,
-                            expert: user.score.expert.games ? user.score.expert.totalScore / user.score.expert.games.length : 0,
+                            beginner: user.score.beginner.games.length > 0 ? user.score.beginner.totalScore / user.score.beginner.games.length : 0,
+                            amateur: user.score.amateur.games.length > 0 ? user.score.amateur.totalScore / user.score.amateur.games.length : 0,
+                            medium: user.score.medium.games.length > 0 ? user.score.medium.totalScore / user.score.medium.games.length : 0,
+                            hard: user.score.hard.games.length > 0 ? user.score.hard.totalScore / user.score.hard.games.length : 0,
+                            expert: user.score.expert.games.length > 0 ? user.score.expert.totalScore / user.score.expert.games.length : 0,
                         },
                         theUser: true
                     }
@@ -78,17 +76,22 @@ router.route('/')
                             lastName: user.lastName,
                         },
                         userScore: {
-                            beginner: user.score.beginner.games ? (user.score.beginner.totalScore / user.score.beginner.games.length) : 0,
-                            amateur: user.score.amateur.games ? (user.score.amateur.totalScore / user.score.amateur.games.length) : 0,
-                            medium: user.score.medium.games ? (user.score.medium.totalScore / user.score.medium.games.length) : 0,
-                            hard: user.score.hard.games ? (user.score.hard.totalScore / user.score.hard.games.length) : 0,
-                            expert: user.score.expert.games ? (user.score.expert.totalScore / user.score.expert.games.length) : 0,
+                            beginner: user.score.beginner.games.length > 0 ? (user.score.beginner.totalScore / user.score.beginner.games.length) : 0,
+                            amateur: user.score.amateur.games.length > 0 ? (user.score.amateur.totalScore / user.score.amateur.games.length) : 0,
+                            medium: user.score.medium.games.length > 0 ? (user.score.medium.totalScore / user.score.medium.games.length) : 0,
+                            hard: user.score.hard.games.length > 0 ? (user.score.hard.totalScore / user.score.hard.games.length) : 0,
+                            expert: user.score.expert.games.length > 0 ? (user.score.expert.totalScore / user.score.expert.games.length) : 0,
                         }
                     }
                 }
             })
 
-            console.log(transformedUsers);
+            transformedUsers.sort((a, b) => b.userScore.beginner - a.userScore.beginner);
+            transformedUsers.sort((a, b) => b.userScore.amateur - a.userScore.amateur);
+            transformedUsers.sort((a, b) => b.userScore.medium - a.userScore.medium);
+            transformedUsers.sort((a, b) => b.userScore.hard - a.userScore.hard);
+            transformedUsers.sort((a, b) => b.userScore.expert - a.userScore.expert);
+
             res.status(200).json(transformedUsers);
 
         } catch (error) {
