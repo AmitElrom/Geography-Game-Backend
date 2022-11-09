@@ -5,13 +5,15 @@ const User = require('../models/userModel');
 
 const { authenticateToken } = require('../middlewares/authentication');
 
+const { isEqualObjects } = require('../utils/utils-checks');
+
 router.route('/')
     .patch(authenticateToken, async (req, res) => {
 
         // expected variables : 
         // level => beginner/ amateur/ medium/ hard/ expert : String
         // totalScore (game) : Number
-        // Array of questions => every item in the array is an object with the fields => 
+        // transformedUsers of questions => every item in the transformedUsers is an object with the fields => 
         // => isCorrect : Boolean, trueCountry : String, falseCountry : String || Undefined
 
         const {
@@ -91,6 +93,42 @@ router.route('/')
             transformedUsers.sort((a, b) => b.userScore.medium - a.userScore.medium);
             transformedUsers.sort((a, b) => b.userScore.hard - a.userScore.hard);
             transformedUsers.sort((a, b) => b.userScore.expert - a.userScore.expert);
+
+            const ranks = [];
+
+            //creating additional iterator 
+            let k = 0;
+            //counter
+            let counter = 0;
+            //iterating through the first loop
+            for (let i = 0; i < transformedUsers.length; i++) {
+                //zeroing the counter for the current iteration
+                counter = 0;
+                //if the next element is the same and a check to make sure that
+                //we are not going out of index
+                if (i < transformedUsers.length - 1) {
+                    if (isEqualObjects(transformedUsers[i]?.userScore, transformedUsers[i + 1]?.userScore)) {
+                        //first of all, inserting the current index to the correct place in ranks
+                        ranks[i] = i + 1;
+                        transformedUsers[i].rank = ranks[i];
+                        // making k equal to the next element in order to check against him
+                        k = i + 1;
+                        //iterating as long as the coming elements are equal to the current one
+                        while (isEqualObjects(transformedUsers[i]?.userScore, transformedUsers[k]?.userScore)) {
+                            counter++;
+                            ranks[i + counter] = i + 1;
+                            transformedUsers[i + counter].rank = ranks[i + counter];
+                            k++;
+                        }
+                        //getting i to the place in the array which we need to check and subtracting 1 because
+                        // in the end of the current iteration he is going to get +1
+                        i = k - 1;
+                    }
+                } else {
+                    ranks[i] = i + 1;
+                    transformedUsers[i].rank = ranks[i];
+                }
+            }
 
             res.status(200).json(transformedUsers);
 
