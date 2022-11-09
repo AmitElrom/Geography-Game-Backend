@@ -107,26 +107,26 @@ router.route('/')
                 //if the next element is the same and a check to make sure that
                 //we are not going out of index
                 if (i < transformedUsers.length - 1) {
+                    //first of all, inserting the current index to the correct place in ranks
+                    transformedUsers[i].rank = i + 1;
                     if (isEqualObjects(transformedUsers[i]?.userScore, transformedUsers[i + 1]?.userScore)) {
-                        //first of all, inserting the current index to the correct place in ranks
-                        ranks[i] = i + 1;
-                        transformedUsers[i].rank = ranks[i];
                         // making k equal to the next element in order to check against him
                         k = i + 1;
                         //iterating as long as the coming elements are equal to the current one
                         while (isEqualObjects(transformedUsers[i]?.userScore, transformedUsers[k]?.userScore)) {
                             counter++;
-                            ranks[i + counter] = i + 1;
-                            transformedUsers[i + counter].rank = ranks[i + counter];
+                            transformedUsers[i + counter].rank = i + 1;
                             k++;
                         }
                         //getting i to the place in the array which we need to check and subtracting 1 because
                         // in the end of the current iteration he is going to get +1
                         i = k - 1;
+                    } else {
+
                     }
                 } else {
-                    ranks[i] = i + 1;
-                    transformedUsers[i].rank = ranks[i];
+                    console.log(i + 1);
+                    transformedUsers[i].rank = i + 1;
                 }
             }
 
