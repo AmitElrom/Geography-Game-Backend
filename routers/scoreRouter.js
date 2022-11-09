@@ -51,12 +51,46 @@ router.route('/')
     .get(authenticateToken, async (req, res) => {
         try {
             const { _id } = req.user;
-            const user = await User.findOne({ _id });
-            if (user) {
-                res.status(200).json({ score: user.score });
-            } else {
-                res.status(400).json({ error: 'user does not exist.' })
-            }
+            const users = await User.find({});
+
+            const transformedUsers = users.map(user => {
+                if (user._id.toString() === _id) {
+                    return {
+                        userDetails: {
+                            userId: user._id,
+                            firstName: user.firstName,
+                            lastName: user.lastName,
+                        },
+                        userScore: {
+                            beginner: user.score.beginner.games ? user.score.beginner.totalScore / user.score.beginner.games.length : 0,
+                            amateur: user.score.amateur.games ? user.score.amateur.totalScore / user.score.amateur.games.length : 0,
+                            medium: user.score.medium.games ? user.score.medium.totalScore / user.score.medium.games.length : 0,
+                            hard: user.score.hard.games ? user.score.hard.totalScore / user.score.hard.games.length : 0,
+                            expert: user.score.expert.games ? user.score.expert.totalScore / user.score.expert.games.length : 0,
+                        },
+                        theUser: true
+                    }
+                } else {
+                    return {
+                        userDetails: {
+                            userId: user._id,
+                            firstName: user.firstName,
+                            lastName: user.lastName,
+                        },
+                        userScore: {
+                            beginner: user.score.beginner.games ? (user.score.beginner.totalScore / user.score.beginner.games.length) : 0,
+                            amateur: user.score.amateur.games ? (user.score.amateur.totalScore / user.score.amateur.games.length) : 0,
+                            medium: user.score.medium.games ? (user.score.medium.totalScore / user.score.medium.games.length) : 0,
+                            hard: user.score.hard.games ? (user.score.hard.totalScore / user.score.hard.games.length) : 0,
+                            expert: user.score.expert.games ? (user.score.expert.totalScore / user.score.expert.games.length) : 0,
+                        }
+                    }
+                }
+            })
+
+            console.log(transformedUsers);
+            res.status(200).json(transformedUsers);
+
         } catch (error) {
             res.status(403).json({ error });
         }
