@@ -62,13 +62,12 @@ router.route('/')
                     }
                 })
 
-                // let smallestTime = user.score[level].games ? user.score[level].games[0].endTime - user.score[level].games[0].startTime : 0;
-                // console.log('smallestTime', smallestTime);
-                // user.score[level].games && user.score[level].games.forEach(game => {
-                //     if (game.endTime - game.startTime < smallestTime) {
-                //         smallestTime = game.endTime - game.startTime;
-                //     }
-                // })
+                let smallestTime = user.score[level].games.length > 0 ? user.score[level].games[0].endTime - user.score[level].games[0].startTime : 0;
+                user.score[level].games.length > 0 && user.score[level].games.forEach(game => {
+                    if (game.endTime - game.startTime < smallestTime) {
+                        smallestTime = game.endTime - game.startTime;
+                    }
+                })
 
                 const levelHighestScoreGames = user.score[level].games
                     .filter(game => game.totalScore === largest)
@@ -92,30 +91,29 @@ router.route('/')
                         }
                     })
 
-                // const levelSmallestDurationGames = user.score[level].games ? user.score[level].games
-                //     .filter(game => game.endTime - game.startTime === smallestTime)
-                //     .map(game => {
+                const levelSmallestDurationGames = user.score[level].games ?
+                    user.score[level].games.filter(game => game.endTime - game.startTime === smallestTime)
+                        .map(game => {
 
-                //         const options = {
-                //             weekday: "long",
-                //             year: "numeric",
-                //             month: "long",
-                //             day: "numeric",
-                //             hour: "2-digit",
-                //             minute: "2-digit",
-                //         };
+                            const options = {
+                                weekday: "long",
+                                year: "numeric",
+                                month: "long",
+                                day: "numeric",
+                                hour: "2-digit",
+                                minute: "2-digit",
+                            };
 
-                //         const date = new Date(game.endTime);
+                            const date = new Date(game.endTime);
 
-                //         return {
-                //             score: game.totalScore,
-                //             duration: game.endTime - game.startTime,
-                //             time: date.toLocaleDateString("en-US", options)
-                //         }
-                //     }) : [];
+                            return {
+                                score: game.totalScore,
+                                duration: game.endTime - game.startTime,
+                                time: date.toLocaleDateString("en-US", options)
+                            }
+                        }) : [];
 
-                // return { levelHighestScoreGames, levelSmallestDurationGames };
-                return { levelHighestScoreGames };
+                return { levelHighestScoreGames, levelSmallestDurationGames };
             })
 
             const users = await User.find({});
@@ -229,7 +227,6 @@ router.route('/')
 
                     }
                 } else {
-                    console.log(i + 1);
                     transformedUsers[i].rank = i + 1;
                 }
             }
