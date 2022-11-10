@@ -51,6 +51,73 @@ router.route('/')
     .get(authenticateToken, async (req, res) => {
         try {
             const { _id } = req.user;
+            const user = await User.findOne({ _id });
+
+            const levels = ['beginner', 'amateur', 'medium', 'hard', 'expert'];
+            const levelsWithHighestScoreGamesAndSmallestDuration = levels.map(level => {
+                let largest = 0;
+                user.score[level].games.forEach(game => {
+                    if (game.totalScore > largest) {
+                        largest = game.totalScore;
+                    }
+                })
+
+                // let smallestTime = user.score[level].games ? user.score[level].games[0].endTime - user.score[level].games[0].startTime : 0;
+                // console.log('smallestTime', smallestTime);
+                // user.score[level].games && user.score[level].games.forEach(game => {
+                //     if (game.endTime - game.startTime < smallestTime) {
+                //         smallestTime = game.endTime - game.startTime;
+                //     }
+                // })
+
+                const levelHighestScoreGames = user.score[level].games
+                    .filter(game => game.totalScore === largest)
+                    .map(game => {
+
+                        const options = {
+                            weekday: "long",
+                            year: "numeric",
+                            month: "long",
+                            day: "numeric",
+                            hour: "2-digit",
+                            minute: "2-digit",
+                        };
+
+                        const date = new Date(game.endTime);
+
+                        return {
+                            score: game.totalScore,
+                            duration: game.endTime - game.startTime,
+                            time: date.toLocaleDateString("en-US", options)
+                        }
+                    })
+
+                // const levelSmallestDurationGames = user.score[level].games ? user.score[level].games
+                //     .filter(game => game.endTime - game.startTime === smallestTime)
+                //     .map(game => {
+
+                //         const options = {
+                //             weekday: "long",
+                //             year: "numeric",
+                //             month: "long",
+                //             day: "numeric",
+                //             hour: "2-digit",
+                //             minute: "2-digit",
+                //         };
+
+                //         const date = new Date(game.endTime);
+
+                //         return {
+                //             score: game.totalScore,
+                //             duration: game.endTime - game.startTime,
+                //             time: date.toLocaleDateString("en-US", options)
+                //         }
+                //     }) : [];
+
+                // return { levelHighestScoreGames, levelSmallestDurationGames };
+                return { levelHighestScoreGames };
+            })
+
             const users = await User.find({});
 
             const transformedUsers = users.map(user => {
@@ -62,11 +129,48 @@ router.route('/')
                             lastName: user.lastName,
                         },
                         userScore: {
-                            beginner: user.score.beginner.games.length > 0 ? user.score.beginner.totalScore / user.score.beginner.games.length : 0,
-                            amateur: user.score.amateur.games.length > 0 ? user.score.amateur.totalScore / user.score.amateur.games.length : 0,
-                            medium: user.score.medium.games.length > 0 ? user.score.medium.totalScore / user.score.medium.games.length : 0,
-                            hard: user.score.hard.games.length > 0 ? user.score.hard.totalScore / user.score.hard.games.length : 0,
-                            expert: user.score.expert.games.length > 0 ? user.score.expert.totalScore / user.score.expert.games.length : 0,
+                            beginner: user.score.beginner.games.length > 0 ? (user.score.beginner.totalScore / user.score.beginner.games.length).toFixed(2) : 0,
+                            amateur: user.score.amateur.games.length > 0 ? (user.score.amateur.totalScore / user.score.amateur.games.length).toFixed(2) : 0,
+                            medium: user.score.medium.games.length > 0 ? (user.score.medium.totalScore / user.score.medium.games.length).toFixed(2) : 0,
+                            hard: user.score.hard.games.length > 0 ? (user.score.hard.totalScore / user.score.hard.games.length).toFixed(2) : 0,
+                            expert: user.score.expert.games.length > 0 ? (user.score.expert.totalScore / user.score.expert.games.length).toFixed(2) : 0,
+                        },
+                        userLevelsData: {
+                            beginner: {
+                                averageScore: user.score.beginner.games.length > 0 ? (user.score.beginner.totalScore / user.score.beginner.games.length).toFixed(2) : 0,
+                                totalScore: user.score.beginner.totalScore,
+                                totalGames: user.score.beginner.games.length,
+                                bestScore: levelsWithHighestScoreGamesAndSmallestDuration[0].levelHighestScoreGames,
+                                bestTime: levelsWithHighestScoreGamesAndSmallestDuration[0].levelSmallestDurationGames,
+                            },
+                            amateur: {
+                                averageScore: user.score.beginner.games.length > 0 ? (user.score.beginner.totalScore / user.score.beginner.games.length).toFixed(2) : 0,
+                                totalScore: user.score.beginner.totalScore,
+                                totalGames: user.score.beginner.games.length,
+                                bestScore: levelsWithHighestScoreGamesAndSmallestDuration[1].levelHighestScoreGames,
+                                bestTime: levelsWithHighestScoreGamesAndSmallestDuration[1].levelSmallestDurationGames,
+                            },
+                            medium: {
+                                averageScore: user.score.beginner.games.length > 0 ? (user.score.beginner.totalScore / user.score.beginner.games.length).toFixed(2) : 0,
+                                totalScore: user.score.beginner.totalScore,
+                                totalGames: user.score.beginner.games.length,
+                                bestScore: levelsWithHighestScoreGamesAndSmallestDuration[2].levelHighestScoreGames,
+                                bestTime: levelsWithHighestScoreGamesAndSmallestDuration[2].levelSmallestDurationGames,
+                            },
+                            hard: {
+                                averageScore: user.score.beginner.games.length > 0 ? (user.score.beginner.totalScore / user.score.beginner.games.length).toFixed(2) : 0,
+                                totalScore: user.score.beginner.totalScore,
+                                totalGames: user.score.beginner.games.length,
+                                bestScore: levelsWithHighestScoreGamesAndSmallestDuration[3].levelHighestScoreGames,
+                                bestTime: levelsWithHighestScoreGamesAndSmallestDuration[3].levelSmallestDurationGames,
+                            },
+                            expert: {
+                                averageScore: user.score.beginner.games.length > 0 ? (user.score.beginner.totalScore / user.score.beginner.games.length).toFixed(2) : 0,
+                                totalScore: user.score.beginner.totalScore,
+                                totalGames: user.score.beginner.games.length,
+                                bestScore: levelsWithHighestScoreGamesAndSmallestDuration[4].levelHighestScoreGames,
+                                bestTime: levelsWithHighestScoreGamesAndSmallestDuration[4].levelSmallestDurationGames,
+                            },
                         },
                         theUser: true
                     }
@@ -78,11 +182,11 @@ router.route('/')
                             lastName: user.lastName,
                         },
                         userScore: {
-                            beginner: user.score.beginner.games.length > 0 ? (user.score.beginner.totalScore / user.score.beginner.games.length) : 0,
-                            amateur: user.score.amateur.games.length > 0 ? (user.score.amateur.totalScore / user.score.amateur.games.length) : 0,
-                            medium: user.score.medium.games.length > 0 ? (user.score.medium.totalScore / user.score.medium.games.length) : 0,
-                            hard: user.score.hard.games.length > 0 ? (user.score.hard.totalScore / user.score.hard.games.length) : 0,
-                            expert: user.score.expert.games.length > 0 ? (user.score.expert.totalScore / user.score.expert.games.length) : 0,
+                            beginner: user.score.beginner.games.length > 0 ? (user.score.beginner.totalScore / user.score.beginner.games.length).toFixed(2) : 0,
+                            amateur: user.score.amateur.games.length > 0 ? (user.score.amateur.totalScore / user.score.amateur.games.length).toFixed(2) : 0,
+                            medium: user.score.medium.games.length > 0 ? (user.score.medium.totalScore / user.score.medium.games.length).toFixed(2) : 0,
+                            hard: user.score.hard.games.length > 0 ? (user.score.hard.totalScore / user.score.hard.games.length).toFixed(2) : 0,
+                            expert: user.score.expert.games.length > 0 ? (user.score.expert.totalScore / user.score.expert.games.length).toFixed(2) : 0,
                         }
                     }
                 }
