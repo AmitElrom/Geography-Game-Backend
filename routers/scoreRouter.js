@@ -6,6 +6,7 @@ const User = require('../models/userModel');
 const { authenticateToken } = require('../middlewares/authentication');
 
 const { isEqualObjects } = require('../utils/utils-checks');
+const { msToTime } = require('../utils/utils-create');
 
 router.route('/')
     .patch(authenticateToken, async (req, res) => {
@@ -86,7 +87,7 @@ router.route('/')
 
                         return {
                             score: game.totalScore,
-                            duration: game.endTime - game.startTime,
+                            duration: msToTime(game.endTime - game.startTime),
                             time: date.toLocaleDateString("en-US", options)
                         }
                     })
@@ -108,7 +109,7 @@ router.route('/')
 
                             return {
                                 score: game.totalScore,
-                                duration: game.endTime - game.startTime,
+                                duration: msToTime(game.endTime - game.startTime),
                                 time: date.toLocaleDateString("en-US", options)
                             }
                         }) : [];
