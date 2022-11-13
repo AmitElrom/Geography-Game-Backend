@@ -199,6 +199,24 @@ router.route('/')
                 }
             })
 
+            transformedUsers.sort(function (a, b) {
+                if (a.userDetails.firstName < b.userDetails.firstName) {
+                    return -1;
+                }
+                if (a.userDetails.firstName > b.userDetails.firstName) {
+                    return 1;
+                }
+                return 0;
+            });
+            transformedUsers.sort(function (a, b) {
+                if (a.userDetails.lastName < b.userDetails.lastName) {
+                    return -1;
+                }
+                if (a.userDetails.lastName > b.userDetails.lastName) {
+                    return 1;
+                }
+                return 0;
+            });
             transformedUsers.sort((a, b) => b.userScore.beginner - a.userScore.beginner);
             transformedUsers.sort((a, b) => b.userScore.amateur - a.userScore.amateur);
             transformedUsers.sort((a, b) => b.userScore.medium - a.userScore.medium);
