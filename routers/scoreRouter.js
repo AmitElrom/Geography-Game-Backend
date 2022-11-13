@@ -1,3 +1,4 @@
+const { v4: uuidv4 } = require('uuid');
 const express = require('express');
 const router = express.Router();
 
@@ -86,6 +87,7 @@ router.route('/')
                         const date = new Date(game.endTime);
 
                         return {
+                            id: uuidv4(),
                             score: game.totalScore,
                             duration: msToTime(game.endTime - game.startTime),
                             time: date.toLocaleDateString("en-US", options)
@@ -108,6 +110,7 @@ router.route('/')
                             const date = new Date(game.endTime);
 
                             return {
+                                id: uuidv4(),
                                 score: game.totalScore,
                                 duration: msToTime(game.endTime - game.startTime),
                                 time: date.toLocaleDateString("en-US", options)
