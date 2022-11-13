@@ -3,6 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 const User = require('../models/userModel');
+const { countries } = require('../countries.json');
 
 const { authenticateToken } = require('../middlewares/authentication');
 
@@ -117,7 +118,50 @@ router.route('/')
                             }
                         }) : [];
 
-                return { levelHighestScoreGames, levelSmallestDurationGames };
+                const allLevelFails = [];
+                user.score[level].games.forEach(game => {
+                    const gameFails = game.questions.filter(question => question.isCorrect === false).map(question => {
+                        const { name: falseCountry, flag: falseCountryFlag } = countries.find(country => country.id === question.falseCountry);
+                        const { name: trueCountry, flag: trueCountryFlag } = countries.find(country => country.id === question.trueCountry);
+                        return {
+                            falseCountry,
+                            falseCountryId: question.falseCountry,
+                            falseCountryFlag,
+                            trueCountry,
+                            trueCountryId: question.trueCountry,
+                            trueCountryFlag,
+                            _id: question._id,
+                        }
+                    });
+
+                    allLevelFails.push(...gameFails);
+                })
+                const levelFails = [];
+                allLevelFails.forEach(fail => {
+                    const existingCountry = levelFails.find(item => item.countryId === fail.trueCountryId);
+                    if (existingCountry) {
+                        existingCountry.falseCountries.push({
+                            id: uuidv4(),
+                            countryId: fail.falseCountryId,
+                            countryName: fail.falseCountry,
+                            countryFlag: fail.falseCountryFlag
+                        });
+                    } else {
+                        levelFails.push({
+                            countryId: fail.trueCountryId,
+                            countryName: fail.trueCountry,
+                            countryFlag: fail.trueCountryFlag,
+                            falseCountries: [{
+                                id: uuidv4(),
+                                countryId: fail.falseCountryId,
+                                countryName: fail.falseCountry,
+                                countryFlag: fail.falseCountryFlag
+                            }]
+                        });
+                    }
+                })
+
+                return { levelHighestScoreGames, levelSmallestDurationGames, levelFails };
             })
 
             const users = await User.find({});
@@ -145,6 +189,8 @@ router.route('/')
                                 totalGames: user.score.beginner.games.length,
                                 bestScore: levelsWithHighestScoreGamesAndSmallestDuration[0].levelHighestScoreGames,
                                 bestTime: levelsWithHighestScoreGamesAndSmallestDuration[0].levelSmallestDurationGames,
+                                fails: levelsWithHighestScoreGamesAndSmallestDuration[0].levelFails,
+
                             },
                             amateur: {
                                 title: "Amateur",
@@ -153,6 +199,8 @@ router.route('/')
                                 totalGames: user.score.amateur.games.length,
                                 bestScore: levelsWithHighestScoreGamesAndSmallestDuration[1].levelHighestScoreGames,
                                 bestTime: levelsWithHighestScoreGamesAndSmallestDuration[1].levelSmallestDurationGames,
+                                fails: levelsWithHighestScoreGamesAndSmallestDuration[1].levelFails,
+
                             },
                             medium: {
                                 title: "Medium",
@@ -161,6 +209,8 @@ router.route('/')
                                 totalGames: user.score.medium.games.length,
                                 bestScore: levelsWithHighestScoreGamesAndSmallestDuration[2].levelHighestScoreGames,
                                 bestTime: levelsWithHighestScoreGamesAndSmallestDuration[2].levelSmallestDurationGames,
+                                fails: levelsWithHighestScoreGamesAndSmallestDuration[2].levelFails,
+
                             },
                             hard: {
                                 title: "Hard",
@@ -169,6 +219,8 @@ router.route('/')
                                 totalGames: user.score.hard.games.length,
                                 bestScore: levelsWithHighestScoreGamesAndSmallestDuration[3].levelHighestScoreGames,
                                 bestTime: levelsWithHighestScoreGamesAndSmallestDuration[3].levelSmallestDurationGames,
+                                fails: levelsWithHighestScoreGamesAndSmallestDuration[3].levelFails,
+
                             },
                             expert: {
                                 title: "Expert",
@@ -177,8 +229,16 @@ router.route('/')
                                 totalGames: user.score.expert.games.length,
                                 bestScore: levelsWithHighestScoreGamesAndSmallestDuration[4].levelHighestScoreGames,
                                 bestTime: levelsWithHighestScoreGamesAndSmallestDuration[4].levelSmallestDurationGames,
+                                fails: levelsWithHighestScoreGamesAndSmallestDuration[4].levelFails,
                             },
                         },
+                        // userFails: {
+                        //     beginner: failsByLevel[0],
+                        //     amateur: failsByLevel[1],
+                        //     medium: failsByLevel[2],
+                        //     hard: failsByLevel[3],
+                        //     expert: failsByLevel[4],
+                        // },
                         theUser: true
                     }
                 } else {
