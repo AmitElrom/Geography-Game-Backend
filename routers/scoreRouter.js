@@ -8,7 +8,7 @@ const { countries } = require('../countries.json');
 const { authenticateToken } = require('../middlewares/authentication');
 
 const { isEqualObjects } = require('../utils/utils-checks');
-const { msToTime } = require('../utils/utils-create');
+const { msToTime, capitalizeFirstLetter } = require('../utils/utils-create');
 
 router.route('/')
     .patch(authenticateToken, async (req, res) => {
@@ -48,7 +48,7 @@ router.route('/')
             res.status(200).json(update);
         }
 
-    })
+    });
 
 router.route('/')
     .get(authenticateToken, async (req, res) => {
@@ -316,7 +316,64 @@ router.route('/')
         } catch (error) {
             res.status(403).json({ error });
         }
-    })
+    });
+
+router.route('/game-summary')
+    .get(authenticateToken, async (req, res) => {
+        try {
+            // make sure the level from client is lower case
+            const { level } = req.body;
+            const user = await User.findOne({ _id: req.user._id })
+            const userLevel = user.score[level];
+            let lastScoreAverage = ((userLevel.totalScore - userLevel.games[userLevel.games.length - 1].totalScore) / (userLevel.games.length - 1)).toFixed(2);
+            let currentScoreAverage = (userLevel.totalScore / userLevel.games.length).toFixed(2);
+            const improvedLevelAverage = { isImproved: "equal", lastScoreAverage, currentScoreAverage, averageChange: Math.abs((currentScoreAverage - lastScoreAverage).toFixed(2)) };
+            if (currentScoreAverage - lastScoreAverage > 0) {
+                improvedLevelAverage.isImproved = "yes";
+            }
+            if (currentScoreAverage - lastScoreAverage < 0) {
+                improvedLevelAverage.isImproved = "no";
+            }
+
+            const transformedQuestions = userLevel.games[userLevel.games.length - 1].questions.map((question, index) => {
+                if (question.isCorrect) {
+                    const { name, flag } = countries.find(country => country.id === question.trueCountry);
+                    return {
+                        _id: question._id,
+                        index: index + 1,
+                        isCorrect: question.isCorrect,
+                        trueCountryName: name,
+                        trueCountryFlag: flag,
+                    }
+                } else {
+                    const { name: trueCountryName, flag: trueCountryFlag } = countries.find(country => country.id === question.trueCountry);
+                    const { name: falseCountryName, flag: falseCountryFlag } = countries.find(country => country.id === question.falseCountry);
+                    return {
+                        _id: question._id,
+                        index: index + 1,
+                        isCorrect: question.isCorrect,
+                        trueCountryName,
+                        trueCountryFlag,
+                        falseCountryName,
+                        falseCountryFlag
+                    }
+                }
+            });
+
+            res.status(200).json({
+                improvedLevelAverage,
+                level: capitalizeFirstLetter(level),
+                questions: {
+                    numberOfQuestions: userLevel.games[userLevel.games.length - 1].questions.length,
+                    numberOfTrueQuestions: userLevel.games[userLevel.games.length - 1].totalScore,
+                    numberOfFalseQuestions: userLevel.games[userLevel.games.length - 1].questions.length - userLevel.games[userLevel.games.length - 1].totalScore,
+                    questions: transformedQuestions,
+                }
+            })
+        } catch (error) {
+            res.status(403).json({ error });
+        }
+    });
 
 
 module.exports = router;

@@ -16,4 +16,8 @@ const msToTime = (duration) => {
     return { hours, minutes, seconds, milliseconds };
 }
 
-module.exports = { generateVerificationCode, msToTime };
+const capitalizeFirstLetter = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+module.exports = { generateVerificationCode, msToTime, capitalizeFirstLetter };
