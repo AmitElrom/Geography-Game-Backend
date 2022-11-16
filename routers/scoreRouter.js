@@ -232,13 +232,6 @@ router.route('/')
                                 fails: levelsWithHighestScoreGamesAndSmallestDuration[4].levelFails,
                             },
                         },
-                        // userFails: {
-                        //     beginner: failsByLevel[0],
-                        //     amateur: failsByLevel[1],
-                        //     medium: failsByLevel[2],
-                        //     hard: failsByLevel[3],
-                        //     expert: failsByLevel[4],
-                        // },
                         theUser: true
                     }
                 } else {
