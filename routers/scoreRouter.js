@@ -325,8 +325,8 @@ router.route('/game-summary')
             const { level } = req.body;
             const user = await User.findOne({ _id: req.user._id })
             const userLevel = user.score[level];
-            let lastScoreAverage = ((userLevel.totalScore - userLevel.games[userLevel.games.length - 1].totalScore) / (userLevel.games.length - 1)).toFixed(2);
-            let currentScoreAverage = (userLevel.totalScore / userLevel.games.length).toFixed(2);
+            let lastScoreAverage = userLevel.games.length === 1 ? 0 : +((userLevel.totalScore - userLevel.games[userLevel.games.length - 1].totalScore) / (userLevel.games.length - 1)).toFixed(2);
+            let currentScoreAverage = +(userLevel.totalScore / userLevel.games.length).toFixed(2);
             const improvedLevelAverage = { isImproved: "equal", lastScoreAverage, currentScoreAverage, averageChange: Math.abs((currentScoreAverage - lastScoreAverage).toFixed(2)) };
             if (currentScoreAverage - lastScoreAverage > 0) {
                 improvedLevelAverage.isImproved = "yes";
