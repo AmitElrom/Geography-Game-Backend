@@ -5,9 +5,9 @@ require('./configs/database');
 const cors = require('cors');
 const express = require('express');
 
-const countriesRouter = require('./routers/countriesRouter');
-const authRouter = require('./routers/authenticationRouter');
-const scoreRouter = require('./routers/scoreRouter');
+const countriesRouter = require('./routers/countries router/countriesRouter');
+const authRouter = require('./routers/authentication router/authenticationRouter');
+const scoreRouter = require('./routers/score router/scoreRouter');
 
 const app = express();
 

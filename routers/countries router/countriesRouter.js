@@ -1,8 +1,8 @@
 const express = require('express');
 
-const { countries } = require('../countries.json');
+const { countries } = require('../../countries.json');
 
-const { getMeRandomElements, getMeRandomElement } = require('../utils/utils-general')
+const { getMeRandomElements, getMeRandomElement } = require('../../utils/utils-general')
 
 const router = express.Router();
 

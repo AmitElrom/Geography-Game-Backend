@@ -3,34 +3,14 @@ const { sign } = require('jsonwebtoken');
 const { createTransport } = require('nodemailer');
 const express = require('express');
 
-const { User } = require('../models/models');
+const { User } = require('../../models/models');
 
-const { authenticateTokenMW } = require('../middlewares/authentication');
+const { authenticateTokenMW } = require('../../middlewares/authentication/authenticate-token');
 
-const { generateVerificationCode } = require('../utils/utils-create');
+const { generateVerificationCode } = require('../../utils/utils-create');
 
 const router = express.Router();
 
-router.route('/')
-    .get(authenticateTokenMW, async (req, res) => {
-        const user = await User.findOne({ email: req.user.email });
-        res.json(user.firstName + ' ' + user.lastName + ' is connected.')
-    })
-
-router.route('/check-sign-in')
-    .post(authenticateTokenMW, async (req, res) => {
-        const user = await User.findOne({ email: req.user.email });
-        const { email, firstName, lastName } = user;
-        res.json({
-            status: `${user.firstName} ${user.lastName} is connected`,
-            user: {
-                email,
-                firstName,
-                lastName,
-                fullName: `${firstName} ${lastName}`
-            }
-        })
-    })
 
 router.route('/sign-up')
     .post(async (req, res) => {

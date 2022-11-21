@@ -1,5 +1,4 @@
 const { verify } = require('jsonwebtoken');
-const { createTransport } = require('nodemailer');
 
 const authenticateTokenMW = (req, res, next) => {
     try {

@@ -1,14 +1,14 @@
 const { v4: uuidv4 } = require('uuid');
 const express = require('express');
 
-const User = require('../models/user model/userModel');
+const User = require('../../models/user model/userModel');
 
-const { countries } = require('../countries.json');
+const { countries } = require('../../countries.json');
 
-const { authenticateTokenMW } = require('../middlewares/authentication');
+const { authenticateTokenMW } = require('../../middlewares/authentication/authenticate-token');
 
-const { isEqualObjects } = require('../utils/utils-checks');
-const { msToTime, capitalizeFirstLetter } = require('../utils/utils-manipulate');
+const { isEqualObjects } = require('../../utils/utils-checks');
+const { msToTime, capitalizeFirstLetter } = require('../../utils/utils-manipulate');
 
 const router = express.Router();
 
