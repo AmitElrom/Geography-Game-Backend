@@ -1,22 +1,24 @@
-require('dotenv').config()
 const { genSalt, hash, compare } = require('bcryptjs');
 const { sign } = require('jsonwebtoken');
 const { createTransport } = require('nodemailer');
 const express = require('express');
-const router = express.Router();
 
 const { User } = require('../models/models');
-const { authenticateToken } = require('../middlewares/authentication');
-const { generateVerificationCode: genCode } = require('../utils/utils-create');
+
+const { authenticateTokenMW } = require('../middlewares/authentication');
+
+const { generateVerificationCode } = require('../utils/utils-create');
+
+const router = express.Router();
 
 router.route('/')
-    .get(authenticateToken, async (req, res) => {
+    .get(authenticateTokenMW, async (req, res) => {
         const user = await User.findOne({ email: req.user.email });
         res.json(user.firstName + ' ' + user.lastName + ' is connected.')
     })
 
 router.route('/check-sign-in')
-    .post(authenticateToken, async (req, res) => {
+    .post(authenticateTokenMW, async (req, res) => {
         const user = await User.findOne({ email: req.user.email });
         const { email, firstName, lastName } = user;
         res.json({
@@ -151,7 +153,7 @@ router.route('/sign-in')
     })
 
 router.route('/')
-    .put(authenticateToken, async (req, res) => {
+    .put(authenticateTokenMW, async (req, res) => {
         try {
             const { firstName, lastName, email } = req.body;
             const { _id } = req.user;
@@ -177,7 +179,7 @@ router.route('/')
     })
 
 router.route('/change-password')
-    .put(authenticateToken, async (req, res) => {
+    .put(authenticateTokenMW, async (req, res) => {
         try {
             const { newPassword, confirmedPassword } = req.body;
             const { _id } = req.user;
@@ -226,7 +228,7 @@ router.route('/forgot-password')
                     }
                 });
 
-                emailCode = genCode(6);
+                emailCode = generateVerificationCode(6);
 
                 const mailOptions = {
                     from: 'amitelrom99@gmail.com',

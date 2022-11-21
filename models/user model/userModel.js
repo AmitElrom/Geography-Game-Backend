@@ -1,7 +1,7 @@
 const { Schema } = require('mongoose');
-const connection = require('../configs/database');
+const connection = require('../../configs/database');
 
-const { scoreSchema } = require('./nested-user-schemas');
+const { scoreSchema } = require('./embedded-user-schemas');
 
 const userSchema = new Schema({
     firstName: { type: String, required: true },

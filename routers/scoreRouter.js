@@ -1,17 +1,19 @@
 const { v4: uuidv4 } = require('uuid');
 const express = require('express');
-const router = express.Router();
 
-const User = require('../models/userModel');
+const User = require('../models/user model/userModel');
+
 const { countries } = require('../countries.json');
 
-const { authenticateToken } = require('../middlewares/authentication');
+const { authenticateTokenMW } = require('../middlewares/authentication');
 
 const { isEqualObjects } = require('../utils/utils-checks');
-const { msToTime, capitalizeFirstLetter } = require('../utils/utils-create');
+const { msToTime, capitalizeFirstLetter } = require('../utils/utils-manipulate');
+
+const router = express.Router();
 
 router.route('/')
-    .patch(authenticateToken, async (req, res) => {
+    .patch(authenticateTokenMW, async (req, res) => {
 
         // expected variables : 
         // level => beginner/ amateur/ medium/ hard/ expert : String
@@ -51,7 +53,7 @@ router.route('/')
     });
 
 router.route('/')
-    .get(authenticateToken, async (req, res) => {
+    .get(authenticateTokenMW, async (req, res) => {
         try {
             const { _id } = req.user;
             const user = await User.findOne({ _id });
@@ -319,7 +321,7 @@ router.route('/')
     });
 
 router.route('/game-summary')
-    .get(authenticateToken, async (req, res) => {
+    .get(authenticateTokenMW, async (req, res) => {
         try {
             // make sure the level from client is lower case
             const { level } = req.body;

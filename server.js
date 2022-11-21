@@ -2,12 +2,13 @@
 
 // const cors = require('cors');
 const express = require('express');
+const { countries } = require('./countries.json');
+
 const app = express();
 
 // app.use(cors())
 app.use(express.json())
 
-const { countries } = require('./countries.json');
 
 // using axios to get data from countries rest api and manipulate it 
 
