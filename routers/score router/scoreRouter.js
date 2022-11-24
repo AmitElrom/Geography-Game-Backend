@@ -278,8 +278,6 @@ router.route('/')
             transformedUsers.sort((a, b) => b.userScore.hard - a.userScore.hard);
             transformedUsers.sort((a, b) => b.userScore.expert - a.userScore.expert);
 
-            const ranks = [];
-
             //creating additional iterator 
             let k = 0;
             //counter
@@ -337,6 +335,8 @@ router.route('/game-summary')
                 improvedLevelAverage.isImproved = "no";
             }
 
+            let gameDuration = msToTime(userLevel.games[userLevel.games.length - 1].endTime - userLevel.games[userLevel.games.length - 1].startTime);
+
             const transformedQuestions = userLevel.games[userLevel.games.length - 1].questions.map((question, index) => {
                 if (question.isCorrect) {
                     const { name, flag } = countries.find(country => country.id === question.trueCountry);
@@ -363,8 +363,9 @@ router.route('/game-summary')
             });
 
             res.status(200).json({
-                improvedLevelAverage,
                 level: capitalizeFirstLetter(level),
+                improvedLevelAverage,
+                gameDuration,
                 questions: {
                     numberOfQuestions: userLevel.games[userLevel.games.length - 1].questions.length,
                     numberOfTrueQuestions: userLevel.games[userLevel.games.length - 1].totalScore,
