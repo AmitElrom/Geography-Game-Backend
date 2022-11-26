@@ -142,12 +142,18 @@ router.route('/')
                 allLevelFails.forEach(fail => {
                     const existingCountry = levelFails.find(item => item.countryId === fail.trueCountryId);
                     if (existingCountry) {
-                        existingCountry.falseCountries.push({
-                            id: uuidv4(),
-                            countryId: fail.falseCountryId,
-                            countryName: fail.falseCountry,
-                            countryFlag: fail.falseCountryFlag
-                        });
+                        const existingFalseCountry = existingCountry.falseCountries.find(falseCountry => falseCountry.countryId === fail.falseCountryId);
+                        if (existingFalseCountry) {
+                            existingFalseCountry.numOfFails = existingFalseCountry.numOfFails + 1;
+                        } else {
+                            existingCountry.falseCountries.push({
+                                id: uuidv4(),
+                                countryId: fail.falseCountryId,
+                                countryName: fail.falseCountry,
+                                countryFlag: fail.falseCountryFlag,
+                                numOfFails: 1,
+                            });
+                        }
                     } else {
                         levelFails.push({
                             countryId: fail.trueCountryId,
@@ -157,13 +163,26 @@ router.route('/')
                                 id: uuidv4(),
                                 countryId: fail.falseCountryId,
                                 countryName: fail.falseCountry,
-                                countryFlag: fail.falseCountryFlag
+                                countryFlag: fail.falseCountryFlag,
+                                numOfFails: 1,
                             }]
                         });
                     }
                 })
 
-                return { levelHighestScoreGames, levelSmallestDurationGames, levelFails };
+                const levelFailsWithNumOfFailsPerFail = levelFails.map(fail => {
+                    let numOfFails = 0;
+                    fail.falseCountries.forEach(falseCountry => {
+                        numOfFails += falseCountry.numOfFails;
+                    })
+
+                    return {
+                        ...fail,
+                        numOfFails
+                    }
+                });
+
+                return { levelHighestScoreGames, levelSmallestDurationGames, levelFails: levelFailsWithNumOfFailsPerFail };
             })
 
             const users = await User.find({});
