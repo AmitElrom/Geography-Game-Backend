@@ -40,7 +40,7 @@ router.route('/')
                     return {
                         name: `${level}_badge`,
                         hasBadge: true,
-                        date,
+                        date: date.toLocaleDateString("en-US", dateOptions),
                         duration
                     }
                 }
@@ -70,7 +70,7 @@ router.route('/')
                     return {
                         name: `${level}_and_timer_badge`,
                         hasBadge: true,
-                        date,
+                        date: date.toLocaleDateString("en-US", dateOptions),
                         duration
                     }
                 }

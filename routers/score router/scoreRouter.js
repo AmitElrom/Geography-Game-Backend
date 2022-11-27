@@ -88,6 +88,7 @@ router.route('/')
                         };
 
                         const date = new Date(game.endTime);
+                        console.log(date);
 
                         return {
                             id: uuidv4(),
