@@ -50,7 +50,7 @@ router.route('/')
                 const levelGames = user.score[level].games;
                 let questionsQuantity = level === "beginner" ? 10 : 20;
                 let levelTimeRequested = 0;
-                if (level === "beinner") levelTimeRequested = 45;
+                if (level === "beginner") levelTimeRequested = 45;
                 if (level === "amateur") levelTimeRequested = 65;
                 if (level === "medium") levelTimeRequested = 70;
                 if (level === "hard") levelTimeRequested = 80;
