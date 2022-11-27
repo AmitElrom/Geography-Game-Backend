@@ -88,7 +88,6 @@ router.route('/')
                         };
 
                         const date = new Date(game.endTime);
-                        console.log(date);
 
                         return {
                             id: uuidv4(),
@@ -341,8 +340,7 @@ router.route('/')
 router.route('/game-summary')
     .get(authenticateTokenMW, async (req, res) => {
         try {
-            // make sure the level from client is lower case
-            const { level } = req.body;
+            const { level } = req.query;
             const user = await User.findOne({ _id: req.user._id })
             const userLevel = user.score[level];
             let lastScoreAverage = userLevel.games.length === 1 ? 0 : +((userLevel.totalScore - userLevel.games[userLevel.games.length - 1].totalScore) / (userLevel.games.length - 1)).toFixed(2);
