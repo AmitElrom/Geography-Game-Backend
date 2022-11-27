@@ -97,8 +97,18 @@ router.route('/sign-in')
                 // check id user with particular email exists
                 const existedUser = await User.findOne({ email });
                 if (existedUser) {
-                    const { email, firstName, lastName, _id, score } = existedUser;
-                    const userData = { email, firstName, lastName, fullName: `${firstName} ${lastName}` };
+                    const { email, firstName, lastName, _id } = existedUser;
+                    const levels = ['beginner', 'amateur', 'medium', 'hard', 'expert'];
+                    const levelsLastGames = levels.map(level => {
+                        return {
+                            level,
+                            levelLastGameEndTime: existedUser.score[level].games[existedUser.score[level].games.length - 1].endTime
+                        }
+                    });
+                    let maxEndTime = Math.max(...levelsLastGames.map(x => x.levelLastGameEndTime));
+                    const { level } = levelsLastGames.find(levelLastGame => levelLastGame.levelLastGameEndTime === maxEndTime);
+
+                    const userData = { email, firstName, lastName, fullName: `${firstName} ${lastName}`, lastMatchLevel: level };
                     let isMatch = await compare(password, existedUser.password);
                     if (isMatch) {
                         const userDataToToken = { email, _id };
