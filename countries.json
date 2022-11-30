@@ -1557,7 +1557,7 @@
       "flagKnown": 197,
       "id": "831",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["832"],
         "similarity2": []
       },
       "funFact": {
@@ -1932,7 +1932,7 @@
       "flagKnown": 197,
       "id": "832",
       "similarity": {
-        "similarity1": [],
+        "similarity1": ["831"],
         "similarity2": []
       },
       "funFact": {
