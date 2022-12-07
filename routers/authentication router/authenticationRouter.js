@@ -66,10 +66,10 @@ router.route('/sign-up')
                             token,
                         })
                     } else {
-                        res.status(400).json({ error: "Error - passwords don't match." })
+                        res.status(400).json({ error: "Error - passwords don't match" })
                     }
                 } else {
-                    res.status(400).json({ error: `Error - a user with an email of ${email} already exists.` })
+                    res.status(400).json({ error: `Error - a user with an email of ${email} already exists` })
                 }
             } else {
                 const reqBody = { email, firstName, lastName, password1, password2 };
@@ -82,7 +82,7 @@ router.route('/sign-up')
                 let auxiliaryVerb1 = missingFields.length === 1 ? ' a' : '';
                 let auxiliaryVerb2 = missingFields.length === 1 ? '' : 's';
                 let missingFieldsStr = missingFields.join(', ');
-                res.status(400).json({ error: `Error - new user has${auxiliaryVerb1} missing field${auxiliaryVerb2} - ${missingFieldsStr}.` })
+                res.status(400).json({ error: `Error - new user has${auxiliaryVerb1} missing field${auxiliaryVerb2} - ${missingFieldsStr}` })
             }
         } catch (error) {
             res.status(500).json({ error })
@@ -119,10 +119,10 @@ router.route('/sign-in')
                             token
                         })
                     } else {
-                        res.status(403).json({ error: `Error - wrong password`, status: '403' })
+                        res.status(403).json({ error: `Error - wrong password` })
                     }
                 } else {
-                    res.status(403).json({ error: `Error - a user with an email of ${email} is not exists.`, status: '403' })
+                    res.status(403).json({ error: `Error - a user with an email of ${email} does not exist` })
                 }
             } else {
                 const reqBody = { email, password };
@@ -135,7 +135,7 @@ router.route('/sign-in')
                 let auxiliaryVerb1 = missingFields.length === 1 ? ' a' : '';
                 let auxiliaryVerb2 = missingFields.length === 1 ? '' : 's';
                 let missingFieldsStr = missingFields.join(', ');
-                res.status(400).json({ error: `Error - user has${auxiliaryVerb1} missing field${auxiliaryVerb2} - ${missingFieldsStr}.` })
+                res.status(400).json({ error: `Error - user has${auxiliaryVerb1} missing field${auxiliaryVerb2} - ${missingFieldsStr}` })
             }
         } catch (error) {
             res.status(401).json({ error })
@@ -190,7 +190,7 @@ router.route('/change-password')
                     userData
                 })
             } else {
-                res.status(400).json({ message: 'Passwords do not match.' })
+                res.status(400).json({ error: 'Passwords do not match' })
             }
         } catch (error) {
             res.status(400).json({ error })
@@ -231,7 +231,7 @@ router.route('/forgot-password')
 
                 res.status(200).json({ message: `Verification code was sent to ${successInfo.accepted[0]}` });
             } else {
-                res.status(404).json({ message: "User doesn't exist" });
+                res.status(404).json({ error: "User doesn't exist" });
             }
         } catch (error) {
             res.status(400).json({ error });
@@ -254,7 +254,7 @@ router.route('/verify-code')
 
                 res.status(200).json({ token });
             } else {
-                res.status(401).json({ message: "User is unauthorized" });
+                res.status(401).json({ error: "User is unauthorized" });
             }
         } catch (error) {
             res.status(400).json({ error });
