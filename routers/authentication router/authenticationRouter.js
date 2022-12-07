@@ -56,7 +56,7 @@ router.route('/sign-up')
                         const token = sign(userDataToToken, process.env.ACCESS_TOKEN_KEY);
 
                         res.status(201).json({
-                            message: `Success message - a user with the email of ${email} was added.`,
+                            message: `Congrats ${firstName} ${lastName} for signing up! You can start playing now`,
                             userData: {
                                 email,
                                 firstName,
@@ -66,10 +66,10 @@ router.route('/sign-up')
                             token,
                         })
                     } else {
-                        res.status(400).json({ error: "Error - passwords don't match" })
+                        res.status(400).json({ error: "Passwords don't match" })
                     }
                 } else {
-                    res.status(400).json({ error: `Error - a user with an email of ${email} already exists` })
+                    res.status(400).json({ error: `A user with an email of ${email} already exists` })
                 }
             } else {
                 const reqBody = { email, firstName, lastName, password1, password2 };
@@ -82,7 +82,7 @@ router.route('/sign-up')
                 let auxiliaryVerb1 = missingFields.length === 1 ? ' a' : '';
                 let auxiliaryVerb2 = missingFields.length === 1 ? '' : 's';
                 let missingFieldsStr = missingFields.join(', ');
-                res.status(400).json({ error: `Error - new user has${auxiliaryVerb1} missing field${auxiliaryVerb2} - ${missingFieldsStr}` })
+                res.status(400).json({ error: `New user has${auxiliaryVerb1} missing field${auxiliaryVerb2} - ${missingFieldsStr}` })
             }
         } catch (error) {
             res.status(500).json({ error })
@@ -114,12 +114,12 @@ router.route('/sign-in')
                         const userDataToToken = { email, _id };
                         const token = sign(userDataToToken, process.env.ACCESS_TOKEN_KEY);
                         res.status(200).json({
-                            message: `Success - user with email ${email} logged in successfully`,
+                            message: `${firstName} ${lastName} logged in successfully`,
                             userData,
                             token
                         })
                     } else {
-                        res.status(403).json({ error: `Error - wrong password` })
+                        res.status(403).json({ error: `Wrong password` })
                     }
                 } else {
                     res.status(403).json({ error: `Error - a user with an email of ${email} does not exist` })
@@ -135,7 +135,7 @@ router.route('/sign-in')
                 let auxiliaryVerb1 = missingFields.length === 1 ? ' a' : '';
                 let auxiliaryVerb2 = missingFields.length === 1 ? '' : 's';
                 let missingFieldsStr = missingFields.join(', ');
-                res.status(400).json({ error: `Error - user has${auxiliaryVerb1} missing field${auxiliaryVerb2} - ${missingFieldsStr}` })
+                res.status(400).json({ error: `User has${auxiliaryVerb1} missing field${auxiliaryVerb2} - ${missingFieldsStr}` })
             }
         } catch (error) {
             res.status(401).json({ error })
@@ -159,7 +159,8 @@ router.route('/')
             const updatedUserToClient = {
                 firstName: updatedUser.firstName,
                 lastName: updatedUser.lastName,
-                email: updatedUser.email
+                email: updatedUser.email,
+                message: `${updatedUser.firstName} ${updatedUser.lastName} your details were successfully updated`
             }
             res.status(200).json(updatedUserToClient)
         } catch (error) {
@@ -186,7 +187,7 @@ router.route('/change-password')
                 const userData = { email, firstName, lastName, fullName: `${firstName} ${lastName}` };
 
                 res.status(200).json({
-                    message: `User with email ${email} changed password successfully.`,
+                    message: `${firstName} ${lastName} your password was changed successfully`,
                     userData
                 })
             } else {
@@ -252,7 +253,7 @@ router.route('/verify-code')
                 const userDataToToken = { email, _id };
                 const token = sign(userDataToToken, process.env.ACCESS_TOKEN_KEY);
 
-                res.status(200).json({ token });
+                res.status(200).json({ token, message: `${email}, your code had been verified. You can reset your password now` });
             } else {
                 res.status(401).json({ error: "User is unauthorized" });
             }
