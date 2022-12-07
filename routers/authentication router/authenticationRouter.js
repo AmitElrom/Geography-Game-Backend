@@ -114,7 +114,7 @@ router.route('/sign-in')
                         const userDataToToken = { email, _id };
                         const token = sign(userDataToToken, process.env.ACCESS_TOKEN_KEY);
                         res.status(200).json({
-                            message: `${firstName} ${lastName} logged in successfully`,
+                            message: `${firstName} ${lastName}, welcome back!`,
                             userData,
                             token
                         })
@@ -122,7 +122,7 @@ router.route('/sign-in')
                         res.status(403).json({ error: `Wrong password` })
                     }
                 } else {
-                    res.status(403).json({ error: `Error - a user with an email of ${email} does not exist` })
+                    res.status(403).json({ error: `A user with an email of ${email} does not exist` })
                 }
             } else {
                 const reqBody = { email, password };
