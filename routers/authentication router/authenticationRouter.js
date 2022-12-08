@@ -147,22 +147,26 @@ router.route('/')
         try {
             const { firstName, lastName, email } = req.body;
             const { _id } = req.user;
-
-            const query = { _id };
-            const update = {
-                firstName,
-                lastName,
-                email
-            };
-            const option = { new: true }
-            const updatedUser = await User.findOneAndUpdate(query, update, option);
-            const updatedUserToClient = {
-                firstName: updatedUser.firstName,
-                lastName: updatedUser.lastName,
-                email: updatedUser.email,
-                message: `${updatedUser.firstName} ${updatedUser.lastName} your details were successfully updated`
+            const user = await User.findOne({ _id });
+            if (user.firstName === firstName && user.lastName === lastName && user.email === email) {
+                res.status(400).json({ error: "Sorry, profile wasn't updated. You didn't make any change in your profile details" });
+            } else {
+                const query = { _id };
+                const update = {
+                    firstName,
+                    lastName,
+                    email
+                };
+                const option = { new: true }
+                const updatedUser = await User.findOneAndUpdate(query, update, option);
+                const updatedUserToClient = {
+                    firstName: updatedUser.firstName,
+                    lastName: updatedUser.lastName,
+                    email: updatedUser.email,
+                    message: `${updatedUser.firstName} ${updatedUser.lastName} your details were successfully updated`
+                }
+                res.status(200).json(updatedUserToClient)
             }
-            res.status(200).json(updatedUserToClient)
         } catch (error) {
             res.status(400).json({ error })
         }
