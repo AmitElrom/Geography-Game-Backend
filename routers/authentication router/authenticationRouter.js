@@ -191,7 +191,7 @@ router.route('/change-password')
                 const userData = { email, firstName, lastName, fullName: `${firstName} ${lastName}` };
 
                 res.status(200).json({
-                    message: `${firstName} ${lastName} your password was changed successfully`,
+                    message: `${firstName} ${lastName}, your password was changed successfully`,
                     userData
                 })
             } else {
