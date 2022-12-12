@@ -201,7 +201,8 @@ router.route('/')
                     res.status(400).json({
                         error: "definitional error - 'maxknown' must be bigger or equal to 'minknown'"
                     })
-                    return
+                    throw new Error();
+                    // return
                 }
             }
             // if - there is not questionsQuantity
@@ -209,7 +210,8 @@ router.route('/')
                 res.status(400).json({
                     error: "'questions-quantity' is a mandatory query parameter"
                 })
-                return
+                throw new Error();
+                // return
             }
         } catch (error) {
             res.status(400).json({ error })
