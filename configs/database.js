@@ -1,5 +1,4 @@
-const { createConnection } = require('mongoose');
+const { connect } = require('mongoose');
 
-const connection = createConnection(process.env.DB_URL);
+connect(process.env.DB_URL);
 
-module.exports = connection;

@@ -1,4 +1,4 @@
-const { Schema } = require('mongoose');
+const { Schema, model } = require('mongoose');
 const connection = require('../../configs/database');
 
 const { scoreSchema } = require('./embedded-user-schemas');
@@ -11,6 +11,6 @@ const userSchema = new Schema({
     score: scoreSchema
 })
 
-const User = connection.model('users', userSchema);
+const User = model('users', userSchema);
 
 module.exports = User;
