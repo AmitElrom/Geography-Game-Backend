@@ -20,6 +20,10 @@ app.use('/countries-elrom', countriesRouter);
 app.use('/score-elrom', scoreRouter);
 app.use('/badges-elrom', badgesRouter);
 
+app.get('/', (req, res) => {
+    res.send('Hello World');
+})
+
 app.listen(process.env.PORT, () => {
     console.log('main is listening to port');
 });
