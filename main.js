@@ -20,6 +20,6 @@ app.use('/countries-elrom', countriesRouter);
 app.use('/score-elrom', scoreRouter);
 app.use('/badges-elrom', badgesRouter);
 
-app.listen(8000, () => {
-    console.log('main is listening to port 8000');
+app.listen(process.env.PORT, () => {
+    console.log('main is listening to port');
 });
