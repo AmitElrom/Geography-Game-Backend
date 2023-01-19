@@ -236,6 +236,7 @@ router.route('/forgot-password')
                 try {
                     const successInfo = await transporter.sendMail(mailOptions);
                     res.status(200).json({ message: `Verification code was sent to ${successInfo.accepted[0]}` });
+                    console.log(successInfo)
                 } catch (error) {
                     res.status(500).json({ error });
                 }
