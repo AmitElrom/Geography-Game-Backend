@@ -233,9 +233,13 @@ router.route('/forgot-password')
                     text: emailCode
                 };
 
-                const successInfo = await transporter.sendMail(mailOptions);
+                try {
+                    const successInfo = await transporter.sendMail(mailOptions);
+                    res.status(200).json({ message: `Verification code was sent to ${successInfo.accepted[0]}` });
+                } catch (error) {
+                    res.status(500).json({ error });
+                }
 
-                res.status(200).json({ message: `Verification code was sent to ${successInfo.accepted[0]}` });
             } else {
                 res.status(404).json({ error: "User doesn't exist" });
             }
