@@ -16,7 +16,7 @@ router.route('/sign-up')
     .post(async (req, res) => {
         try {
             const { email, firstName, lastName, password1, password2 } = req.body;
-            email = email?.toLowerCase();
+            email = email?.toString().toLowerCase();
             if (email && firstName && lastName && password1 && password2) {
                 const existedUser = await User.findOne({ email });
                 if (!existedUser) {
@@ -95,7 +95,7 @@ router.route('/sign-in')
         try {
             const { email, password } = req.body;
             console.log(email);
-            email = email?.toLowerCase();
+            email = email?.toString().toLowerCase();
             console.log(email);
 
             if (email && password) {
@@ -152,7 +152,7 @@ router.route('/')
     .put(authenticateTokenMW, async (req, res) => {
         try {
             const { firstName, lastName, email } = req.body;
-            email = email?.toLowerCase();
+            email = email?.toString().toLowerCase();
             const { _id } = req.user;
             const user = await User.findOne({ _id });
             if (user.firstName === firstName && user.lastName === lastName && user.email === email) {
@@ -214,7 +214,7 @@ router.route('/forgot-password')
     .post(async (req, res) => {
         try {
             const { email } = req.body;
-            email = email?.toLowerCase();
+            email = email?.toString().toLowerCase();
 
             // check if user with that email exists
             const existedUser = await User.findOne({ email });
@@ -259,7 +259,7 @@ router.route('/verify-code')
     .post(async (req, res) => {
         try {
             const { code, email } = req.body;
-            email = email?.toLowerCase();
+            email = email?.toString().toLowerCase();
 
             const existedUser = await User.findOne({ email });
             let _id = existedUser._id;
