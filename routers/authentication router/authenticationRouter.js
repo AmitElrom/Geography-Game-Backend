@@ -94,7 +94,10 @@ router.route('/sign-in')
     .post(async (req, res) => {
         try {
             const { email, password } = req.body;
+            console.log(email);
             email = email?.toLowerCase();
+            console.log(email);
+
             if (email && password) {
                 // check id user with particular email exists
                 const existedUser = await User.findOne({ email });
