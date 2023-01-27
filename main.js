@@ -21,7 +21,7 @@ app.use('/score-elrom', scoreRouter);
 app.use('/badges-elrom', badgesRouter);
 
 app.get('/', (req, res) => {
-    res.send('Hello World');
+    res.send('Flags Game server is working');
 })
 
 app.listen(process.env.PORT, () => {
