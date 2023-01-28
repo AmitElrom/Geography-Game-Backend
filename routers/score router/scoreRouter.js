@@ -245,7 +245,6 @@ router.route('/')
                                 bestScore: levelsWithHighestScoreGamesAndSmallestDuration[3].levelHighestScoreGames,
                                 bestTime: levelsWithHighestScoreGamesAndSmallestDuration[3].levelSmallestDurationGames,
                                 fails: levelsWithHighestScoreGamesAndSmallestDuration[3].levelFails,
-
                             },
                             expert: {
                                 title: "Expert",
