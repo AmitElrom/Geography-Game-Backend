@@ -32,52 +32,51 @@ router.route('/sign-up')
 
                         const existedUser = await User.findOne({ email });
 
-                        if (existedUser) {
-                            res.status(400).json({ error: `A user with an email of ${email} already exists` });
-                        }
-
-                        const newUser = await User.create({
-                            verified: "true",
-                            email,
-                            firstName,
-                            lastName,
-                            score: {
-                                beginner: {
-                                    totalScore: 0,
-                                    games: []
-                                },
-                                amateur: {
-                                    totalScore: 0,
-                                    games: []
-                                },
-                                medium: {
-                                    totalScore: 0,
-                                    games: []
-                                },
-                                hard: {
-                                    totalScore: 0,
-                                    games: []
-                                },
-                                expert: {
-                                    totalScore: 0,
-                                    games: []
-                                },
-                            }
-                        })
-
-                        const userDataToToken = { email: newUser.email, _id: newUser._id };
-                        const token = sign(userDataToToken, process.env.ACCESS_TOKEN_KEY);
-
-                        res.status(201).json({
-                            message: `Congrats ${firstName} ${lastName} for signing up! You can start playing now`,
-                            userData: {
+                        if (!existedUser) {
+                            const newUser = await User.create({
                                 email,
                                 firstName,
                                 lastName,
-                                fullName: `${newUser.firstName} ${newUser.lastName}`,
-                            },
-                            token,
-                        })
+                                score: {
+                                    beginner: {
+                                        totalScore: 0,
+                                        games: []
+                                    },
+                                    amateur: {
+                                        totalScore: 0,
+                                        games: []
+                                    },
+                                    medium: {
+                                        totalScore: 0,
+                                        games: []
+                                    },
+                                    hard: {
+                                        totalScore: 0,
+                                        games: []
+                                    },
+                                    expert: {
+                                        totalScore: 0,
+                                        games: []
+                                    },
+                                }
+                            })
+
+                            const userDataToToken = { email: newUser.email, _id: newUser._id };
+                            const token = sign(userDataToToken, process.env.ACCESS_TOKEN_KEY);
+
+                            res.status(201).json({
+                                message: `Congrats ${firstName} ${lastName} for signing up! You can start playing now`,
+                                userData: {
+                                    email,
+                                    firstName,
+                                    lastName,
+                                    fullName: `${newUser.firstName} ${newUser.lastName}`,
+                                },
+                                token,
+                            })
+                        } else {
+                            res.status(400).json({ error: `A user with an email of ${email} already exists` });
+                        }
                     })
                     .catch(error => {
                         res.status(500).json({ error });
@@ -380,6 +379,18 @@ router.route('/verify-code')
             }
         } catch (error) {
             res.status(400).json({ error });
+        }
+    })
+
+router.route('/users')
+    .delete(authenticateTokenMW, async (req, res) => {
+        try {
+            const { email } = req.user;
+            const removedUser = await User.findOneAndRemove({ email });
+            const { firstName, lastName } = removedUser;
+            res.status(200).json({ message: `${firstName} ${lastName}, your account was deleted successfully!` });
+        } catch (error) {
+            res.status(500).json({ error });
         }
     })
 

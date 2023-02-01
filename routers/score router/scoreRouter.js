@@ -399,5 +399,46 @@ router.route('/game-summary')
         }
     });
 
+router.route('/reset')
+    .patch(authenticateTokenMW, async (req, res) => {
+        try {
+            const { email } = req.user;
+            const user = await User.findOne({ email });
+            if (!user) {
+                res.status(404).json({ error: "User doesn't exist" });
+            } else {
+                const update = await User.updateOne({ email }, {
+                    score: {
+                        beginner: {
+                            totalScore: 0,
+                            games: []
+                        },
+                        amateur: {
+                            totalScore: 0,
+                            games: []
+                        },
+                        medium: {
+                            totalScore: 0,
+                            games: []
+                        },
+                        hard: {
+                            totalScore: 0,
+                            games: []
+                        },
+                        expert: {
+                            totalScore: 0,
+                            games: []
+                        },
+                    }
+                });
+
+                res.status(200).json(update);
+            }
+        } catch (error) {
+            res.status(400).json({ error });
+        }
+    })
+
+
 
 module.exports = router;
